@@ -12,8 +12,14 @@ To use this website, you only need to know some markdown usage(https://github.co
 
 To contribute on further developing, if any issues, welcome to discuss @Jie directly or post on the gitlab.
 
-## Auto Deploy
+## Deploy
 See more details on https://docs.google.com/document/d/1k6Gj6RdCrwYfw1zHVBeD-nYXhtqnTHAu7rRV48BDrVQ/edit?usp=sharing 
+
+Since we are on Github here, you can manuall deploy by:
+```
+jekyll build
+scp -r _site/* [CS_ID]@shell.cs.utah.edu:/uusoc/res/nlp/public_html/test/
+```
 
 ## Home Page
 
