@@ -2,8 +2,10 @@ key: gupta2020ner
 title: "Fully Contextualized Biomedical NER"
 
 authors:
-- tianyu
-- riloff
+- agupta
+- Pawan Goyal
+- Sudeshna Sarkar
+- Mahanandeeshwar Gattu
 
 venue: The 41st Eurpoean Conference on Information Retrieval
 year: 2020

@@ -1,0 +1,20 @@
+key: gupta2020p
+title: "P-SIF: Document Embeddings Using Partition Averaging"
+
+authors:
+- vivekgupta
+- Ankit Saw
+- Pegah Nokhiz
+- Praneeth Netrapalli
+- Piyush Rai
+- Partha Talukdar
+
+venue: Proceedings of the Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI 2020)
+year: 2020
+month:
+
+paper_url: https://vgupta123.github.io/docs/AAAI-GuptaV.3656.pdf
+
+topics:
+- document
+- embedding

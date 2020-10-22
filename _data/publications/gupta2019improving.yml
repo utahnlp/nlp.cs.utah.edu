@@ -1,0 +1,20 @@
+key: gupta2019improving
+title: Improving Document Classification with Multi-Sense Embeddings
+
+authors:
+- vivekgupta
+- Ankit Kumar
+- Pegah Nokhiz
+- Harshit Gupta
+- Partha Talukdar
+
+venue: The 24th European Conference on Artificial Intelligence (ECAI)
+year: 2020
+month:
+
+paper_url: https://ecai2020.eu/papers/391_paper
+
+topics:
+- classification
+- embedding
+- document

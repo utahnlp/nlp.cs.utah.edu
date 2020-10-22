@@ -1,0 +1,20 @@
+key: gupta2019word
+title: Word Polysemy Aware Document Vector Estimation
+
+authors:
+- vivekgupta
+- Ankit Saw
+- Harshit Gupta
+- Pegah Nokhiz
+- Partha Talukdar
+
+venue: NAACL-SRW
+year: 2019
+month:
+
+paper_url: https://vimeo.com/364716194
+
+topics:
+- embeddings
+- document
+- Polysemy

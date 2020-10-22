@@ -242,7 +242,7 @@
   website: http://www.cs.utah.edu/~hbding
   email: hbding@cs.utah.edu
   photo: /img/profile/hbding.png
-  research_interests: Sentiment Analysis, Information Extraction, Semi-supervised learning
+  research_interests: Sentiment analysis, information extraction, semi-supervised learning
   degree: PhD
   advisor: riloff
   first_position: Bosch Research
@@ -262,14 +262,14 @@
 - key: xpan
   first_name: Xingyuan
   last_name: Pan
-  website:
+  website: https://scholar.google.com/citations?user=yUSy4LEAAAAJ&hl=en
   email: xpan@cs.utah.edu
   photo: /img/profile/xpan.jpg
-  research_interests: Structure Predication, Deep Learning
+  research_interests: Structure Predication, deep learning
   degree: PhD
   advisor: svivek
   first_position: Amazon
-  graduated_year: 2017
+  graduated_year: 2019
 
 - key: maks
   first_name: Maks
@@ -282,7 +282,7 @@
   first_position: Microsoft
   graduated_year: 2018
 
-- key: maitry
+- key: maitrey
   first_name: Maitrey
   last_name: Mehta
   website: https://sites.google.com/view/maitreymehta/home
