@@ -1,0 +1,81 @@
+- key: jcao
+  first_name: Jie
+  last_name: Cao
+  website: https://www.cs.utah.edu/~jcao
+  email: jcao@cs.utah.edu
+  photo: /img/profile/jcao.png
+  research_interests: Semantic parsing, structure prediction
+  degree: PhD
+  advisor: svivek
+
+- key: tianyu
+  first_name: Tianyu
+  last_name: Jiang
+  website:
+  email: tianyu@cs.utah.edu
+  photo: /img/profile/tianyu.jpg
+  research_interests: Sentiment analysis, world knowledge
+  degree: PhD
+  advisor: riloff
+
+- key: tli
+  first_name: Tao
+  last_name: Li
+  website:
+  email: tli@cs.utah.edu
+  photo: /img/profile/taoli.jpg
+  research_interests: Structured prediction, semantic similarity, neural model+logic, stereotyping biases, extreme multi-label classification, QA, NLI, model interpretation and visualization.
+  degree: PhD
+  advisor: svivek
+
+- key: yichu
+  first_name: Yichu
+  last_name: Zhou
+  website:
+  email: flyaway1217@gmail.com
+  photo:
+  research_interests:
+  degree: PhD
+  advisor: svivek, riloff
+
+- key: yuanzhuang
+  first_name: Yuan
+  last_name: Zhuang
+  website: 
+  email: yyzhuang@cs.utah.edu
+  photo: 
+  research_interests: 
+  degree: PhD
+  advisor: riloff
+
+- key: vivekgupta
+  first_name: Vivek
+  last_name: Gupta
+  website: https://vgupta123.github.io 
+  email: vgupta@cs.utah.edu
+  photo: /img/profile/vivekgupta.jpg 
+  research_interests: Representation learning, extreme classification, resource-constrained machine learning
+  degree: PhD
+  advisor: svivek
+
+- key: mmg
+  first_name: Mattia
+  last_name: Medina Grespan
+  website: 
+  email: mattia.grespan@utah.edu
+  photo: 
+  research_interests: 
+  degree: PhD
+  advisor: svivek
+
+- key: agupta
+  first_name: Ashim
+  last_name: Gupta
+  website: https://ashim95.github.io/
+  email: ashimgupta95@gmail.com
+  photo: 
+  research_interests: 
+  degree: PhD
+  advisor: svivek
+
+

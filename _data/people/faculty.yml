@@ -1,0 +1,15 @@
+- key: svivek
+  first_name: Vivek
+  last_name: Srikumar
+  website: http://svivek.com
+  email: svivek@cs.utah.edu
+  photo: /img/profile/svivek.jpg
+  research_interests: 
+
+- key: riloff
+  first_name: Ellen
+  last_name: Riloff
+  website: https://www.cs.utah.edu/~riloff/
+  email: riloff@cs.utah.edu
+  photo: /img/profile/riloff.jpg
+  research_interests:

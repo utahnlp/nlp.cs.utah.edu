@@ -1,0 +1,15 @@
+key: pmlr-v80-pan18b
+title: "Learning to Speed Up Structured Output Prediction"
+
+authors:
+- xpan
+- svivek
+
+venue: Proceedings of the 35th International Conference on Machine Learning, PMLR
+year: 2018
+month:
+
+paper_url: http://proceedings.mlr.press/v80/pan18b.html
+
+topics:
+- structured prediction

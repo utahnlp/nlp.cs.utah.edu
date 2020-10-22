@@ -1,0 +1,11 @@
+key: readme
+title: To fill seminar data
+presenter: jie
+from_org: Utah NLP Group
+year: 2018
+month: 1
+day: 05
+time: 11:50AM - 01:10PM
+address: Graphics Room
+keynote: /seminars/2017-12-05-crossword_maks.pdf
+abstract: add new seminars in _data/seminars accroding to the existed examples. Only recent 3 will be shown on front page, click more to checkyour adding

@@ -1,0 +1,202 @@
+This directory contains the source for building the `nlp.cs.utah.edu`
+website. The website is constructed using `jekyll` by populating a
+collection of templates with data.
+
+
+# How to use it ?
+
+## Almost markdown and plain text.
+
+This website is built using [`jekll`](https://jekyllrb.com) framework.
+To use this website, you only need to know some markdown usage(https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), or if you want, mathjax is added for it to support latex research or review writing. In this section, you will know how to use every part of this website. We also need your help to try to fulfill some data when you try those features.
+
+To contribute on further developing, if any issues, welcome to discuss @Jie directly or post on the gitlab.
+
+## Auto Deploy
+See more details on https://docs.google.com/document/d/1k6Gj6RdCrwYfw1zHVBeD-nYXhtqnTHAu7rRV48BDrVQ/edit?usp=sharing 
+
+## Home Page
+
+
+## Data Description
+
+The data for populating templates is in the directory `_data`. Its
+contents are:
+
+
+### `_data/people` 
+
+All the people affiliated with the group. This contains the following
+files:
+- `faculty.yml`
+- `grads.yml`
+- `undergrads.yml`
+- `alumni.yml`
+   
+Each file contains a list of people, each with the following fields:
+- `key`: A sitewide unique identifier for the person. This
+  identifier is used to refer to this person across the website.
+- `first_name`: The first name
+- `last_name`: The last name
+- `website`: The person's website. If not provided, then a webpage
+  for this person is created at `nlp.cs.utah.edu/people/<key>`,
+  where `<key>` is the person's identifier from above.
+- `email`: The email address
+- `photo`: A link to a photograph of this person. If not provided
+  then this points to `/img/unknown.jpg`. For profile photo, please manually rescale to roughly 250x320.
+- `research_interests`: A short description or a comma separated
+  list of research interests for this person
+- `degree`: For students only. What degree are they working towards.
+- `advisor`: For students only. Who is the advisor. Currently,
+  this can be one of `svivek` or `riloff`.
+- `thesis`: For alumni. If this person wrote a thesis, then the
+  title of the thesis.
+- `thesis_url`: For alumni. If this person wrote a thesis, then a
+  pointer to the thesis document.
+- `first_position`: For alumni. The first position after graduation.
+- `current_position`: For alumni. Where are they currently?
+- `graduated_year`: For alumni. When did this person graduate?
+
+Among these fields, only the key and name fields are required. All
+other fields can be empty. 
+
+### `_data/publications`
+
+Contains all publications. Each paper is associated with a single
+`.yml` file. The names of the file have the following format (in lower
+case) for consistency:
+`<last-name-of-first-author><year><first-content-word-of-title>.yml`. Each
+file contains the following metadata for the paper:
+
+- `key`: A unique identifier for the paper. For consistency, use the
+  same unique identifier as in the file name (without
+  the .yml). The key will be used in the `paper_url` and `bibtex` par. When
+  adding a `<key>.yml`, please also adding a pdf according the path of `\publication\<key>.pdf`, and a bibtex entry in the `publications.bib` file. 
+- `title`: The title of the paper. *Important*: If the title has a
+  colon, then put the title in double quotes. Otherwise, the yml
+  parser will complain.
+- `authors`: A list of authors, with one author per line. If the
+  author is affiliated with the group (i.e., has an entry in one of
+  the `_data/people` files), then use the `key` of that
+  person. Otherwise, use their full name.
+- `year`: The year of publication
+- `month`: The month of publication or the conference (as a number
+  between 1 and 12)
+- `venue`: The venue 
+- `paper_url`: A pointer to the paper. If possible, put the pdf of the
+  paper in the directory called `publications` in the root directory
+  with filename `<key>.pdf`, where `<key>` is the key of the
+  paper. Then the paper URL can be `/publications/<key>.pdf`, with the
+  appropriate value of `<key>`. This can help us keep track of papers
+  that do not have pdfs.
+- `topics`: A list of topics for this paper, with one topic per line.
+
+See one of the existing yml files for an example.
+
+### `_data\seminars`
+
+We use the following data structure to organize our seminar info. Most recent seminar information will be shown on the front page of our website. 
+- `key`: just like the `key` for a publication, this is a key for a talk, tutorial, presentation. A `/seminars/<key>.pdf` according to the talk also suggested to put into the corresponding path. 
+- `title`: The title of the talk, seminar presentation.
+- `presenter`: The name of the presenter, in future, we can post our nlp, ml seminar talk info here to attract other people to attend.
+- `from_org`: The organization of the presenter.
+- `year`: An integer value for the year value
+- `month`: An integer value for the month value 
+- `day`: An interger value for the day value 
+- `time`: formated as 11:50AM - 01:10PM¬
+- `address`: A string, such as MEB 3147¬
+- `keynote`: The path to the keynote file , `/seminars/<key>.pdf`
+- `abstract`: A brief and attractive abstract 
+
+### `softwares`,`data`, semi-structured entities
+
+Besides the above entities are managed with `yml` data files, all other information such as news , research blog post, software , data,  and course, usually they contain various rich information, and not easily formated into a unified structure. Especially for software and data, we encourage to use more rich form, such as jekyll post or some external wiki page. Hence, we offer a simple set of data fields, only when those data fields can be joined with our people and publications data.
+
+It has a structured data template in `_data\softwares`. The fields for structured part in our system are as follows:
+- `key` : the key of the software, such as CoreNLP
+- `titile`: such as "Stanford NLP", a name for the software. 
+- `url`: The url of the software, it can be some post page in our system, or any existed project wiki page on github. 
+- `about`: A brief description for the software
+- `paper`: related papers when citing for the software. 
+
+For others, we also propose the same policy as softwares, we can either create a post for them or just use the external pages.  
+
+### "_posts" for all content entities, especially for news, or any page with rich request 
+
+"news", "courses", and the previous `software` and `data` components, will benefit from rich unstructured informations. We use the same "_post" features in jekyll as a unified framework to support all the concent , by organized by their `post.categories` as `news`, `courses`,`software` , `data` or any research blog topic categories.
+
+## Compiling and testing
+
+To compile the project, you need `jekyll` on your machine. See
+[the official jekyll website](http://jekyllrb.com) to see how to
+install it. With jekyll in place, you can compile and test locally
+by running (in the root directory of the project):
+
+`jekyll serve` 
+
+This will compile the project and launch a local web server where you
+can browse through the generated website.
+
+# Contribution Guidlines
+
+## Overview 
+
+
+## Remaining TODOS
+
+### 1. Filling `people`, `publication` data and BibTex entries.
+
+### 2. Filling past `seminar` and good news data, which will make the home page looks better
+
+### 3. Filling software and data, either link to the external wiki pape, or write new post with our built+in post system. 
+
+### 4. Better style
+		Now our system are based on `bootstrap` with some customization. To imporve the display style, we still need to more work on fine-grained adjust. 
+
+### 5. Comments and Issues for Each part
+
+Previously, with Tao, Tianyu, Annie, we have some brain-storm on this website, also collect some feedback from Ellen and Vivek. All the the previous ideas are listed in the following list with their current status and future plans. 
+
+#### Publication
+    - Add all papers to the publication page.
+    - Can we provide this function: when clicking on the tag under each paper, only papers with the same tag will appear on the page?
+	  - Add bibtex for every publication.
+
+    To be added, any interest on this, please take the "make_semnars" tag with its `topK` argument. It is easy to add a `tag` argument to filter tag in the specific topic.
+
+#### Data & Software
+
+    - Currently, sarcasm, plotunit, basilisk, mpqa --- these 4 can be found on Ellen's web page.
+    - The Data page will only show a list of these data sets. Each data set should have its own page with detailed information and how to cite it.
+
+		For now, software and data are all merged into software, they share the same data stucture for citing and describing. For citing, just adding those papers with their keys in our pubclications part. 
+For other detailed information. It still need some one to add markdown file to describe them. 
+
+#### Courses
+    Add our seminars.
+    "Other possibly useful courses" could have data mining? narratives? Basically, it will tell potential graduate students we have nice courses here :)
+	
+	Yes. Still needs volumnteers to add those data. And we also support the seminar in our website, we keep use that to share our seminar information with others
+
+#### Internal Wiki
+    "Local" label might be confusing. Change it to something like "Internal Wiki".
+
+#### Logo
+    If anyone in our group knows how to design a pretty logo for the NLP group, that would be awesome!
+
+#### Home Page
+    It is a good idea to put scenery photos of Utah on the home page. We could email coleman@cs.utah.edu for photographs.
+
+
+
+
+## Common Issues
+
+1. invalid yml format
+<pre>
+jekyll 3.6.0 | Error:  no implicit conversion of String into Integer
+</pre>
+
+Keep in mind that, yml is wired format, which require a space after the colon
+":". 
+

@@ -1,0 +1,22 @@
+key: liu2018interrogation
+title: "Visual Interrogation of Attention-Based Models for Natural Language Inference and Machine Comprehension"
+
+authors:
+- Shusen Liu
+- tli
+- Zhimin Li
+- svivek
+- Valerio Pascucci
+- Peer-Timo Bremer
+
+venue: "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing: System Demonstrations"
+year: 2018
+month:
+
+paper_url: https://www.aclweb.org/anthology/D18-2007.pdf
+
+topics:
+- visualization
+- natural language inference
+- interpretability
+- probing

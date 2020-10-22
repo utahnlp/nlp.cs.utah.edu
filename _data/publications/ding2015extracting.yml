@@ -1,0 +1,16 @@
+key: ding2015extracting.yml
+title: Extracting Information about Medication Use from Veterinary Discussions
+
+authors:
+- hbding
+- riloff
+
+venue: 2015 Conference of the North American Chapter of the Association for Computational Linguistics - Human Language Technologies (NAACL 2015)
+year: 2015
+month:
+
+paper_url: /publications/ding2015extracting.pdf
+
+topics:
+- information extraction
+- veterinary medicine

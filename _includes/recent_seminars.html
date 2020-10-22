@@ -1,0 +1,9 @@
+<div class="col-sm-4">
+  <h3>Recent Seminars</h3>
+  <div>
+    {% make_seminars 3 %}
+  </div>
+  <div class="text-right">
+    <a href="{{ "/seminars/" | prepend: site.baseurl }}">Read More.</a>
+  </div>
+</div>

@@ -1,0 +1,94 @@
+# A liquid tag called make_people to generate the contents of the
+# people page. 
+
+module Jekyll
+  require 'pp'
+  class PeopleTag < Liquid::Tag
+    def initialize(tag_name, params, tokens)
+      attributes = {}
+
+      # Parse parameters
+      params.scan(Liquid::TagAttributes) do |key, value|
+        attributes[key] = value
+      end
+
+      @key = attributes['who']
+    end
+
+    # Current members of the group are rendered with photographs, etc
+    # Now we manually split into rows, 6 in a row.
+    def render_current(list, site)
+      output = []
+      list.each_with_index do |person, i|
+        if i % 6 == 0
+            output << '<div class="row">'
+        end
+
+        output << %(
+          <div class="col-lg-2 col-md-3 col-xs-4 thumb">
+        #{person.wrap_with_weblink(person.photo_html('img-responsive img-rounded', site), site)}
+            <center><b>#{person.wrap_with_weblink(person.full_name, site)}</b></center>
+            <p><small>#{person.interests}</small></p>
+            </div>
+        )
+        if (i+1) % 6 == 0 || i == list.length - 1
+          output << '</div>'
+        end
+      end
+      output
+    end
+
+    # Alumni are rendered as a list, with pointers to where they went
+    # after graduation and where they are now
+    def render_alumni(alumni, site)
+      grouped = alumni.group_by {|p| p.degree}
+
+      degrees = ["Ph.D.", "MS", "BS"]
+
+      output = []
+      degrees.each do |degree|
+
+        people = grouped[degree]
+
+        output << (if degree == 'Ph.D.'
+                   '<h4>Doctoral Students</h4>'
+      elsif  degree == 'MS'
+        '<h4>Masters Students</h4>'
+      elsif degree == 'BS'
+        '<h4>Undergrauate Researchers</h4>'
+      end)       
+
+        output << '<ul>'
+        people.each do |person|
+          person_html =  %(
+            <li style="padding-top:1em;">
+              <strong>#{person.wrap_with_weblink(person.full_name, site)}</strong>, #{person.graduation_info}.
+              <ul class='list-unstyled'>
+          #{person.thesis}
+          #{person.first_position_after_graduation}
+          #{person.current_position}
+              </ul>
+            </li>
+          )
+          output << person_html
+        end
+        output << '</ul>'
+    end
+    output 
+  end
+
+  def render(context)
+    people = context['site']['data']['processed']['people']
+    data = people.select { |key, p| p.group == @key }.map { |key, p| p }
+    sorted = data.sort { |x,y| x.last_name <=> y.last_name }
+    if @key == 'alumni'
+      render_alumni(sorted, context['site'])
+    else
+      render_current(sorted, context['site'])
+    end
+  end
+end
+end
+
+
+Liquid::Template.register_tag('make_people', Jekyll::PeopleTag)

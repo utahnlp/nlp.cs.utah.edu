@@ -1,0 +1,23 @@
+key: liu2017visual
+
+title: "Visual Exploration of Semantic Relationships in Neural Word Embeddings"
+
+authors:
+  - Shusen Liu
+  - Peer-Timo Bremer
+  - Jayaraman J. Thiagarajan
+  - svivek
+  - Bei Wang
+  - Yarden Livnat
+  - Valerio Pascucci
+
+venue: IEEE Transactions on Visualization and Computer Graphics (InfoVis)
+year: 2017
+month: 10
+
+paper_url: /publications/liu2017visual.pdf
+
+topics:
+  - word embeddings
+  - visualization
+  - representations

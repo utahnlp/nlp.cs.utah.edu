@@ -1,0 +1,18 @@
+---
+layout: default
+title: "Research Blog"
+---
+
+	<div class="list-group">
+			{% assign counter = 1 %}
+			{% for post in site.posts limit:1000 %}
+		  <a href="{{ post.url | prepend: site.baseurl | prepend : site.url }}"  class="list-group-item list-group-item-action flex-column align-items-start active">
+		    <div class="d-flex w-100 justify-content-between">
+		      <h5 class="mb-1">{{ post.title }}</h5>
+          <small>{{ post.date }}</small>
+		    </div>
+				{% if post.excerpt %}<p class="mb-1"> {{ post.excerpt }} </p>{% endif %}
+		  </a>
+			{% assign counter=counter | plus:1 %}
+			{% endfor %}
+	</div><!-- /.small-12.columns -->

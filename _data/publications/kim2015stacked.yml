@@ -1,0 +1,17 @@
+key: kim2015stacked
+title: Stacked Generalization for Medical Concept Extraction from Clinical Notes
+
+authors:
+- youngjun
+- riloff
+
+venue: ACL 2015 Workshop on Biomedical Natural Language Processing (BioNLP 2015)
+
+year: 2015
+month:
+
+paper_url: /publications/kim2015stacked.pdf
+
+topics:
+- information extraction
+- medicine

@@ -1,0 +1,19 @@
+key: dev2019biasinf
+title: "On Measuring and Mitigating Biased Inferences of Word Embeddings"
+
+authors:
+- Sunipa Dev
+- tli
+- Jeff Philips
+- svivek
+
+venue: "Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI-20)"
+year: 2019
+month:
+
+paper_url: https://arxiv.org/pdf/1908.09369.pdf
+
+topics:
+- natural language inference
+- stereotyping biases
+- bias mitigation

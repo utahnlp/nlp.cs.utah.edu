@@ -1,0 +1,17 @@
+key: gupta2020ner
+title: "Fully Contextualized Biomedical NER"
+
+authors:
+- tianyu
+- riloff
+
+venue: The 41st Eurpoean Conference on Information Retrieval
+year: 2020
+month:
+
+paper_url: https://ashim95.github.io/docs/ecir_paper.pdf
+
+topics:
+- parsing
+- sequence labeling
+- NER

@@ -1,0 +1,19 @@
+key: koshorek-etal-2019-limits
+title: On the Limits of Learning to Actively Learn Semantic Representations
+
+authors:
+- Omri Koshorek
+- Gabriel Stanovsky
+- yichu
+- svivek
+- Jonathan Berant
+
+venue: Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL)
+year: 2019
+month:
+
+paper_url: https://www.aclweb.org/anthology/K19-1042/
+
+topics:
+- active learning
+- question answering

@@ -1,0 +1,21 @@
+key: tanana2016sentiment
+
+title: "Is Sentiment in Movies the Same as Sentiment in Psychotherapy? Comparisons Using a New Psychotherapy Sentiment Database"
+
+authors:
+- Michael Tanana
+- Aaron Dembe
+- Christina S. Soma
+- David Atkins
+- Zac Imel
+- svivek
+
+venue: Workshop on Computational Linguistics and Clinical Psychology
+year: 2016
+month: 06
+
+paper_url: /publications/tanana2016sentiment.pdf
+
+topics:
+- NLP & psychology
+- sentiment

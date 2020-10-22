@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<p>{{page.status}}</p>
+
+<div class="row">
+  <div class="col-lg-2 col-md-3 col-xs-4 thumb">
+    <img class="img-responsive img-rounded" src="{{ page.photo | prepend : site.baseurl }}" alt="{{page.full_name}}">
+  </div>
+  <div class="col-lg-10 col-md-9 col-xs-8">
+    <h3>Research Interests</h3>
+    {{interests}}
+    <h3>Publications</h3>
+    <ul>
+      {% for pubinfo in page.pubs %}
+      <li> {{ pubinfo }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+

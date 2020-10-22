@@ -1,0 +1,17 @@
+key: pan2016expressiveness
+
+title: Expressiveness of Rectifier Networks
+
+authors:
+- xpan
+- svivek
+
+venue: ICML
+year: 2016
+month: 06
+
+paper_url: /publications/pan2016expressiveness.pdf
+
+topics:
+- neural networks
+- representations

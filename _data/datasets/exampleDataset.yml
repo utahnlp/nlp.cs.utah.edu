@@ -1,0 +1,7 @@
+key: example_dataset
+title: Example Dataset
+url: /data/example.md
+about: A unified frame-evoking conceptual alignment formalism supporting both concept and relation alignment by AMR reification. What's more, it shows conceptual-only alignment is enough to represent the relation alignment in ISI without dropping any unalignable relations. Then we can compare JAMR and ISI alignment more closely.
+papers:
+- hwang2017coping
+- srikumar2017algebra

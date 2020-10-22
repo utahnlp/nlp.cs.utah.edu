@@ -1,0 +1,25 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="header-container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- <a class="navbar-brand" style="padding-top:0px; padding-right:0px;" href=" {{ "/" | prepend: site.baseurl }}"><img src="{{ "/img/NLPLogoWhite.png" | prepend: site.baseurl }}" alt="{{ site.group_short_name }}" class="img-fluid"> </a> -->
+      <a class="navbar-brand navbar-left" style="padding-left:8px;" href=" {{ "/" | prepend: site.baseurl }}  "><h3 style="color:white;margin-top: 0px" >{{site.group_short_name}}</h3></a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse" style ="font-size: larger;">
+      <ul class="nav navbar-nav">
+        <li><a href="{{ "/people/" | prepend: site.baseurl }}" >People</a></li>
+  <li><a href="{{ "/publications/" | prepend: site.baseurl }}" >Publications</a></li>
+  <!--<li><a href="{{ "/seminars/" | prepend: site.baseurl }}" >Seminars</a></li>-->
+  <!--<li><a href="{{ "/blog/" | prepend: site.baseurl }}" >Research blog</a></li>-->
+  <li><a href="{{ "/software/" | prepend: site.baseurl }}" >Software</a></li>
+  <li><a href="{{ "/datasets/" | prepend: site.baseurl }}">Datasets</a></li>
+  <!--<li><a href="{{ "/courses/"| prepend: site.baseurl }}">Courses</a></li>-->
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>

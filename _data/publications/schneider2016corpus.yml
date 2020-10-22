@@ -1,0 +1,24 @@
+key: schneider2016corpus
+title: A corpus of preposition supersenses
+
+authors:
+- Nathan Schneider
+- Jena D. Hwang
+- svivek
+- Meredith Green
+- Abhijit Suresh
+- Kathryn Conger
+- Tim O'Gorman
+- Martha Palmer
+
+venue: Linguistic Annotation Workshop
+
+year: 2016
+month: 08
+
+paper_url: /publications/schneider2016corpus.pdf
+
+topics:
+- semantics
+- prepositions
+- dataset

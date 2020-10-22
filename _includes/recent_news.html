@@ -1,0 +1,9 @@
+<div class="col-sm-4">
+  <h3>Recent News</h3>
+  <div>
+    {% include list-posts category='news' entries='5' %}
+  </div>
+  <div class="text-right">
+    <a href="{{ "/blog/"| prepend: site.baseurl }}"> Read More. </a>
+  </div>
+</div>

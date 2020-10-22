@@ -1,0 +1,44 @@
+---
+# https://work.smarchal.com/twbscolor/3.3.7/scss/fffefec0392b000304c5bbff1
+--- 
+
+@import "variables";
+@import "bootswatch/variables";
+@import "bootstrap";
+@import "bootswatch/bootswatch";
+
+nav{
+  .navbar-nav > li > a{
+    padding-top: 15px !important; padding-bottom: 0 px !important;
+    height: 60px;
+  }
+  .navbar-brand>img {
+    height: 60px;
+    padding-top: 0 px !important; padding-bottom: 0 px !important;
+    padding-right: 0 px !important; padding-left: 0 px !important;
+    width: auto;
+  }
+  .navbar {min-height:50px !important;}
+}
+
+body { padding-top: 50px; }
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    z-index: 2;
+    color: #1b1d1e;
+    background-color: #fcfcfc;
+    border-color: #c00;
+}
+
+footer {
+    strong,a {
+	text-shadow: 0 0 3px #000;
+    }
+    a {
+	color: white;
+	text-decoration: underline;
+    }
+    a:hover {
+	color: $brand-primary;
+    }
+}

@@ -1,0 +1,16 @@
+key: ding2018weakly
+title: Weakly Supervised Induction of Affective Events by Optimizing Semantic Consistency
+
+authors:
+- hbding
+- riloff
+
+venue: Thirty-Second AAAI Conference on Artificial Intelligence (AAAI-18)
+year: 2018
+month: 02
+
+paper_url: /publications/ding2018weakly.pdf
+
+topics:
+- sentiment analysis
+- events

@@ -1,0 +1,15 @@
+key: zhuang2020affective
+title: "Affective Event Classification with Discourse-enhanced Self-training"
+
+authors:
+- yuanzhuang
+- riloff
+
+venue: "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop"
+year: 2020
+month:
+
+paper_url: https://www.aclweb.org/anthology/2020.acl-srw.41/
+
+topics:
+- events

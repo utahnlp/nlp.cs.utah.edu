@@ -1,0 +1,21 @@
+---
+layout: default
+title: "Research Blog"
+---
+	<div class="columns">
+		<div id="accordion" role="tablist">
+			{% assign counter = 1 %}
+			{% for post in site.posts limit:1000 %}
+			<div class="card">
+        <div class="card-header" role="tab" id="heading{{ counter }}">
+          <a href="#panel{{ counter }}" data-toggle="collapse" data-target="#panel{{ counter }}"><span class="glyphicon glyphicon-th-list"></span><strong>{{ post.title }}</strong></a>
+				<div id="panel{{ counter }}" class="content">
+					{% if post.excerpt %}{{ post.excerpt }}{% endif %}
+					<a href="{{ post.url | prepend: site.baseurl | prepend : site.url }}" title="Read {{ post.title | escape_once }}"><strong>More </strong></a><br><br>
+				</div>
+        </div>
+			</div >
+			{% assign counter=counter | plus:1 %}
+			{% endfor %}
+		</div>
+	</div><!-- /.small-12.columns -->

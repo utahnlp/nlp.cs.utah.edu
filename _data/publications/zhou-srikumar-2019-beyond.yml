@@ -1,0 +1,15 @@
+key: zhou-srikumar-2019-beyond
+title: "Beyond Context: A New Perspective for Word Embeddings"
+
+authors:
+- yichu
+- svivek
+
+venue: Proceedings of the Eighth Joint Conference on Lexical and Computational Semantics (*{SEM} 2019)
+year: 2019
+month:
+
+paper_url: https://www.aclweb.org/anthology/S19-1003/
+
+topics:
+- embeddings

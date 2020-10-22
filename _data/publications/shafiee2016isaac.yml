@@ -1,0 +1,24 @@
+key: shafiee2016isaac
+
+title: "ISAAC: A Convolutional Neural Network Accelerator with In-Situ Analog Arithmetic in Crossbar"
+
+authors:
+- Ali Shafiee
+- Anirban Nag
+- Naveen Muralimanohar
+- Rajeev Balasubramonian
+- John Paul Strachan
+- Miao Hu
+- R. Stanley Williams
+- svivek
+
+venue: ISCA
+year: 2016
+month: 06
+
+paper_url: /publications/shafiee2016isaac.pdf
+
+highlights: IEEE Micro magazine Top Picks of the year honorable mention
+
+topics:
+- efficient machine learning

@@ -1,0 +1,36 @@
+---
+---
+
+#paperTags .down:hover {
+    background-color: #555;
+}
+
+#paperTags li:hover {
+    background-color: #ccc;
+    cursor: pointer;
+    cursor: hand;
+}
+
+#paperTags .down {
+    background-color: #333;
+    color: #e8e8e8;
+}
+
+#paperTags ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+    overflow: hidden;
+    padding-bottom: 1em;
+    display: inline-block;
+}
+
+#paperTags li {
+    float: left;
+    border: 1px solid #eee;
+    background-color: #e8e8e8;
+    margin: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+

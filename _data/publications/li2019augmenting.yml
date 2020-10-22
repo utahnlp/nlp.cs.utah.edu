@@ -1,0 +1,19 @@
+key: li2019augmenting
+title: "Augmenting Neural Networks with First-order Logic"
+
+authors:
+- tli
+- svivek
+
+venue: "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics"
+year: 2019
+month:
+
+paper_url: https://arxiv.org/pdf/1906.06298.pdf
+
+topics:
+- question answering
+- natural language inference
+- sequence labeling
+- interpretability
+- logic

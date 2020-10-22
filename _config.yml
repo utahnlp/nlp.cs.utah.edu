@@ -1,0 +1,34 @@
+# Site settings
+title: Utah Natural Language Processing Group
+group_name: Utah Natural Language Processing Group
+group_short_name: NLP@Utah
+
+description: > # this means to ignore newlines until "baseurl:"
+  Natural Language Processing at the University of Utah
+  
+baseurl: "/test" # the subpath of your site, e.g. /blog
+url: "http://nlp.cs.utah.edu" # the base hostname & protocol for your site
+
+twitter_username: 
+
+# Build settings
+markdown: kramdown
+
+# Paginates all X entries¬
+paginate: 5
+
+# Pagination path › Important for blog page in /blog/ to work¬
+paginate_path: "blog/page:num"
+
+permalink: /blog/:year/:month/:day/:title/
+highlight: rouge
+plugins: 
+    - 'jekyll-paginate'
+
+excerpt_separator: "<!--more-->"
+
+sass: 
+    style: :compressed
+
+exclude:
+  - publishRemote.sh

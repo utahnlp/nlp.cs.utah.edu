@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  {% include slider_styles.html %}
+  <body>
+
+    {% include nav.html %}
+
+    <div class="container">
+      <div class="page-header">
+	<h1>{{ page.title }} </h1>
+	{% if page.subtitle %}
+	<p class="lead">{{ page.subtitle }} </p>
+	{% endif %}
+      </div>
+
+      {% include slider.html selector="homepage_slider" %}
+
+      <div class="row">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include slider_scripts.html %}
+    {% include footer.html %}
+
+  </body>
+</html>

@@ -1,0 +1,18 @@
+key: cao2019amazon
+title: "Amazon at MRP 2019: Parsing Meaning Representations with Lexical and Phrasal Anchoring"
+
+authors:
+- jcao
+- Yi Zhang
+- Adel Youssef
+- svivek
+
+venue: Proceedings of the Shared Task on Cross-Framework Meaning Representation Parsing at the 2019 Conference on Natural Language Learning(CoNLL)
+year: 2019
+month:
+
+paper_url: https://www.aclweb.org/anthology/S19-1003/
+
+topics:
+- parsing
+- AMR

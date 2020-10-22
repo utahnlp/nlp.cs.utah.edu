@@ -1,0 +1,21 @@
+key: li2019consistency
+title: "A Logic-Driven Framework for Consistency of Neural Models"
+
+authors:
+- tli
+- vgupta
+- maitrey
+- svivek
+
+venue: "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing"
+year: 2019
+month:
+
+paper_url: https://arxiv.org/abs/1909.00126
+
+topics:
+- natural language inference
+- interpretability
+- logic
+- consistency
+- regularization

@@ -1,0 +1,20 @@
+key: sammons2016edison
+
+title: "EDISON: Feature Extraction for NLP"
+
+authors:
+- Mark Sammons
+- Christos Christodoulopoulos
+- Parisa Kordjamshidi
+- Daniel Khashabi
+- svivek
+- Dan Roth
+
+venue: LREC
+year: 2016
+month: 05
+
+paper_url: /publications/sammons2016edison.pdf
+
+topics:
+- software

@@ -1,0 +1,41 @@
+<footer style="background-color: #333; padding-top: 1em; margin-top:1em;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-xs-6 card">
+	<p><strong class="text-uppercase" style="font-weight :bold; color:white">{{ site.group_name }}</strong></p>
+	<p style="color:white">
+	  50 S. Central Campus Drive <br>
+ 	  Salt Lake City, UT 84112.	  
+	</p>
+	<p><a style="color:#dac092" href="https://www.google.com/maps/place/Merrill+Engineering+Building/@40.7691082,-111.8478882,17z/">Google Maps Link</a></p>	
+  <p><a style="color:#dac092" href="mailto:nlp-reading@cs.utah.edu">NLP-Reading Mail List</a></p>
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-xs-6 card">
+	<p><strong class="text-uppercase" style="font-weight :bold; color:white">Related Links</strong></p>
+	<ul>
+	  <li><a href="https://datagroup.cs.utah.edu">Data Group</a></li>
+	  <li><a href="https://robot-learning.cs.utah.edu/">LL4MA Lab</a></li>
+      <li>
+<a href="https://nlp.cs.utah.edu/wiki/">Internal Wiki</a>
+      </li>
+	</ul>
+	  
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6 card">
+        <a href="http://www.utah.edu"><img class="img-responsive" src="{{ "/img/u_logo_white.png" | prepend: site.baseurl }}"></a>
+      </div>          
+    </div>
+  </div>
+</footer>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="{{ "/assets/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+
+<script>
+ $('nav div#navbar ul > li > a[href="' + document.location.pathname + '"]').parent().addClass('active');
+</script>
