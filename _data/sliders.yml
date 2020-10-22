@@ -9,8 +9,8 @@
       alt: Life in Utah, Photography by Utah Office of Tourism
     - src: /img//slider/Campus_Dusk_Sky.png
       alt: Campus Dusk Sky
-    - src: /img/slider/nlp_banner.png
-      alt: change to NLP group photo
+    - src: /img/slider/utahnlp-slider.png
+      alt: UtahNLP
   settings:
     height: "350"
     effect: "'fade'"
