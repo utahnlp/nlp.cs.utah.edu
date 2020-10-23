@@ -61,7 +61,7 @@ class Paper
     tops =  %(<span> #{topics_html(site)} </span>)
 
     if @highlights
-      h = %(<br> <span class="text-info"><strong>#{@highlights}</strong></span>)
+      h = %(<span class="text-info"><strong>#{@highlights}</strong></span>)
       "<p>" + base +  h + tops + "</p>"
     else
       "<p>" + base + tops +  "</p>"
