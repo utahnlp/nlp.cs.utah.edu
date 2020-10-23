@@ -23,6 +23,7 @@
   degree: MS
   advisor: riloff
   thesis: Identifying Reduced Passive Voice Constructions in Shallow Parsing Environments
+  thesis_url: http://www.cs.utah.edu/~riloff/pdfs/Official-Igo-MSThesis.pdf
   first_position:
   current_position:
   graduated_year:
@@ -37,6 +38,7 @@
   degree: MS
   advisor: riloff
   thesis: Exploiting Redundancy to Improve Machine Learning 
+  thesis_url: http://www.cs.utah.edu/~riloff/pdfs/Lorenzen-MS-Thesis.pdf
   first_position:
   current_position:
   graduated_year:
@@ -51,6 +53,7 @@
   degree: Ph.D.
   advisor: riloff
   thesis: Improving Event Extraction by Discourse-Guided and Multi-Faceted Event Recognition
+  thesis_url: http://www.cs.utah.edu/~riloff/pdfs/Official_Huang_Dissertation_2014.pdf
   first_position: Postdoc at Stanford 
   current_position: Assistant Professor at Texas A&M University
   graduated_year:
@@ -65,6 +68,7 @@
   degree: Ph.D.
   advisor: riloff
   thesis: Widening the Field of View of Information Extraction through Sentential Event Recognition
+  thesis_url: http://www.cs.utah.edu/~riloff/pdfs/Patwardhan-PhD-Dissertation.pdf
   first_position: IBM Research
   current_position: Apple
   graduated_year: 2010
@@ -79,6 +83,7 @@
   degree: MS
   advisor: riloff
   thesis: Using a 'Wizard of Oz' Study to Evaluate a Spoken Language Interface for Programming
+  thesis_url: http://www.cs.utah.edu/~riloff/pdfs/Price-MS-Thesis.pdf
   first_position: 
   current_position: 
   graduated_year:
@@ -93,7 +98,8 @@
   research_interests:
   degree: Ph.D.
   advisor: riloff
-  thesis: Acquiring Knowledge For Affective State Recognition In Social Media 
+  thesis: Acquiring Knowledge For Affective State Recognition In Social Media
+  thesis_url: http://www.cs.utah.edu/~riloff/pdfs/Official_Dissertation_AshequlQadir.pdf 
   first_position: Philips Research
   current_position: Philips Research
   graduated_year: 2016
@@ -123,6 +129,7 @@
   degree: MS
   advisor: riloff
   thesis: Simultaneous Generation of Domain-Specific Lexicons for Multiple Semantic Categories 
+  thesis_url: http://www.cs.utah.edu/~riloff/pdfs/Thelen-MS-Thesis.pdf
   first_position: 
   current_position: 
   graduated_year:
