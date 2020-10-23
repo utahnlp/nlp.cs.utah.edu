@@ -66,7 +66,6 @@ module Jekyll
               <ul class='list-unstyled'>
           #{person.thesis}
           #{person.first_position_after_graduation}
-          #{person.current_position}
               </ul>
             </li>
           )

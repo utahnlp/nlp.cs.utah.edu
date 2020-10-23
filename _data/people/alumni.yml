@@ -9,7 +9,7 @@
   advisor: riloff
   thesis: Acquisition and Application of Contextual Role Knowledge for Coreference Resolution
   thesis_url: http://www.cs.utah.edu/~riloff/pdfs/bean_dissertation.pdf
-  first_position:
+  first_position: Attensity
   current_position:
   graduated_year: 2004
 
@@ -94,9 +94,9 @@
   degree: Ph.D.
   advisor: riloff
   thesis: Acquiring Knowledge For Affective State Recognition In Social Media 
-  first_position: 
-  current_position: 
-  graduated_year:
+  first_position: Philips Research
+  current_position: Philips Research
+  graduated_year: 2016
   
 
 - key: phillips
@@ -220,7 +220,7 @@
   degree: MS	
   advisor: svivek
   thesis:
-  first_position:
+  first_position: 3M
   current_position:
   graduated_year: 2016
 
@@ -246,6 +246,7 @@
   degree: Ph.D.
   advisor: riloff
   first_position: Bosch Research
+  current_position: Bosch Research
   graduated_year: 2018
 
 - key: youngjun
@@ -257,6 +258,7 @@
   research_interests: Clinic NLP, Information Extraction
   degree: Ph.D.
   advisor: riloff
+  first_position: Medical University of South Carolina
   graduated_year: 2017
 
 - key: xpan
@@ -269,6 +271,7 @@
   degree: Ph.D.
   advisor: svivek
   first_position: Amazon
+  current_position: Amazon
   graduated_year: 2019
 
 - key: maks
