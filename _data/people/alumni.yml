@@ -250,6 +250,8 @@
   email: hbding@cs.utah.edu
   photo: /img/profile/hbding.png
   research_interests: Sentiment analysis, information extraction, semi-supervised learning
+  thesis: Affective Polarity Recognition and Human Needs Categorization for Affective Events
+  thesis_url: http://www.cs.utah.edu/~riloff/pdfs/HaiboDing-dissertation.pdf
   degree: Ph.D.
   advisor: riloff
   first_position: Bosch Research
@@ -263,6 +265,8 @@
   email: youngjun@cs.utah.edu
   photo:
   research_interests: Clinic NLP, Information Extraction
+  thesis: Improving Information Extraction from Clinical Notes with Multiple Domain Models and Clustering-based Instance Selection
+  thesis_url: http://www.cs.utah.edu/~riloff/pdfs/YoungjunKim-dissertation.pdf
   degree: Ph.D.
   advisor: riloff
   first_position: Medical University of South Carolina
