@@ -5,16 +5,12 @@
       alt: Campus Fall Panorama
     - src: /img/slider/uu_campus.jpg
       alt: Campus Spring
+    - src: /img//slider/Campus_Dusk_Sky.png
+      alt: Campus Dusk Sky
     - src: /img/slider/uu_meb.jpg
       alt: Merrill Engineering Building (MEB)
     - src: /img/slider/uu_web.jpg
       alt: Warnock Engineering Building (WEB)
-    - src: /img//slider/Bryce.png
-      alt: Bryce Canyon, Photography by Utah Office of Tourism
-    - src: /img//slider/merge.png
-      alt: Life in Utah, Photography by Utah Office of Tourism
-    - src: /img//slider/Campus_Dusk_Sky.png
-      alt: Campus Dusk Sky
     - src: /img/slider/utahnlp-slider.png
       alt: UtahNLP
   settings:
