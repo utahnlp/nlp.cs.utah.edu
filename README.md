@@ -18,7 +18,7 @@ See more details on https://docs.google.com/document/d/1k6Gj6RdCrwYfw1zHVBeD-nYX
 Since we are on Github here, you can manuall deploy by:
 ```
 jekyll build
-scp -r _site/* [CS_ID]@shell.cs.utah.edu:/uusoc/res/nlp/public_html/test/
+rsync -ru _site/* [CS_ID]@shell.cs.utah.edu:/uusoc/res/nlp/public_html/test/
 ```
 
 ## Home Page
