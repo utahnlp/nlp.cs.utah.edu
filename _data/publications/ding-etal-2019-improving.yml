@@ -1,0 +1,17 @@
+key: ding-etal-2019-improving
+title: Improving Human Needs Categorization of Events with Semantic Classification
+
+authors:
+- hbding
+- riloff
+- Zhe Feng
+
+venue: Proceedings of the Eighth Joint Conference on Lexical and Computational Semantics (*SEM)
+year: 2019
+month:
+
+paper_url: https://www.aclweb.org/anthology/S19-1022/
+
+topics:
+- sentiment
+- events

@@ -1,0 +1,16 @@
+key: ding-riloff-2018-human
+title: Human Needs Categorization of Affective Events Using Labeled and Unlabeled Data
+
+authors:
+- hbding
+- riloff
+
+venue: "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL)"
+year: 2019
+month:
+
+paper_url: https://www.aclweb.org/anthology/N18-1174/
+
+topics:
+- sentiment
+- events
