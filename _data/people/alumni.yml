@@ -58,16 +58,16 @@
 - key: patwardhan
   first_name: Siddharth
   last_name: Patwardhan
-  website:
+  website: https://scholar.google.com/citations?user=naoTbnIAAAAJ&hl=en
   email:
   photo:
   research_interests:
   degree: Ph.D.
   advisor: riloff
   thesis: Widening the Field of View of Information Extraction through Sentential Event Recognition
-  first_position: 
-  current_position: 
-  graduated_year:
+  first_position: IBM Research
+  current_position: Apple
+  graduated_year: 2010
   
 - key: price
   first_name: David
@@ -87,7 +87,7 @@
 - key: qadir
   first_name: Ashequl
   last_name: Qadir
-  website:
+  website: https://scholar.google.com/citations?user=iDLyAukAAAAJ&hl=en
   email:
   photo:
   research_interests:
@@ -243,7 +243,7 @@
   email: hbding@cs.utah.edu
   photo: /img/profile/hbding.png
   research_interests: Sentiment analysis, information extraction, semi-supervised learning
-  degree: PhD
+  degree: Ph.D.
   advisor: riloff
   first_position: Bosch Research
   graduated_year: 2018
@@ -255,7 +255,7 @@
   email: youngjun@cs.utah.edu
   photo:
   research_interests: Clinic NLP, Information Extraction
-  degree: PhD
+  degree: Ph.D.
   advisor: riloff
   graduated_year: 2017
 
@@ -266,7 +266,7 @@
   email: xpan@cs.utah.edu
   photo: /img/profile/xpan.jpg
   research_interests: Structure Predication, deep learning
-  degree: PhD
+  degree: Ph.D.
   advisor: svivek
   first_position: Amazon
   graduated_year: 2019
