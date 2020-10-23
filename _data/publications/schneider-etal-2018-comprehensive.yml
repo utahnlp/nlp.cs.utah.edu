@@ -1,0 +1,26 @@
+key: schneider-etal-2018-comprehensive
+title: Comprehensive Supersense Disambiguation of English Prepositions and Possessives
+
+authors:
+- Nathan Schneider
+- Jena D. Hwang
+- svivek
+- Jakob Prange
+- Austin Blodgett
+- Sarah R. Moeller
+- Aviram Stern
+- Adi Bitan,
+- Omri Abend
+
+venue: Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL)
+year: 2018
+month:
+
+paper_url: https://www.aclweb.org/anthology/P18-1018/
+
+topics:
+- supersense
+- preposition
+
+
+

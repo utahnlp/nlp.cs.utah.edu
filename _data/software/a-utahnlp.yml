@@ -1,0 +1,14 @@
+key: a-utahnlp
+title: Utah NLP
+url: https://github.com/utahnlp
+about: Public repositories that host code of our publications at UtahNLP
+
+papers:
+- gupta-etal-2020-infotabs
+- li2020structuredtuningsrl
+- pan-etal-2020-learning
+- cao2019observing
+- li2019consistency
+- li2019augmenting
+- zhou-srikumar-2019-beyond
+- schneider-etal-2018-comprehensive

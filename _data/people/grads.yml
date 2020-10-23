@@ -33,7 +33,7 @@
   last_name: Zhou
   website:
   email: flyaway1217@gmail.com
-  photo:
+  photo: /img/profile/yichu.jpg
   research_interests:
   degree: PhD
   advisor: svivek, riloff
@@ -43,7 +43,7 @@
   last_name: Zhuang
   website: 
   email: yyzhuang@cs.utah.edu
-  photo: 
+  photo: /img/profile/yuanzhuang.jpg
   research_interests: 
   degree: PhD
   advisor: riloff
@@ -63,7 +63,7 @@
   last_name: Medina Grespan
   website: 
   email: mattia.grespan@utah.edu
-  photo: 
+  photo: /img/profile/mmg.jpg
   research_interests: 
   degree: PhD
   advisor: svivek
@@ -73,7 +73,7 @@
   last_name: Gupta
   website: https://ashim95.github.io/
   email: ashimgupta95@gmail.com
-  photo: 
+  photo: /img/profile/agupta.jpg
   research_interests: 
   degree: PhD
   advisor: svivek

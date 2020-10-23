@@ -1,0 +1,8 @@
+key: nlpvis
+title: NLP Visualization
+url: https://github.com/shusenl/nlpvis
+about: Code to visualize attentions of neural models for the Natural Language Inference task
+
+papers:
+- liu2018nlize
+- liu2018interrogation

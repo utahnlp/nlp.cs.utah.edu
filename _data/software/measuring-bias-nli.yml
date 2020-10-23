@@ -1,0 +1,7 @@
+key: measuring-bias-nli
+title: Measuring and mitigating stereotyping biases in NLI
+url: https://github.com/sunipa/On-Measuring-and-Mitigating-Biased-Inferences-of-Word-Embeddings
+about: Code to evaluate and mitigate stereotyping biases in NLI task
+
+papers:
+- dev2019biasinf

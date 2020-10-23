@@ -13,7 +13,7 @@ class Citable
 
   def paper_list(known_papers, known_people, site)
     output = []
-    output << %(<h4>Cite With :</h4>)
+    #output << %(<h4>Cite With :</h4>)
     output << '<ul>'
     papers.each do |p|
       if known_papers[p]
@@ -33,7 +33,7 @@ class Citable
     
     normalizedURL = url.match(/^http/)? url :       site['baseurl'] + url
     base =  %(
-       <a href="#{normalizedURL}"><strong> #{title} </strong></a>.
+       <a href="#{normalizedURL}"><strong> <font size="+2">#{title}</font> </strong></a>.
        <br>
   <div id="about_#{key}" >
   <blockquote>

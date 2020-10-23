@@ -12,7 +12,7 @@ module Jekyll
       people = processed_data['people']
       output = []
       output << '<ul>'
-      softwares.each do |software|
+      softwares.sort_by { |h| -h.key }.each do |software|
         output << %(<li> #{software.to_html(pubs, people, context['site'])}</li>)
       end
       output << '</ul>'

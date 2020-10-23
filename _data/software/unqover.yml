@@ -1,0 +1,7 @@
+key: measuring-bias-qa
+title: Measuring stereotyping biases in QA models
+url: https://github.com/allenai/unqover
+about: Code to our UnQover paper, evaluating stereotyping biases in QA and masked language models
+
+papers:
+- li2020unqover

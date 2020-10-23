@@ -274,13 +274,24 @@
 - key: maks
   first_name: Maks
   last_name: Cegielski-Johnson
-  website:
+  website: https://www.linkedin.com/in/makscj
   email: maks.cegielski@gmail.com
   photo:
   research_interests:
   degree: BS
   first_position: Microsoft
   graduated_year: 2018
+
+- key: giorgik
+  first_name: Giorgi
+  last_name: Kvernadze
+  website:
+  email: https://www.linkedin.com/in/giorgi-kvernadze-208a081b
+  photo:
+  research_interests:
+  degree: MS
+  first_position: Route
+  graduated_year: 2020
 
 - key: maitrey
   first_name: Maitrey
@@ -291,4 +302,26 @@
   research_interests:
   degree: MS
   first_position: American Family Insurance
+  graduated_year: 2020
+
+- key: taruns
+  first_name: Tarun
+  last_name: Sunkaraneni
+  website: https://www.linkedin.com/in/t-sun
+  email: 
+  photo: /img/profile/taruns.jpg
+  research_interests:
+  degree: BS
+  first_position: Microsoft
+  graduated_year: 2020
+
+- key: richardt
+  first_name: Richard
+  last_name: Timpson
+  website: https://www.linkedin.com/in/richard-w-timpson
+  email: 
+  photo: /img/profile/richardt.jpg
+  research_interests: Automatic expressive performance generation for the piano
+  degree: BS
+  current_position: Route
   graduated_year: 2020
