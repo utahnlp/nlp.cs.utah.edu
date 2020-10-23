@@ -11,7 +11,7 @@
 - key: tianyu
   first_name: Tianyu
   last_name: Jiang
-  website:
+  website: http://www.cs.utah.edu/~tianyu/
   email: tianyu@cs.utah.edu
   photo: /img/profile/tianyu.jpg
   research_interests: Sentiment analysis, world knowledge
@@ -41,10 +41,10 @@
 - key: yuanzhuang
   first_name: Yuan
   last_name: Zhuang
-  website: 
+  website: http://www.cs.utah.edu/~yyzhuang/
   email: yyzhuang@cs.utah.edu
   photo: /img/profile/yuanzhuang.jpg
-  research_interests: 
+  research_interests: Pragmatic analysis, discourse analysis and commonsense knowledge inference
   degree: PhD
   advisor: riloff
 
