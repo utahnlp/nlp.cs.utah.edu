@@ -15,5 +15,5 @@ paper_url: https://arxiv.org/pdf/1908.09369.pdf
 
 topics:
 - natural language inference
-- stereotyping biases
+- fairness
 - bias mitigation

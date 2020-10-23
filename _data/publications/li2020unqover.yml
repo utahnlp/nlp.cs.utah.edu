@@ -16,5 +16,5 @@ paper_url: https://arxiv.org/abs/2010.02428
 
 topics:
 - question answering
-- stereotyping biases
+- fairness
 - probing

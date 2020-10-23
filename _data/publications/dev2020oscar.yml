@@ -14,5 +14,4 @@ month:
 paper_url: https://arxiv.org/abs/2007.00049
 
 topics:
-- stereotyping biases
-- bias mitigation
+- fairness
