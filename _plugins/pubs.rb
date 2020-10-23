@@ -24,6 +24,8 @@ module Jekyll
       output << '</div>'
       output << '</div>'
 
+      output << '<div class="row"><li>Below are our publications up to 2015.</li></div>'
+
       people = processed_data['people']
       grouped = pubs.group_by { |p| p.year }.sort_by{|k,v| -k}
 
