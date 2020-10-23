@@ -172,6 +172,7 @@
   degree: BS
   advisor: riloff
   thesis:
+  graduated_year: 1997
   first_position:
   current_position: Researcher, Jet Propulsion Laboratory 
   graduated_year:
@@ -279,6 +280,7 @@
   email: xpan@cs.utah.edu
   photo: /img/profile/xpan.jpg
   research_interests: Structure Predication, deep learning
+  thesis: Understanding Constraints in Structured Prediction Problems
   degree: Ph.D.
   advisor: svivek
   first_position: Amazon

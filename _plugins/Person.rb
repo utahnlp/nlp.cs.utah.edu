@@ -71,7 +71,7 @@ class Person
   # Some functions that are only applicable to alumni
   def first_position_after_graduation
     if @group == 'alumni'
-      if @first_position == ''
+      if [nil, 0, ''].include?(@first_position)
         ''
       else
         %(<li><i>First position after graduation</i>: #{@first_position}</li>)
@@ -83,7 +83,7 @@ class Person
   
   def current_position
     if @group == 'alumni'
-      if @current_position == ''
+      if [nil, 0, ''].include?(@current_position)
         ''
       else
         %(<li><i>Current position</i>: #{@current_position}</li>)
