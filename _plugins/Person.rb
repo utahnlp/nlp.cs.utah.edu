@@ -58,6 +58,11 @@ class Person
     %(<img class="#{img_class}" src="#{photo_url}" alt="#{full_name}">)
   end
 
+  def alumni_photo_html(img_class, site)
+    photo_url = site['baseurl'] + photo
+    %(<img class="#{img_class}" src="#{photo_url}" alt="#{full_name}" style="width:10%">)
+  end
+
   def advisor_names(site)
     faculty = site['data']['processed']['people']['faculty']
     

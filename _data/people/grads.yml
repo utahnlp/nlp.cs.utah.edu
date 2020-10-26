@@ -21,7 +21,7 @@
 - key: tli
   first_name: Tao
   last_name: Li
-  website:
+  website: http://www.cs.utah.edu/~tli/
   email: tli@cs.utah.edu
   photo: /img/profile/taoli.jpg
   research_interests: Structured prediction, semantic similarity, neural model+logic, stereotyping biases, extreme multi-label classification, QA, NLI, model interpretation and visualization.

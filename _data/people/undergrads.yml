@@ -1,1 +1,10 @@
-
+- key: richardt
+  first_name: Richard
+  last_name: Timpson
+  website: https://www.linkedin.com/in/richard-w-timpson
+  email: 
+  photo: /img/profile/richardt.jpeg
+  research_interests: Automatic expressive performance generation for the piano
+  degree: BS
+  current_position: Route
+  graduated_year: 2020

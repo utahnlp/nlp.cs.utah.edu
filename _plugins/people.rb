@@ -62,6 +62,7 @@ module Jekyll
         people.each do |person|
           person_html =  %(
             <li style="padding-top:1em;">
+            #{person.wrap_with_weblink(person.alumni_photo_html('img-responsive img-rounded', site), site)}
               <strong>#{person.wrap_with_weblink(person.full_name, site)}</strong>, #{person.graduation_info}.
               <ul class='list-unstyled'>
           #{person.thesis}
