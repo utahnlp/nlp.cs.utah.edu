@@ -1,13 +1,3 @@
-- key: jcao
-  first_name: Jie
-  last_name: Cao
-  website: https://www.cs.utah.edu/~jcao
-  email: jcao@cs.utah.edu
-  photo: /img/profile/jcao.png
-  research_interests: Semantic parsing, structure prediction
-  degree: PhD
-  advisor: svivek
-
 - key: tianyu
   first_name: Tianyu
   last_name: Jiang
@@ -18,16 +8,6 @@
   degree: PhD
   advisor: riloff
 
-- key: tli
-  first_name: Tao
-  last_name: Li
-  website: http://www.cs.utah.edu/~tli/
-  email: tli@cs.utah.edu
-  photo: /img/profile/taoli.jpg
-  research_interests: Structured prediction, semantic similarity, neural model+logic, stereotyping biases, extreme multi-label classification, QA, NLI, model interpretation and visualization.
-  degree: PhD
-  advisor: svivek
-
 - key: yichu
   first_name: Yichu
   last_name: Zhou
@@ -36,7 +16,7 @@
   photo: /img/profile/yichu.jpg
   research_interests: Distributed representation, structured prediction
   degree: PhD
-  advisor: svivek, riloff
+  advisor: svivek
 
 - key: yuanzhuang
   first_name: Yuan
@@ -78,4 +58,12 @@
   degree: PhD
   advisor: svivek
 
-
+- key: maitrey
+  first_name: Maitrey
+  last_name: Mehta
+  website: https://sites.google.com/view/maitreymehta/home
+  email: maitrey@cs.utah.edu
+  photo: /img/profile/maitrey.jpeg
+  research_interests:
+  degree: PhD
+  advisor: svivek

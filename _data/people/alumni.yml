@@ -55,13 +55,13 @@
   thesis: Improving Event Extraction by Discourse-Guided and Multi-Faceted Event Recognition
   thesis_url: http://www.cs.utah.edu/~riloff/pdfs/Official_Huang_Dissertation_2014.pdf
   first_position: Postdoc at Stanford 
-  current_position: Assistant Professor at Texas A&M University
-  graduated_year:
+  current_position: Associate Professor at Texas A&M University
+  graduated_year: 2014
   
 - key: patwardhan
   first_name: Siddharth
   last_name: Patwardhan
-  website: http://www.patwardhans.net
+  website: https://www.linkedin.com/in/siddharthpatwardhan
   email:
   photo: /img/profile/patwardhan.jpeg
   research_interests:
@@ -101,7 +101,7 @@
   thesis: Acquiring Knowledge For Affective State Recognition In Social Media
   thesis_url: http://www.cs.utah.edu/~riloff/pdfs/Official_Dissertation_AshequlQadir.pdf 
   first_position: Philips Research
-  current_position: Philips Research
+  current_position: Wayfair
   graduated_year: 2016
   
 
@@ -207,14 +207,14 @@
 - key: orichard
   first_name: Oliver
   last_name: Richardson
-  website:
+  website: "https://www.linkedin.com/in/oliver-richardson-276b5a101"
   email: orichardson95@gmail.com
   photo:
   research_interests:
   degree: BS
   advisor: svivek
   first_position:
-  current_position:
+  current_position: PhD student at Cornell
   graduated_year: 2017
 
 - key: bertagnolli
@@ -240,6 +240,8 @@
   research_interests:
   degree: MS
   advisor: svivek
+  thesis: "SweetPea: A Language for Experimental Design"
+  thesis_url: /publications/theses/annie-cherkaev-ms-thesis.pdf
   first_position: Galois
   graduated_year: 2019
 
@@ -280,6 +282,7 @@
   photo: /img/profile/xpan.jpg
   research_interests: Structure Predication, deep learning
   thesis: Understanding Constraints in Structured Prediction Problems
+  thesis_url: /publications/theses/xingyuan-dissertation.pdf
   degree: Ph.D.
   advisor: svivek
   first_position: Amazon
@@ -308,17 +311,6 @@
   first_position: Route
   graduated_year: 2020
 
-- key: maitrey
-  first_name: Maitrey
-  last_name: Mehta
-  website: https://sites.google.com/view/maitreymehta/home
-  email: maitrey@cs.utah.edu
-  photo: /img/profile/maitrey.jpeg
-  research_interests:
-  degree: MS
-  first_position: American Family Insurance
-  graduated_year: 2020
-
 - key: taruns
   first_name: Tarun
   last_name: Sunkaraneni
@@ -329,3 +321,43 @@
   degree: BS
   first_position: Microsoft
   graduated_year: 2020
+
+- key: tli
+  first_name: Tao
+  last_name: Li
+  website: http://www.cs.utah.edu/~tli/
+  email: tli@cs.utah.edu
+  photo: /img/profile/tli.jpg
+  research_interests: Structured prediction, semantic similarity, neural model+logic, stereotyping biases, extreme multi-label classification, QA, NLI, model interpretation and visualization.
+  thesis: Neural Learning with Logic for Data Efficiency
+  degree: Ph.D.
+  advisor: svivek
+  first_position: Google Research
+  current_position: Google Research
+  graduated_year: 2022
+
+- key: jcao
+  first_name: Jie
+  last_name: Cao
+  website: "https://www.cs.utah.edu/~jcao"
+  email: jcao@cs.utah.edu
+  photo: /img/profile/jcao.png
+  research_interests: Semantic parsing, structure prediction
+  thesis: Inductive Biases for Deep Linguistic Structured Prediction via Independent Factorization
+  degree: Ph.D.
+  advisor: svivek
+  first_position: Postdoc at University of Colorado, Boulder
+  current_position: Postdoc at University of Colorado, Boulder
+  graduated_year: 2022
+
+- key: richardt
+  first_name: Richard
+  last_name: Timpson
+  website: "https://www.linkedin.com/in/richard-w-timpson"
+  email: 
+  photo: /img/profile/richardt.jpeg
+  research_interests: Automatic expressive performance generation for the piano
+  degree: BS
+  current_position: Route
+  graduated_year: 2021
+  first_position: Software Engineer at Salesforce

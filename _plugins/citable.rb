@@ -41,7 +41,7 @@ class Citable
   </blockquote>
   </div>
     )
-    base + '<div>' + paper_list(pubs, people, site).join(" ") + '</div>'
+    base #+ '<div>' + paper_list(pubs, people, site).join(" ") + '</div>'
   end
 
 end 

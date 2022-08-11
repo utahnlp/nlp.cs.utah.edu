@@ -5,28 +5,48 @@
 	<p><strong class="text-uppercase" style="font-weight :bold; color:white">{{ site.group_name }}</strong></p>
 	<p style="color:white">
 	  50 S. Central Campus Drive <br>
- 	  Salt Lake City, UT 84112.	  
+ 	  Salt Lake City, UT 84112.
 	</p>
-	<p><a style="color:#dac092" href="https://www.google.com/maps/place/Merrill+Engineering+Building/@40.7691082,-111.8478882,17z/">Google Maps Link</a></p>	
-  <p><a style="color:#dac092" href="mailto:nlp-reading@cs.utah.edu">NLP-Reading Mail List</a></p>
+	<p><a class="btn btn-social"
+              href="https://www.google.com/maps/place/Merrill+Engineering+Building/@40.7691082,-111.8478882,17z/">
+            <span class="fa fa-solid fa-map"></span>
+            Google Maps</a>
+        </p>
       </div>
 
       <div class="col-lg-2 col-lg-4 col-xs-6 card">
-	<p><strong class="text-uppercase" style="font-weight :bold; color:white">Related Links</strong></p>
-	<ul>
-	  <li><a href="https://datagroup.cs.utah.edu">Data Group</a></li>
-	  <li><a href="https://robot-learning.cs.utah.edu/">LL4MA Lab</a></li>
-    <li><a href="https://datascience.utah.edu/">Utah Center for Data Science</a></li>
-    <li><a href="https://datascience.utah.edu/club.html">Utah Data Science Club</a></li>
-      <li>
-<a href="https://nlp.cs.utah.edu/wiki/">Internal Wiki</a>
-      </li>
-	</ul>
+	<p><strong class="text-uppercase" style="font-weight :bold; color:white">Links</strong></p>
+
+        <div>
+          <div>
+            <a class="btn btn-social" href="https://twitter.com/utahnlp">
+              <span class="fa fa-twitter"></span> Twitter
+            </a>
+          
+            <a class="btn btn-social" href="https://github.com/utahnlp">
+              <span class="fa fa-github"></span> GitHub
+            </a>
+          </div>
+          
+          <div>
+            <a class="btn btn-social" href="https://drive.google.com/drive/u/2/folders/1PiRc2_ltA0QEY7ByUxY_D-5QuvNIA50K">
+              <span class="fa fa-brands fa-google"></span> Google Drive (internal)
+            </a>
+          </div>
+
+          <div>
+            <a class="btn btn-social"
+               href="https://github.com/utahnlp/utahnlp_logo">
+              UtahNLP Logos
+            </a>
+          </div>
+          
+        </div>
       </div>
       <div class="col-lg-2 col-md-4 col-xs-6 card">
-        <a href="http://nlp.cs.utah.edu"><img class="img-responsive" src="{{ "/img/utahnlp-transparent.png" | prepend: site.baseurl }}"></a>
-        <br /> 
-        <a href="http://www.utah.edu"><img class="img-responsive" src="{{ "/img/u_logo_white.png" | prepend: site.baseurl }}"></a>
+        <a href={{ "/" | prepend:site.baseurl}}><img class="img-responsive" src="{{ "/img/utahnlp-transparent.png" | prepend: site.baseurl }}"></a>
+        <br />
+        <a href="https://www.utah.edu"><img class="img-responsive" src="{{ "/img/u_logo_white.png" | prepend: site.baseurl }}"></a>
       </div>
     </div>
   </div>
@@ -38,6 +58,21 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
 
+<script src="{{ "/assets/bower_components/ideal-image-slider/ideal-image-slider.js"| prepend: site.baseurl}}"></script>
+
+{% if page.should_include_js %}
+
+<script type="text/javascript" src="{{ page.js_file | prepend:site.baseurl}}"></script>
+{% endif %}
+
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
 <script>
- $('nav div#navbar ul > li > a[href="' + document.location.pathname + '"]').parent().addClass('active');
+  $('nav div#navbar ul > li > a[href="' + document.location.pathname + '"]').parent().addClass('active');
 </script>
+

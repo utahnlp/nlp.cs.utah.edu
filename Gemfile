@@ -6,3 +6,6 @@ group :jekyll_plugins do
 end 
 gem 'pygments.rb'
 gem 'bibtex-ruby'
+gem 'citeproc-ruby'
+gem 'csl-styles'
+gem 'tqdm'

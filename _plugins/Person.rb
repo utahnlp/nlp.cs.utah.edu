@@ -79,7 +79,8 @@ class Person
       if [nil, 0, ''].include?(@first_position)
         ''
       else
-        %(<li><i>First position after graduation</i>: #{@first_position}</li>)
+        # %(<li><i>First position after graduation</i>: #{@first_position}</li>)
+        @first_position
       end
     else
       ''
@@ -91,7 +92,8 @@ class Person
       if [nil, 0, ''].include?(@current_position)
         ''
       else
-        %(<li><i>Current position</i>: #{@current_position}</li>)
+        # %(<li><i>Current position</i>: #{@current_position}</li>)
+        @current_position
       end
     else
       ''

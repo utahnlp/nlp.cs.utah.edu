@@ -1,3 +1,4 @@
+# coding: utf-8
 # A liquid tag called make_people to generate the contents of the
 # people page. 
 
@@ -52,25 +53,33 @@ module Jekyll
 
         output << (if degree == 'Ph.D.'
                    '<h4>Doctoral Students</h4>'
-      elsif  degree == 'MS'
-        '<h4>Masters Students</h4>'
-      elsif degree == 'BS'
-        '<h4>Undergrauate Researchers</h4>'
-      end)       
+                  elsif  degree == 'MS'
+                    '<h4>Masters Students</h4>'
+                  elsif degree == 'BS'
+                    '<h4>Undergrauate Researchers</h4>'
+                   end)       
 
         output << '<ul>'
         people.each do |person|
-          person_html =  %(
-            <li style="padding-top:1em;">
-            #{person.wrap_with_weblink(person.alumni_photo_html('img-responsive img-rounded', site), site)}
-              <strong>#{person.wrap_with_weblink(person.full_name, site)}</strong>, #{person.graduation_info}.
+          first = ''
+          if person.first_position_after_graduation != ""
+            first = " → " +  person.first_position_after_graduation
+          end
+          current = ''
+          if person.current_position != '' and person.current_position != person.first_position_after_graduation
+            current = ' → ' + person.current_position
+          end
+          
+          person_html = %(
+          <li>
+          <strong>#{person.wrap_with_weblink(person.full_name, site)}</strong>, #{person.graduation_info}#{first}#{current}. 
               <ul class='list-unstyled'>
           #{person.thesis}
-          #{person.first_position_after_graduation}
-          #{person.current_position}
+
               </ul>
-            </li>
+          </li>
           )
+
           output << person_html
         end
         output << '</ul>'
@@ -82,11 +91,30 @@ module Jekyll
     people = context['site']['data']['processed']['people']
     data = people.select { |key, p| p.group == @key }.map { |key, p| p }
     sorted = data.sort { |x,y| x.last_name <=> y.last_name }
-    if @key == 'alumni'
-      render_alumni(sorted, context['site'])
+
+    if sorted.length > 0
+      if @key == 'faculty'
+        output = ["<h2>Faculty</h2>"]
+      elsif @key == "grads"
+        output = ["<h2>Current graduate students</h2>"]
+      elsif @key == "undergrads"
+        output = ["<h2>Current undergraduate researchers</h2>"]
+      elsif @key == "alumni"
+        output = ["<h2>Alumni</h2>"]
+      else
+        raise "Invalid group: #{@key}"
+      end
+      if @key == 'alumni'
+        output << render_alumni(sorted, context['site'])
+      else
+        output << render_current(sorted, context['site'])
+      end
+      output
     else
-      render_current(sorted, context['site'])
+      ""
     end
+    
+
   end
 end
 end

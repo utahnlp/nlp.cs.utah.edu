@@ -6,6 +6,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
   require 'pp'
   require 'pathname'
   require 'bibtex'
+  require 'tqdm'
 
   # All the processed data will be stored here
   site.data['processed'] = {}
@@ -42,30 +43,37 @@ Jekyll::Hooks.register :site, :post_read do |site|
 
   site.data['processed']['seminars'] = seminars_info
 
-  # Next load all bibtex entries, here we just hard card the bibtex paths
-  bibtex_entries = BibTeX.open(site.source + "/publications/" + 'publications.bib')
+  # Next, load all the bibtex entries.
+  
+  bib_metadata_file = site.source + "/_data/bib_metadata.json"
+  bib_dir = site.source + "/_data/bibs/*.bib"
 
-  # Next load all publications
-  publications = site.data['publications']
-  pub_info = {}
-  publications.each do |key, pub|
-    bibtex = bibtex_entries[key]
-    paper = Paper.new(pub, bibtex)
-    paper.known_authors(people_info).each do |a|
-      people_info[a].pubs << paper
+  bib_metadata = JSON.load(File.read(bib_metadata_file))  
+  papers = Papers.glob(bib_metadata, bib_dir)
+  papers = papers.sort_by { |p|
+    [-p.month_year.to_time.to_i, p.key, p.title]
+  }
+
+  pub_data = {}
+  pub_data["all"] = papers
+
+  grouped_papers = papers.group_by { |p| p.year }
+
+  pub_data["by_year"] = grouped_papers
+  pub_data["years"] = grouped_papers.keys.sort_by { |year| -year.to_i }
+
+  # create a combined bib file in the publications direcotry
+
+  File.open(site.source + "/assets/utahnlp.bib", "w") { |b| 
+    for paper in papers do
+      b.write paper.bib_entry (false)
+      b.write "\n"
     end
+  }
 
-    paper_path = Pathname.new(site.source + "/publications/" + key + ".pdf")
-    if not paper_path.exist?
-      puts "The pdf for " + key + " not found at " + paper_path.to_s
-    end 
-    
-    pub_info[paper.key] = paper
-  end
+  site.data['processed']['pubs'] = pub_data  
 
-  site.data['processed']['pubs'] = pub_info
-
-  # load softwares
+  # load software
   softwares = site.data['software']
   softwares_info = []
   softwares.each do |key, s|

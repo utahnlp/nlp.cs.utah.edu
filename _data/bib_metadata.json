@@ -1,0 +1,67 @@
+{
+    "article": {
+        "required": ["author", "title", "journal", "year", "volume"],
+        "optional": ["number", "pages", "month", "doi"],
+        "venue": ["journal", "volume", "number"]
+    },
+    "book": {
+        "required": [["author", "editor"], "title", "publisher", "year"],
+        "optional": [["volume", "number"], "series", "address", "edition", "month", "url"],
+        "venue": ["publisher", "series", "volume", "number"]
+    },
+    "booklet": {
+        "required": ["title"],
+        "optional": ["author, howpublished, address, month, year"],
+        "venue": ["howpublished"]
+    },
+    "inbook": {
+        "required": [["author", "editor"], "title", ["chapter", "pages"], "publisher", "year"],
+        "optional": [["volume", "number"], "series", "type", "address", "edition", "month"],
+        "venue": ["publisher", "series", "volume", "number"]
+    },
+    "incollection": {
+        "required": ["author", "title", "booktitle", "publisher", "year"],
+        "optional": ["editor", ["volume", "number"], "series", "type", "chapter", "pages", "address", "edition", "month"],
+        "venue": ["booktitle", "publisher"]
+    },
+    "inproceedings": {
+        "required": ["author", "title", "booktitle", "year"],
+        "optional": ["editor", ["volume", "number"], "series", "pages", "address", "month", "organization", "publisher"],
+        "venue": ["booktitle"]
+    },
+    "manual": {
+        "required": ["title"],
+        "optional": ["author", "organization", "address", "edition", "month", "year"],
+        "venue": ["organization"]
+    },
+    "mastersthesis": {
+        "required": ["author", "title", "school", "year"],
+        "optional": ["type", "address", "month"],
+        "venue": ["school"]
+    },
+    "misc": {
+        "required": [],
+        "optional": ["author", "title", "howpublished", "month", "year"],
+        "venue": ["howpublished"]
+    },
+    "phdthesis": {
+        "required": ["author", "title", "school", "year"],
+        "optional": ["type", "address", "month"],
+        "venue": ["school"]
+    },
+    "proceedings": {
+        "required": ["title", "year"],
+        "optional": ["editor", ["volume", "number"], "series", "address", "month", "publisher", "organization"],
+        "venue": ["organization"]
+    },
+    "techreport":{
+        "required": ["author", "title", "institution", "number", "year"],
+        "optional": ["type", "number", "address", "month"],
+        "venue": ["institution", "number"]
+    },
+    "unpublished": {
+        "required": ["author", "title", "note", "year"],
+        "optional": ["month", "key"],
+        "venue": ["note"]
+    }
+}

@@ -3,3 +3,5 @@ _site/
 
 !/.gitignore
 Gemfile.lock
+
+assets/utahnlp.bib

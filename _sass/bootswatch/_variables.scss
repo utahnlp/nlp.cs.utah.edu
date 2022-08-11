@@ -11,15 +11,15 @@ $bootstrap-sass-asset-helper: false !default;
 $gray-base:              #000 !default;
 $gray-darker:            lighten($gray-base, 13.5%) !default; // #222
 $gray-dark:              #444 !default;
-$gray:                   #888 !default; // Utah gray
+$gray:                   lighten($gray-base, 25%) !default; 
 $gray-light:             #808080 !default;
 $gray-lighter:           #ddd !default;
 
-$brand-primary:         #cc0000 !default; // Utah red
+$brand-primary:         #000000 !default; // Pantone Black
 $brand-success:         #469408 !default;
-$brand-info:            #029ACF !default;
-$brand-warning:         #9B479F !default;
-$brand-danger:          #D9831F !default;
+$brand-info:            #3ABFC0 !default;
+$brand-warning:         #FFB81D !default;
+$brand-danger:          #890000 !default;
 
 
 //== Scaffolding
@@ -32,7 +32,7 @@ $body-bg:               #FCFCFC !default;
 $text-color:            $gray !default;
 
 //** Global textual link color.
-$link-color:            $brand-primary !default;
+$link-color:            #890000 !default; // Crimson red, Utah secondary university color
 //** Link hover color set via `darken()` function.
 $link-hover-color:      darken($link-color, 15%) !default;
 //** Link hover decoration.

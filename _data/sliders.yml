@@ -13,6 +13,8 @@
       alt: Warnock Engineering Building (WEB)
     - src: /img/slider/utahnlp-slider.png
       alt: UtahNLP
+    - src: /img/slider/block_u.png
+      alt: "Where is UtahNLP?"
   settings:
     height: "350"
     effect: "'fade'"
