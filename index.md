@@ -21,10 +21,5 @@ image_sliders:
 Calvin & Hobbes, by Bill Watterson 
 
 
-<!--
-{% include recent_seminars.html %})
-{% include recent_publications.html %}
--->
-
-<!-- {% include recent_news.html %} -->
+<!-- {% include twitter.html %} -->
 

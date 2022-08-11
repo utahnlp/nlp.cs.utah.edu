@@ -67,3 +67,13 @@
   research_interests:
   degree: PhD
   advisor: svivek
+
+- key: nates
+  first_name: Nate
+  last_name: Stringham
+  website: https://n8stringham.github.io
+  email: nates@cs.utah.edu
+  photo: /img/profile/nates.jpg
+  research_interests:
+  degree: PhD
+  advisor: riloff

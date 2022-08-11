@@ -1,20 +1,17 @@
 - selector: homepage_slider
   captions: true
   images:
-    - src: /img/slider/Campus_Fall_Panorama.png
+    - src: /test/img/slider/utahnlp-slider.png
+      alt: UtahNLP logo
+    - src: /test/img/slider/merge1.png
+      alt: UtahNLP logo with SLC panels
+    - src: /test/img/slider/Campus_Fall_Panorama.png
       alt: Campus Fall Panorama
-    - src: /img/slider/uu_campus.jpg
+    - src: /test/img/slider/uu_campus.jpg
       alt: Campus Spring
-    - src: /img//slider/Campus_Dusk_Sky.png
+    - src: /test/img/slider/Campus_Dusk_Sky.png
       alt: Campus Dusk Sky
-    - src: /img/slider/uu_meb.jpg
-      alt: Merrill Engineering Building (MEB)
-    - src: /img/slider/uu_web.jpg
-      alt: Warnock Engineering Building (WEB)
-    - src: /img/slider/utahnlp-slider.png
-      alt: UtahNLP
-    - src: /img/slider/block_u.png
-      alt: "Where is UtahNLP?"
+
   settings:
     height: "350"
     effect: "'fade'"
