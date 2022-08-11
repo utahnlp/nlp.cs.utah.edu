@@ -16,6 +16,7 @@ class BibChecker
     valid = valid && verify_authors
     valid = valid && verify_has_venue(bib_metadata[@entry.type.to_s]["venue"])
 
+
     if @errors.length > 0 then
       puts("Checking " + @entry.key.to_s)
       @errors.each { |e| puts(e) }

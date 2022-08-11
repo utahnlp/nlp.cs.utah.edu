@@ -1,15 +1,15 @@
 - selector: homepage_slider
   captions: true
   images:
-    - src: /test/img/slider/utahnlp-slider.png
+    - src: /img/slider/utahnlp-slider.png
       alt: UtahNLP logo
-    - src: /test/img/slider/merge1.png
+    - src: /img/slider/merge1.png
       alt: UtahNLP logo with SLC panels
-    - src: /test/img/slider/Campus_Fall_Panorama.png
+    - src: /img/slider/Campus_Fall_Panorama.png
       alt: Campus Fall Panorama
-    - src: /test/img/slider/uu_campus.jpg
+    - src: /img/slider/uu_campus.jpg
       alt: Campus Spring
-    - src: /test/img/slider/Campus_Dusk_Sky.png
+    - src: /img/slider/Campus_Dusk_Sky.png
       alt: Campus Dusk Sky
 
   settings:
