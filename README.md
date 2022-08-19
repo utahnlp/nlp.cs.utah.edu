@@ -43,15 +43,15 @@ used for constructing the website.
 
 * `assets`: Where CSS and Javascript code for the website is stored. (The current instance of the website is built with Bootstrap
 
-* `index.md`: The home of the website, corresponding to [[https://nlp.cs.utah.edu]].
+* `index.md`: The home of the website, corresponding to https://nlp.cs.utah.edu.
 
-* `publications/index.md`: The publications page of the website, corresponding to [[https://nlp.cs.utah.edu/publications]]. All the details about publications are obtained from the bib files in `_data/bibs`. Any paper pdfs will be canonically stored in `publications/pdfs`.
+* `publications/index.md`: The publications page of the website, corresponding to https://nlp.cs.utah.edu/publications. All the details about publications are obtained from the bib files in `_data/bibs`. Any paper pdfs will be canonically stored in `publications/pdfs`.
 
-* `people/index.md`: The people page of the website, corresponding to [[https://nlp.cs.utah.edu/people]]. The details about people are obtained from `_data/people` (details below).
+* `people/index.md`: The people page of the website, corresponding to https://nlp.cs.utah.edu/people. The details about people are obtained from `_data/people` (details below).
 
-* `courses/index.md`: The courses page of the website, corresponding to [[https://nlp.cs.utah.edu/courses]].
+* `courses/index.md`: The courses page of the website, corresponding to https://nlp.cs.utah.edu/courses.
 
-* `datasets/index.md`: The datasets page of the website, corresponding to [[https://nlp.cs.utah.edu/datasets]].
+* `datasets/index.md`: The datasets page of the website, corresponding to https://nlp.cs.utah.edu/datasets.
 
 
 ## Deploy
@@ -121,6 +121,8 @@ field:
   `pdfs/filename.pdf`.
 * `award` (optional): Any extra information about the paper identifying awards
   or recognition that it got. This will highlighted on the website.
+
+There is a helper script `_scripts/check_bibs.rb` that can help validate the bib entries. To use it, run `ruby check_bibs.rb`. It will show any errors in the bib files.
 
 ### `_data/seminars`
 
