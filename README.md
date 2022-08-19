@@ -1,28 +1,67 @@
-This directory contains the source for building the `nlp.cs.utah.edu`
-website. The website is constructed using `jekyll` by populating a
-collection of templates with data.
+This repository contains the source for building the `nlp.cs.utah.edu`
+website. The website is constructed using `jekyll` by populating a collection of
+templates with data.
 
 
-# How to use it ?
+# How to use it?
 
-## Almost markdown and plain text.
+## Almost markdown and plain text
 
-This website is built using [`jekll`](https://jekyllrb.com) framework.
-To use this website, you only need to know some markdown usage(https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), or if you want, mathjax is added for it to support latex research or review writing. In this section, you will know how to use every part of this website. We also need your help to try to fulfill some data when you try those features.
+This website is built using [`jekll`](https://jekyllrb.com) framework.  To use
+this website, you only need to know some markdown
+usage(https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), or if
+you want, mathjax is added for it to support latex research or review
+writing. 
 
-To contribute on further developing, if any issues, welcome to discuss @Jie directly or post on the gitlab.
+If there are issues, etc, please create a github issue.
+
+## Directory structure
+
+Here's a high level overview of the important files and directories that are
+used for constructing the website.
+
+
+### Internal components and templates
+
+* `config.yml`: The configuration file listing jekyll options
+
+* `_plugins`: Any ruby code that can be used to define jekyll plugins and generally construct website elements
+
+* `_layouts`: The HTML layouts defined with the liquid templating language
+
+* `_includes`: Snippets of HTML that can be included within markdown pages or in layouts. Two files that may need to be occasionally updated are:
+
+  * `_includes/nav.html`: The contents of the navbar at the top of all pages
+  * `_includes/footer.html`: The footer at the bottom of all pages
+  
+* `_data`: Structured data that is used to construct website elements. This includes information about people, papers, courses, datasets etc. The contents of this folder will be most frequently updated.
+
+
+### External facing elements
+
+* `img`: Any images that are used in the site
+
+* `assets`: Where CSS and Javascript code for the website is stored. (The current instance of the website is built with Bootstrap
+
+* `index.md`: The home of the website, corresponding to [[https://nlp.cs.utah.edu]].
+
+* `publications/index.md`: The publications page of the website, corresponding to [[https://nlp.cs.utah.edu/publications]]. All the details about publications are obtained from the bib files in `_data/bibs`. Any paper pdfs will be canonically stored in `publications/pdfs`.
+
+* `people/index.md`: The people page of the website, corresponding to [[https://nlp.cs.utah.edu/people]]. The details about people are obtained from `_data/people` (details below).
+
+* `courses/index.md`: The courses page of the website, corresponding to [[https://nlp.cs.utah.edu/courses]].
+
+* `datasets/index.md`: The datasets page of the website, corresponding to [[https://nlp.cs.utah.edu/datasets]].
+
 
 ## Deploy
-See more details on https://docs.google.com/document/d/1k6Gj6RdCrwYfw1zHVBeD-nYXhtqnTHAu7rRV48BDrVQ/edit?usp=sharing 
 
-Since we are on Github here, you can manuall deploy by:
+The website is hosted on the CS department server. To deploy, run the following
+on the command line:
+
 ```
-jekyll build
-rsync -ru _site/* [CS_ID]@shell.cs.utah.edu:/uusoc/res/nlp/public_html/test/
+bash publish.sh [your-cs-shell-id]
 ```
-
-## Home Page
-
 
 ## Data Description
 
@@ -66,40 +105,26 @@ Each file contains a list of people, each with the following fields:
 Among these fields, only the key and name fields are required. All
 other fields can be empty. 
 
-### `_data/publications`
 
-Contains all publications. Each paper is associated with a single
-`.yml` file. The names of the file have the following format (in lower
-case) for consistency:
-`<last-name-of-first-author><year><first-content-word-of-title>.yml`. Each
-file contains the following metadata for the paper:
+### `_data/bibs`
 
-- `key`: A unique identifier for the paper. For consistency, use the
-  same unique identifier as in the file name (without
-  the .yml). The key will be used in the `paper_url` and `bibtex` par. When
-  adding a `<key>.yml`, please also adding a pdf according the path of `\publication\<key>.pdf`, and a bibtex entry in the `publications.bib` file. 
-- `title`: The title of the paper. *Important*: If the title has a
-  colon, then put the title in double quotes. Otherwise, the yml
-  parser will complain.
-- `authors`: A list of authors, with one author per line. If the
-  author is affiliated with the group (i.e., has an entry in one of
-  the `_data/people` files), then use the `key` of that
-  person. Otherwise, use their full name.
-- `year`: The year of publication
-- `month`: The month of publication or the conference (as a number
-  between 1 and 12)
-- `venue`: The venue 
-- `paper_url`: A pointer to the paper. If possible, put the pdf of the
-  paper in the directory called `publications` in the root directory
-  with filename `<key>.pdf`, where `<key>` is the key of the
-  paper. Then the paper URL can be `/publications/<key>.pdf`, with the
-  appropriate value of `<key>`. This can help us keep track of papers
-  that do not have pdfs.
-- `topics`: A list of topics for this paper, with one topic per line.
+Contains all publications in `.bib` files. Any bib entry in any `.bib` file in
+this directory will show up in on [[https://nlp.cs.utah.edu/publications]]. The
+bib entries are grouped by year for convenience.
 
-See one of the existing yml files for an example.
+The bib entries are standard bibtex, with two required and one optional extra
+field:
 
-### `_data\seminars`
+* `tags`: A comma separated list of tags
+* `paper`: A pointer to the pdf of the file. The convention is that all pdfs are
+  placed in the `publications/pdfs` directory, and this entry looks like
+  `pdfs/filename.pdf`.
+* `award` (optional): Any extra information about the paper identifying awards
+  or recognition that it got. This will highlighted on the website.
+
+### `_data/seminars`
+
+*currently not shown on the website*
 
 We use the following data structure to organize our seminar info. Most recent seminar information will be shown on the front page of our website. 
 - `key`: just like the `key` for a publication, this is a key for a talk, tutorial, presentation. A `/seminars/<key>.pdf` according to the talk also suggested to put into the corresponding path. 
@@ -115,6 +140,8 @@ We use the following data structure to organize our seminar info. Most recent se
 - `abstract`: A brief and attractive abstract 
 
 ### `softwares`,`data`, semi-structured entities
+
+*currently not shown on the website*
 
 Besides the above entities are managed with `yml` data files, all other information such as news , research blog post, software , data,  and course, usually they contain various rich information, and not easily formated into a unified structure. Especially for software and data, we encourage to use more rich form, such as jekyll post or some external wiki page. Hence, we offer a simple set of data fields, only when those data fields can be joined with our people and publications data.
 
@@ -145,38 +172,13 @@ can browse through the generated website.
 
 # Contribution Guidlines
 
-## Overview 
 
+*To be updated*
 
-## Remaining TODOS
-
-### 1. Filling `people`, `publication` data and BibTex entries.
-
-### 2. Filling past `seminar` and good news data, which will make the home page looks better
-
-### 3. Filling software and data, either link to the external wiki pape, or write new post with our built+in post system. 
-
-### 4. Better style
-		Now our system are based on `bootstrap` with some customization. To imporve the display style, we still need to more work on fine-grained adjust. 
-
-### 5. Comments and Issues for Each part
+### Comments and Issues for Each part
 
 Previously, with Tao, Tianyu, Annie, we have some brain-storm on this website, also collect some feedback from Ellen and Vivek. All the the previous ideas are listed in the following list with their current status and future plans. 
 
-#### Publication
-    - Add all papers to the publication page.
-    - Can we provide this function: when clicking on the tag under each paper, only papers with the same tag will appear on the page?
-	  - Add bibtex for every publication.
-
-    To be added, any interest on this, please take the "make_semnars" tag with its `topK` argument. It is easy to add a `tag` argument to filter tag in the specific topic.
-
-#### Data & Software
-
-    - Currently, sarcasm, plotunit, basilisk, mpqa --- these 4 can be found on Ellen's web page.
-    - The Data page will only show a list of these data sets. Each data set should have its own page with detailed information and how to cite it.
-
-		For now, software and data are all merged into software, they share the same data stucture for citing and describing. For citing, just adding those papers with their keys in our pubclications part. 
-For other detailed information. It still need some one to add markdown file to describe them. 
 
 #### Courses
     Add our seminars.
@@ -184,14 +186,6 @@ For other detailed information. It still need some one to add markdown file to d
 	
 	Yes. Still needs volumnteers to add those data. And we also support the seminar in our website, we keep use that to share our seminar information with others
 
-#### Internal Wiki
-    "Local" label might be confusing. Change it to something like "Internal Wiki".
-
-#### Logo
-    If anyone in our group knows how to design a pretty logo for the NLP group, that would be awesome!
-
-#### Home Page
-    It is a good idea to put scenery photos of Utah on the home page. We could email coleman@cs.utah.edu for photographs.
 
 
 
