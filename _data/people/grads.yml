@@ -77,3 +77,13 @@
   research_interests:
   degree: PhD
   advisor: riloff
+
+- key: zhenduo
+  first_name: Zhenduo
+  last_name: Wang
+  website: https://zhenduow.github.io/
+  email: zhenduow@cs.utah.edu
+  photo: /img/profile/zhenduo.jpg
+  research_interests:
+  degree: PhD
+  advisor: svivek
