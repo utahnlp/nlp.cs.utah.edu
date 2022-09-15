@@ -4,7 +4,7 @@
   website: http://www.cs.utah.edu/~tianyu/
   email: tianyu@cs.utah.edu
   photo: /img/profile/tianyu.jpg
-  research_interests: Sentiment analysis, world knowledge
+  research_interests: #Sentiment analysis, world knowledge
   degree: PhD
   advisor: riloff
 
@@ -14,7 +14,7 @@
   website: http://research.zhouyichu.com/
   email: flyaway@cs.utah.edu
   photo: /img/profile/yichu.jpg
-  research_interests: Distributed representation, structured prediction
+  research_interests: #Distributed representation, structured prediction
   degree: PhD
   advisor: svivek
 
@@ -24,7 +24,7 @@
   website: http://www.cs.utah.edu/~yyzhuang/
   email: yyzhuang@cs.utah.edu
   photo: /img/profile/yuanzhuang.jpg
-  research_interests: Pragmatic analysis, discourse analysis and commonsense knowledge inference
+  research_interests: #Pragmatic analysis, discourse analysis and commonsense knowledge inference
   degree: PhD
   advisor: riloff
 
@@ -34,7 +34,7 @@
   website: https://vgupta123.github.io 
   email: vgupta@cs.utah.edu
   photo: /img/profile/vivekgupta.jpg 
-  research_interests: Natural language inference, semi-structured reasoning, ethics in artificial intelligence, efficient representation learning, extreme multi-label learning, resource-constrained machine learning
+  research_interests: #Natural language inference, semi-structured reasoning, ethics in artificial intelligence, efficient representation learning, extreme multi-label learning, resource-constrained machine learning
   degree: PhD
   advisor: svivek
 
@@ -44,7 +44,7 @@
   website: http://www.cs.utah.edu/~mattiamg/
   email: mattia.grespan@utah.edu
   photo: /img/profile/mattia_mg.jpeg
-  research_interests: Neural-Symbolic Learning, NLP in Mental Health Therapy
+  research_interests: #Neural-Symbolic Learning, NLP in Mental Health Therapy
   degree: PhD
   advisor: svivek
 
