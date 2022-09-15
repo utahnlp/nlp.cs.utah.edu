@@ -98,3 +98,62 @@
   paper = {pdfs/zhuang2020exploring.pdf}
 }
 
+@inproceedings{marasovic-etal-2020-natural,
+    title = "Natural Language Rationales with Full-Stack Visual Reasoning: From Pixels to Semantic Frames to Commonsense Graphs",
+    author = "Marasovi{\'c}, Ana  and
+      Bhagavatula, Chandra  and
+      Park, Jae sung  and
+      Le Bras, Ronan  and
+      Smith, Noah A.  and
+      Choi, Yejin",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2020",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.findings-emnlp.253",
+    doi = "10.18653/v1/2020.findings-emnlp.253",
+    pages = "2810--2829",
+    abstract = "Natural language rationales could provide intuitive, higher-level explanations that are easily understandable by humans, complementing the more broadly studied lower-level explanations based on gradients or attention weights. We present the first study focused on generating natural language rationales across several complex visual reasoning tasks: visual commonsense reasoning, visual-textual entailment, and visual question answering. The key challenge of accurate rationalization is comprehensive image understanding at all levels: not just their explicit content at the pixel level, but their contextual contents at the semantic and pragmatic levels. We present Rationale{\^{}}VT Transformer, an integrated model that learns to generate free-text rationales by combining pretrained language models with object recognition, grounded visual semantic frames, and visual commonsense graphs. Our experiments show that free-text rationalization is a promising research direction to complement model interpretability for complex visual-textual reasoning tasks. In addition, we find that integration of richer semantic and pragmatic visual features improves visual fidelity of rationales.",
+}
+
+@inproceedings{ning-etal-2020-easy,
+    title = "Easy, Reproducible and Quality-Controlled Data Collection with {CROWDAQ}",
+    author = "Ning, Qiang  and
+      Wu, Hao  and
+      Dasigi, Pradeep  and
+      Dua, Dheeru  and
+      Gardner, Matt  and
+      Logan IV, Robert L.  and
+      Marasovi{\'c}, Ana  and
+      Nie, Zhen",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    month = oct,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.emnlp-demos.17",
+    doi = "10.18653/v1/2020.emnlp-demos.17",
+    pages = "127--134",
+    abstract = "High-quality and large-scale data are key to success for AI systems. However, large-scale data annotation efforts are often confronted with a set of common challenges: (1) designing a user-friendly annotation interface; (2) training enough annotators efficiently; and (3) reproducibility. To address these problems, we introduce CROWDAQ, an open-source platform that standardizes the data collection pipeline with customizable user-interface components, automated annotator qualification, and saved pipelines in a re-usable format. We show that CROWDAQ simplifies data annotation significantly on a diverse set of data collection use cases and we hope it will be a convenient tool for the community.",
+}
+
+@inproceedings{gururangan-etal-2020-dont,
+    title = "Don{'}t Stop Pretraining: Adapt Language Models to Domains and Tasks",
+    author = "Gururangan, Suchin  and
+      Marasovi{\'c}, Ana  and
+      Swayamdipta, Swabha  and
+      Lo, Kyle  and
+      Beltagy, Iz  and
+      Downey, Doug  and
+      Smith, Noah A.",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.acl-main.740",
+    doi = "10.18653/v1/2020.acl-main.740",
+    pages = "8342--8360",
+    abstract = "Language models pretrained on text from a wide variety of sources form the foundation of today{'}s NLP. In light of the success of these broad-coverage models, we investigate whether it is still helpful to tailor a pretrained model to the domain of a target task. We present a study across four domains (biomedical and computer science publications, news, and reviews) and eight classification tasks, showing that a second phase of pretraining in-domain (domain-adaptive pretraining) leads to performance gains, under both high- and low-resource settings. Moreover, adapting to the task{'}s unlabeled data (task-adaptive pretraining) improves performance even after domain-adaptive pretraining. Finally, we show that adapting to a task corpus augmented using simple data selection strategies is an effective alternative, especially when resources for domain-adaptive pretraining might be unavailable. Overall, we consistently find that multi-phase adaptive pretraining offers large gains in task performance.",
+}
