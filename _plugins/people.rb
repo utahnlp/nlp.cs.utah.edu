@@ -28,8 +28,7 @@ module Jekyll
         output << %(
           <div class="col-lg-2 col-md-3 col-xs-4 thumb">
         #{person.wrap_with_weblink(person.photo_html('img-responsive img-rounded', site), site)}
-            <center><b>#{person.wrap_with_weblink(person.full_name, site)}</b></center>
-            <p><small>#{person.interests}</small></p>
+            <center><b>#{person.wrap_with_weblink(person.full_name, site)}</b></center>            
             </div>
         )
         if (i+1) % 6 == 0 || i == list.length - 1
