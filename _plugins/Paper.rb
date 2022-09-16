@@ -15,7 +15,12 @@ class PaperHelper
     @entry = bib_entry
     @bib_metadata = bib_metadata
     @meta = bib_metadata[@entry.type.to_s]
-    @tags = @entry["tags"].split(/, */).map{ |t| t.strip }
+    if not @entry["tags"].nil? then
+      @tags = @entry["tags"].split(/, */).map{ |t| t.strip }
+    else
+      @tags = []
+    end
+    
     @liquid = {}
   end
 
@@ -121,7 +126,13 @@ class PaperHelper
   end
 
   def paper_link
-    @entry["paper"].to_s
+    if not @entry["paper"].nil?
+      @entry["paper"].to_s
+    elsif not @entry["url"].nil?
+      @entry["url"].to_s
+    else
+      "#"
+    end
   end
 
   def paper_link=(link)
@@ -145,7 +156,7 @@ class PaperHelper
     citation_processor.import [@entry.to_citeproc]
     bibliography = citation_processor.render :bibliography, id: key
 
-    b = bibliography[0].gsub(/[{}]/, "")
+    b = bibliography[0].gsub(/[{}]/, "").gsub(/\\'c/, "ć")
     b
 
   end
