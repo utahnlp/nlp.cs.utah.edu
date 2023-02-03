@@ -115,3 +115,13 @@
   photo: /img/profile/unknown.png
   degree: PhD
   advisor: svivek
+
+
+- key: yichu
+  first_name: Yichu
+  last_name: Zhou
+  website: http://research.zhouyichu.com/
+  email: flyaway@cs.utah.edu
+  photo: /img/profile/yichu.jpg
+  degree: PhD
+  advisor: svivek

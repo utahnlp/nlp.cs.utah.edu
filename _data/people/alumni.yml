@@ -362,16 +362,3 @@
   graduated_year: 2021
   first_position: Software Engineer at Salesforce
 
-- key: yichu
-  first_name: Yichu
-  last_name: Zhou
-  website: http://research.zhouyichu.com/
-  email: flyaway@cs.utah.edu
-  photo: /img/profile/yichu.jpg
-  degree: PhD
-  advisor: svivek
-  graduated_year: 2023
-  first_position: Reseach Scientists at Yahoo
-  current_position: Reseach Scientists at Yahoo
-  thesis: Discovering and Applying Geometric Properties for Probing Contextualized Representations
-
