@@ -101,8 +101,17 @@
 - key: mugdha
   first_name: Mugdha 
   last_name: Abhyankar
-  website: 
+  website: https://mugdhaab.github.io/
   email: mugdha.abhyankar@utah.edu
   photo: /img/profile/mugdha.jpeg
   degree: MS
   advisor: ana
+
+- key: atreya
+  first_name: Atreya 
+  last_name: 
+  website: 
+  email: 
+  photo: /img/profile/unknown.png
+  degree: PhD
+  advisor: svivek
