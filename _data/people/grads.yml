@@ -8,16 +8,6 @@
   degree: PhD
   advisor: riloff
 
-- key: yichu
-  first_name: Yichu
-  last_name: Zhou
-  website: http://research.zhouyichu.com/
-  email: flyaway@cs.utah.edu
-  photo: /img/profile/yichu.jpg
-  research_interests: #Distributed representation, structured prediction
-  degree: PhD
-  advisor: svivek
-
 - key: yuanzhuang
   first_name: Yuan
   last_name: Zhuang
@@ -87,3 +77,32 @@
   research_interests:
   degree: PhD
   advisor: svivek
+
+- key: fateme
+  first_name: Fateme
+  last_name: Hashemi Chaleshtori
+  website: https://fateme-hshm96.github.io/
+  email: u1420010@utah.edu
+  photo: /img/profile/fateme.jpeg
+  degree: PhD
+  advisor: ana
+
+
+- key: rishanth
+  first_name: Rishanth 
+  last_name: Rajendhran
+  website: https://rishanthrajendhran.github.io/
+  email: u1419542@utah.edu
+  photo: /img/profile/rishanth.jpeg
+  degree: MS
+  advisor: ana
+
+
+- key: mugdha
+  first_name: Mugdha 
+  last_name: Abhyankar
+  website: 
+  email: mugdha.abhyankar@utah.edu
+  photo: /img/profile/mugdha.jpeg
+  degree: MS
+  advisor: ana
