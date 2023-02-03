@@ -124,6 +124,10 @@ class Person
       @degree
     end 
   end
+
+  def graduated_year
+    @graduated_year
+  end
   
 end
 

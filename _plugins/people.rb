@@ -50,6 +50,15 @@ module Jekyll
 
         people = grouped[degree]
 
+        people.sort_by! { |a|
+          if a.graduated_year
+            - a.graduated_year
+          else
+            print("Unknown graduation year for ", a.to_s, "\n")
+            0 # why would we not have a graduation year for a person?
+          end
+        }
+
         output << (if degree == 'Ph.D.'
                    '<h4>Doctoral Students</h4>'
                   elsif  degree == 'MS'
