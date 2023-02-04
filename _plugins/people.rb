@@ -71,7 +71,7 @@ module Jekyll
           
           person_html = %(
           <li>
-          <strong>#{person.wrap_with_weblink(person.full_name, site)}</strong>, #{person.graduation_info}#{first}#{current}. 
+          <strong>#{person.wrap_with_weblink(person.full_name, site)}</strong>, #{person.graduation_info}#{first}#{current} 
               <ul class='list-unstyled'>
           #{person.thesis}
 
