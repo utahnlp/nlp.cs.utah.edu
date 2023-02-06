@@ -1,7 +1,7 @@
 # All information about a person
 class Person
 
-  attr_accessor :key, :first_name, :last_name, :photo, :website, :interests, :degree, :pubs, :group
+  attr_accessor :key, :first_name, :last_name, :photo, :website, :interests, :degree, :group
   def initialize(group, array)
     @group = group
     @key = array['key']
@@ -51,6 +51,21 @@ class Person
         %(<a href='#{website_url}'>#{content}</a>)
       end 
     end
+  end
+
+  def pubs(site)
+
+    if @pubs.length == 0
+      for p in site.data['processed']['pubs']['all'] do
+        for a in p.authors do
+          if a == "#{last_name}, #{first_name}"
+            @pubs << p
+            break
+          end
+        end
+      end
+    end
+    @pubs
   end
 
   def photo_html(img_class, site)

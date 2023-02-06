@@ -17,7 +17,7 @@ module Jekyll
       self.data['full_name'] = person.full_name
       self.data['status'] = person.status
       self.data['photo'] = person.photo
-      self.data['pubs'] = person.pubs.map { |p| p.to_html(site.data['processed']['people'], site.config)}
+      self.data['pubs'] = person.pubs(site)
       self.data['interests'] = person.interests
     end
   end

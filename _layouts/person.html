@@ -13,8 +13,34 @@ layout: default
     {{interests}}
     <h3>Publications</h3>
     <ul>
-      {% for pubinfo in page.pubs %}
-      <li> {{ pubinfo }}</li>
+      {% for paper in page.pubs %}
+      <li>
+        <div id="{{paper.key}}">
+          <p>
+            {{paper.citation}}
+            <a href="{{paper.link}}">[link to paper]</a>
+            
+            <a data-toggle="collapse"
+               href="#bib-{{paper.key}}"
+               role="button"
+               aria-expanded="false"
+               aria-controls="bib-{{paper.key}}">
+              [bib entry]
+            </a>
+            {% if paper.has_award %}
+                <br/>
+                <span class="text-capitalize">
+                   <strong><em><mark>{{paper.award_info}}</mark></em></strong>
+                </span>
+            {% endif %}
+            <div class="collapse" id="bib-{{paper.key}}">
+              <pre><code>{{paper.bib}}</code></pre>
+            </div>
+
+          </p>
+        </div>
+      </li>
+
       {% endfor %}
     </ul>
   </div>
