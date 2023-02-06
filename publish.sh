@@ -11,5 +11,5 @@ jekyll build
 
 rsync -azP \
       --delete \
-      --chmod=Du=rwx,Dg=rwx,Do=,Fu=rw,Fg=rw,Fo= \
+      --chmod=Du=rwx,Dg=rwx,Do=rx,Fu=rw,Fg=rw,Fo=rx \
       _site/ $USER@shell.cs.utah.edu:/uusoc/res/nlp/public_html/
