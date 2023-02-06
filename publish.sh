@@ -9,4 +9,7 @@ USER=$1
 
 jekyll build
 
-rsync -azP --delete _site/ $USER@shell.cs.utah.edu:~/nlp/public_html/
+rsync -azP \
+      --delete \
+      --chmod=Du=rwx,Dg=rwx,Do=,Fu=rw,Fg=rw,Fo= \
+      _site/ $USER@shell.cs.utah.edu:/uusoc/res/nlp/public_html/
