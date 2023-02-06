@@ -6,8 +6,8 @@ group_short_name: UtahNLP
 description: > # this means to ignore newlines until "baseurl:"
   Natural Language Processing at the University of Utah
   
-#baseurl: "https://nlp.cs.utah.edu"
-baseurl: "" # use this for debugging locally
+baseurl: "https://nlp.cs.utah.edu"
+# baseurl: "" # use this for debugging locally
 
 url: "https://nlp.cs.utah.edu" # the base hostname & protocol for your site
 

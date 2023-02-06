@@ -14,6 +14,8 @@ module Jekyll
       end
 
       @key = attributes['who']
+      @degree = attributes["degree"]
+
     end
 
     # Current members of the group are rendered with photographs, etc
@@ -97,14 +99,30 @@ module Jekyll
 
   def render(context)
     people = context['site']['data']['processed']['people']
-    data = people.select { |key, p| p.group == @key }.map { |key, p| p }
+
+    data = []
+    people.each { |key, p|
+      if p.group == @key
+        if @key == "grads"
+          if @degree == p.degree
+            data << p            
+          end
+        else
+          data << p
+        end
+
+      end
+    }
+    
     sorted = data.sort { |x,y| x.last_name <=> y.last_name }
 
     if sorted.length > 0
       if @key == 'faculty'
         output = ["<h2>Faculty</h2>"]
-      elsif @key == "grads"
-        output = ["<h2>Current graduate students</h2>"]
+      elsif @key == "grads" and @degree == "PhD"
+        output = ["<h2>Current doctoral students</h2>"]
+      elsif @key == "grads" and @degree == "MS"
+        output = ["<h2>Current masters students</h2>"]        
       elsif @key == "undergrads"
         output = ["<h2>Current undergraduate researchers</h2>"]
       elsif @key == "alumni"
