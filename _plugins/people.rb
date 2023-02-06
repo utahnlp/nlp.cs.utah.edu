@@ -54,7 +54,7 @@ module Jekyll
           if a.graduated_year
             - a.graduated_year
           else
-            print("Unknown graduation year for ", a.to_s, "\n")
+            print("Unknown graduation year for ", a.full_name, "\n")
             0 # why would we not have a graduation year for a person?
           end
         }

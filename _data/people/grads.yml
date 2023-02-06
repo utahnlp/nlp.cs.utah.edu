@@ -83,7 +83,7 @@
   last_name: Hashemi Chaleshtori
   website: https://fateme-hshm96.github.io/
   email: u1420010@utah.edu
-  photo: /img/profile/fateme.jpeg
+  photo: /img/profile/fateme.jpg
   degree: PhD
   advisor: ana
 
@@ -109,9 +109,9 @@
 
 - key: atreya
   first_name: Atreya 
-  last_name: 
-  website: 
-  email: 
+  last_name: Ghosal
+  website: #
+  email: u1419632@utah.edu
   photo: /img/profile/unknown.png
   degree: PhD
   advisor: svivek
