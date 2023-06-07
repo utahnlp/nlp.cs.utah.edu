@@ -1,7 +1,7 @@
 require 'bibtex'
 require 'json'
 
-require_relative 'paper'
+require_relative 'Paper'
 require_relative 'bib_cleaner'
 
 class Papers
