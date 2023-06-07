@@ -7,3 +7,4 @@ Gemfile.lock
 assets/utahnlp.bib
 
 *.el
+.DS_Store
