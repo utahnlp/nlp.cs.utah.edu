@@ -1,12 +1,3 @@
-- key: tianyu
-  first_name: Tianyu
-  last_name: Jiang
-  website: http://www.cs.utah.edu/~tianyu/
-  email: tianyu@cs.utah.edu
-  photo: /img/profile/tianyu.jpg
-  research_interests: #Sentiment analysis, world knowledge
-  degree: PhD
-  advisor: riloff
 
 - key: yuanzhuang
   first_name: Yuan
@@ -17,16 +8,6 @@
   research_interests: #Pragmatic analysis, discourse analysis and commonsense knowledge inference
   degree: PhD
   advisor: riloff
-
-- key: vivekgupta
-  first_name: Vivek
-  last_name: Gupta
-  website: https://vgupta123.github.io 
-  email: vgupta@cs.utah.edu
-  photo: /img/profile/vivekgupta.jpg 
-  research_interests: #Natural language inference, semi-structured reasoning, ethics in artificial intelligence, efficient representation learning, extreme multi-label learning, resource-constrained machine learning
-  degree: PhD
-  advisor: svivek
 
 - key: mmg
   first_name: Mattia
@@ -115,13 +96,3 @@
   photo: /img/profile/unknown.png
   degree: PhD
   advisor: svivek
-
-- key: yichu
-  first_name: Yichu
-  last_name: Zhou
-  website: http://research.zhouyichu.com/
-  email: flyaway@cs.utah.edu
-  photo: /img/profile/yichu.jpg
-  degree: PhD
-  advisor: svivek
- 
