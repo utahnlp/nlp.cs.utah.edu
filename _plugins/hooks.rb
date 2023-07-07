@@ -22,11 +22,15 @@ Jekyll::Hooks.register :site, :post_read do |site|
     list = all.map { |p| Person.new(group, p) }
 
     list.each do |p|
+      if p.degree == "PhD"
+        p.degree = "Ph.D."
+      end
       if people_info[p.key]
         raise "Duplicate person key: " + p.key
       else
         people_info[p.key] = p
       end
+    
     end
   end
 
