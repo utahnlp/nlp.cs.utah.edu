@@ -220,7 +220,7 @@
 - key: bertagnolli
   first_name: Nic
   last_name: Bertagnolli
-  website:
+  website: https://www.nbertagnolli.com/
   email:
   photo:
   research_interests:
@@ -228,7 +228,7 @@
   advisor: svivek
   thesis:
   first_position: 3M
-  current_position:
+  current_position: Chief AI Officer at mpathic.ai
   graduated_year: 2016
 
 - key: acherk
@@ -243,12 +243,13 @@
   thesis: "SweetPea: A Language for Experimental Design"
   thesis_url: /publications/theses/annie-cherkaev-ms-thesis.pdf
   first_position: Galois
+  current_position: Marqeta
   graduated_year: 2019
 
 - key: hbding
   first_name: Haibo
   last_name: Ding
-  website: https://scholar.google.com/citations?user=XOsr4HMAAAAJ&hl=en
+  website: https://haibonlp.github.io/
   email: hbding@cs.utah.edu
   photo: /img/profile/hbding.png
   research_interests: Sentiment analysis, information extraction, semi-supervised learning
@@ -257,13 +258,13 @@
   degree: Ph.D.
   advisor: riloff
   first_position: Bosch Research
-  current_position: Bosch Research
+  current_position: Amazon AWS AI
   graduated_year: 2018
 
 - key: youngjun
   first_name: Youngjun
   last_name: Kim
-  website: https://www.cs.utah.edu/~youngjun
+  website: https://scholar.google.com/citations?user=OfQtsUUAAAAJ&hl=en
   email: youngjun@cs.utah.edu
   photo:
   research_interests: Clinic NLP, Information Extraction
@@ -309,6 +310,7 @@
   research_interests:
   degree: MS
   first_position: Route
+  current_position: SiriusXM/Pandora
   graduated_year: 2020
 
 - key: taruns
@@ -405,3 +407,5 @@
   first_position: Assistant Professor, Computer Science department at the University of Cincinnati
   current_position: Assistant Professor, Computer Science department at the University of Cincinnati
   graduated_year: 2023
+
+
