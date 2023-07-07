@@ -362,3 +362,46 @@
   graduated_year: 2021
   first_position: Software Engineer at Salesforce
 
+
+- key: yichu
+  first_name: Yichu
+  last_name: Zhou
+  website: http://research.zhouyichu.com/
+  email: flyaway@cs.utah.edu
+  photo: /img/profile/yichu.jpg
+  thesis: Discovering and Applying Geometric Properties for Probing Contextualized Representations
+  degree: Ph.D.
+  advisor: svivek
+  first_position: Researcher at Yahoo
+  current_position: Researcher at Yahoo
+  graduated_year: 2023
+
+
+
+- key: vivekgupta
+  first_name: Vivek
+  last_name: Gupta
+  website: https://vgupta123.github.io 
+  email: vgupta@cs.utah.edu
+  photo: /img/profile/vivekgupta.jpg 
+  research_interests: #Natural language inference, semi-structured reasoning, ethics in artificial intelligence, efficient representation learning, extreme multi-label learning, resource-constrained machine learning
+  degree: Ph.D.
+  advisor: svivek
+  thesis: Inference and Reasoning for Semi-structured Tables
+  first_position: Postdoc at UPenn
+  current_position: Postdoc at UPenn
+  graduated_year: 2023
+
+- key: tianyu
+  first_name: Tianyu
+  last_name: Jiang
+  website: https://jiangtianyu.com/
+  email: tianyu@cs.utah.edu
+  photo: /img/profile/tianyu.jpg
+  research_interests: #Sentiment analysis, world knowledge
+  degree: PhD
+  advisor: riloff
+  thesis: Commonsense Knowledge of Prototypical Functions for Natural Language Processing
+  first_position: Assistant Professor, Computer Science department at the University of Cincinnati
+  current_position: Assistant Professor, Computer Science department at the University of Cincinnati
+  graduated_year: 2023
