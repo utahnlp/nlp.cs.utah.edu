@@ -16,8 +16,10 @@ Jekyll::Hooks.register :site, :post_read do |site|
   people = site.data['people']
   people_info = {}
 
+  puts("Loading people...")
   groups = ['faculty', 'grads', 'undergrads', 'alumni']
   groups.each do |group|
+    puts(group)
     all = people[group] || []
     list = all.map { |p| Person.new(group, p) }
 
@@ -38,6 +40,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
   site.data['processed']['people'] = people_info
 
   # Next load all seminars
+  puts("Loading seminars...")
   seminars = site.data['seminars']
   seminars_info = []
   seminars.each do |key, seminar|
@@ -52,11 +55,14 @@ Jekyll::Hooks.register :site, :post_read do |site|
   bib_metadata_file = site.source + "/_data/bib_metadata.json"
   bib_dir = site.source + "/_data/bibs/*.bib"
 
-  bib_metadata = JSON.load(File.read(bib_metadata_file))  
+  bib_metadata = JSON.load(File.read(bib_metadata_file))
+  puts("Loading all publications")
   papers = Papers.glob(bib_metadata, bib_dir)
   papers = papers.sort_by { |p|
     [-p.month_year.to_time.to_i, p.key, p.title]
   }
+
+  puts("Found #{papers.length} papers")
 
   pub_data = {}
   pub_data["all"] = papers
@@ -65,10 +71,11 @@ Jekyll::Hooks.register :site, :post_read do |site|
 
   pub_data["by_year"] = grouped_papers
   pub_data["years"] = grouped_papers.keys.sort_by { |year| -year.to_i }
-
+  
   # create a combined bib file in the publications direcotry
 
-  File.open(site.source + "/assets/utahnlp.bib", "w") { |b| 
+  File.open(site.source + "/assets/utahnlp.bib", "w") { |b|
+    puts("Creating utahnlp.bib file at /assets/")
     for paper in papers do
       b.write paper.bib_entry (false)
       b.write "\n"
@@ -78,6 +85,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
   site.data['processed']['pubs'] = pub_data  
 
   # load software
+  puts("Loading software")
   softwares = site.data['software']
   softwares_info = []
   softwares.each do |key, s|
@@ -88,6 +96,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
   site.data['processed']['software'] = softwares_info
 
   # load datasets
+  puts("Loading datasets")
   datasets = site.data['datasets']
   datasets_info = []
   datasets.each do |key, s|
