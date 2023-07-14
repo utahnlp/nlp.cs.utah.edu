@@ -26,7 +26,7 @@
   thesis_url: http://www.cs.utah.edu/~riloff/pdfs/Official-Igo-MSThesis.pdf
   first_position:
   current_position:
-  graduated_year:
+  graduated_year: 2007
   
 - key: lorenzen
   first_name: Jeffrey
@@ -41,7 +41,7 @@
   thesis_url: http://www.cs.utah.edu/~riloff/pdfs/Lorenzen-MS-Thesis.pdf
   first_position:
   current_position:
-  graduated_year:
+  graduated_year: 1999
   
 - key: huang
   first_name: Ruihong
@@ -86,7 +86,7 @@
   thesis_url: http://www.cs.utah.edu/~riloff/pdfs/Price-MS-Thesis.pdf
   first_position: 
   current_position: 
-  graduated_year:
+  graduated_year: 2007
   
 
 - key: qadir
@@ -117,7 +117,7 @@
   thesis: Exploiting Strong Syntactic Heuristics and Co-Training to Learn Semantic Lexicons
   first_position: 
   current_position: 
-  graduated_year:
+  graduated_year: 2007
   
 - key: thelen
   first_name: Michael
@@ -132,7 +132,7 @@
   thesis_url: http://www.cs.utah.edu/~riloff/pdfs/Thelen-MS-Thesis.pdf
   first_position: 
   current_position: 
-  graduated_year:
+  graduated_year: 2001
   
 - key: harvey
   first_name: Brandon
@@ -160,7 +160,7 @@
   thesis:
   first_position:
   current_position: Associate Professor, School of Mathematical Sciences, Monash University
-  graduated_year:
+  graduated_year: 1998
   
 - key: wagstaff
   first_name: Kiri
