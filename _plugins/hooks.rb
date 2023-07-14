@@ -72,15 +72,6 @@ Jekyll::Hooks.register :site, :post_read do |site|
   pub_data["by_year"] = grouped_papers
   pub_data["years"] = grouped_papers.keys.sort_by { |year| -year.to_i }
   
-  # create a combined bib file in the publications direcotry
-
-  File.open(site.source + "/assets/utahnlp.bib", "w") { |b|
-    puts("Creating utahnlp.bib file at /assets/")
-    for paper in papers do
-      b.write paper.bib_entry (false)
-      b.write "\n"
-    end
-  }
 
   site.data['processed']['pubs'] = pub_data  
 
@@ -106,4 +97,19 @@ Jekyll::Hooks.register :site, :post_read do |site|
 
   site.data['processed']['datasets'] = datasets_info
 
+end
+
+Jekyll::Hooks.register :site, :post_write do |site, payload|
+  # create a combined bib file in the publications direcotry
+
+  destination = File.join(site.dest, "assets", "utahnlp.bib")
+  papers = site.data["processed"]["pubs"]["all"]
+
+  File.open(destination, "w") { |b|
+    puts("Creating utahnlp.bib file at #{destination}")
+    for paper in papers do
+      b.write paper.bib_entry (false)
+      b.write "\n"
+    end
+  }
 end
