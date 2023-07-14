@@ -32,7 +32,7 @@ class Person
   def status
     if key == 'alumni'
       "Alumnus"
-    elsif degree == 'PhD' or degree == "MS"
+    elsif degree == 'Ph.D.' or degree == "PhD" or degree == "MS"
       "Graduate Student"
     elsif degree == "BS"
       "Undergraduate Researcher"

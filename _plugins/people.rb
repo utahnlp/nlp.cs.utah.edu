@@ -119,7 +119,7 @@ module Jekyll
     if sorted.length > 0
       if @key == 'faculty'
         output = ["<h2>Faculty</h2>"]
-      elsif @key == "grads" and @degree == "PhD"
+      elsif @key == "grads" and @degree == "Ph.D."
         output = ["<h2>Current doctoral students</h2>"]
       elsif @key == "grads" and @degree == "MS"
         output = ["<h2>Current masters students</h2>"]        
@@ -128,7 +128,7 @@ module Jekyll
       elsif @key == "alumni"
         output = ["<h2>Alumni</h2>"]
       else
-        raise "Invalid group: #{@key}"
+        raise "Invalid group: #{@key} and degree #{@degree}"
       end
       if @key == 'alumni'
         output << render_alumni(sorted, context['site'])
