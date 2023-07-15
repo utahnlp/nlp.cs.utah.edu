@@ -96,3 +96,13 @@
   photo: /img/profile/unknown.png
   degree: PhD
   advisor: svivek
+
+
+- key: mugdha
+  first_name: Gurunath
+  last_name: Parasaram
+  website: https://gurunathparasaram.github.io/
+  email: 
+  photo: /img/profile/guru.jpeg
+  degree: MS
+  advisor: svivek
