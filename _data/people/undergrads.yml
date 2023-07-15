@@ -16,3 +16,13 @@
   photo: /img/profile/dana.jpg
   degree: 
   advisor: ana
+
+- key: jordan
+  first_name: Jordan
+  last_name: Tan
+  website: https://jortan.dev/
+  email:
+  photo: /img/profile/jordan.jpg
+  research_interests:
+  degree:
+  advisor: svivek

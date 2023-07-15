@@ -251,7 +251,7 @@
   last_name: Ding
   website: https://haibonlp.github.io/
   email: hbding@cs.utah.edu
-  photo: /img/profile/hbding.png
+  photo: /img/profile/hbding.jpg
   research_interests: Sentiment analysis, information extraction, semi-supervised learning
   thesis: Affective Polarity Recognition and Human Needs Categorization for Affective Events
   thesis_url: /publications/theses/HaiboDing-dissertation.pdf
@@ -343,7 +343,7 @@
   last_name: Cao
   website: "https://www.cs.utah.edu/~jcao"
   email: jcao@cs.utah.edu
-  photo: /img/profile/jcao.png
+  photo: /img/profile/jcao.jpg
   research_interests: Semantic parsing, structure prediction
   thesis: Inductive Biases for Deep Linguistic Structured Prediction via Independent Factorization
   degree: Ph.D.
