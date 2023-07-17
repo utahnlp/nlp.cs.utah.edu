@@ -45,7 +45,7 @@ module Jekyll
     def render_alumni(alumni, site)
       grouped = alumni.group_by {|p| p.degree}
 
-      degrees = ["Ph.D.", "MS", "BS", "BA"]
+      degrees = ["Ph.D.", "MS", "BS"]
 
       output = []
       degrees.each do |degree|
