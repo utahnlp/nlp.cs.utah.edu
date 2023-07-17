@@ -39,6 +39,16 @@ class Person
     end 
   end 
 
+def degree_type
+  if degree == "Ph.D." or degree == "PhD"
+    "PhD"
+  elif degree == "MS"
+    "Masters"
+  elif degree == "BS" or degree == "BA"
+    "Undergraduate"
+  end
+end
+
   def wrap_with_weblink(content, site)
     # Do we really want to link to alumni whose websites we don't know?
     if @group == 'alumni' and website == ''
