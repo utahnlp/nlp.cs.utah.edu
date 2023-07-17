@@ -43,12 +43,12 @@ module Jekyll
     # Alumni are rendered as a list, with pointers to where they went
     # after graduation and where they are now
     def render_alumni(alumni, site)
-      grouped = alumni.group_by {|p| p.degree}
+      grouped = alumni.group_by {|p| p.degree_type}
 
-      degrees = ["Ph.D.", "MS", "BS", "BA"]
+      degree_types = ["Doctoral", "Masters", "Undergraduate"]
 
       output = []
-      degrees.each do |degree|
+      degree_types.each do |degree|
 
         people = grouped[degree]
 
@@ -61,11 +61,11 @@ module Jekyll
           end
         }
 
-        output << (if degree == 'Ph.D.'
+        output << (if degree == "Doctoral"
                    '<h4>Doctoral Students</h4>'
-                  elsif  degree == 'MS'
+                  elsif  degree == 'Masters'
                     '<h4>Masters Researchers</h4>'
-                  elsif (degree == 'BS' or degree = "BA")
+                  elsif degree == "Undergraduate"
                     '<h4>Undergrauate Researchers</h4>'
                    end)       
 
