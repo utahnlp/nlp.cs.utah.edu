@@ -106,3 +106,13 @@
   photo: /img/profile/michael.JPG
   degree: PhD
   advisor: ana
+
+- key: jacob
+  first_name: Jacob
+  last_name: Johnson
+  website: https://nnnnnnnn.info/
+  email: jacob.k.johnson@utah.edu
+  photo: /img/profile/jacob.jpeg
+  research_interests:
+  degree: PhD
+  advisor: ana

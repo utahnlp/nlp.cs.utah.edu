@@ -409,3 +409,26 @@
   graduated_year: 2023
 
 
+- key: jacob_ug
+  first_name: Jacob
+  last_name: Johnson
+  website: https://nnnnnnnn.info/
+  email: jacob.k.johnson@utah.edu
+  photo: /img/profile/jacob.jpeg
+  research_interests:
+  degree: BA
+  advisor: ana
+  graduate_year: 2023
+  first_position: PhD student, UtahNLP
+
+- key: maitrey_ms
+  first_name: Maitrey
+  last_name: Mehta
+  website: https://sites.google.com/view/maitreymehta/home
+  email: maitrey@cs.utah.edu
+  photo: /img/profile/maitrey.jpeg
+  research_interests:
+  degree: MS
+  advisor: svivek
+  graduate_year: 2020
+  first_position: PhD student, UtahNLP
