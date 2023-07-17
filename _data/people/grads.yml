@@ -79,15 +79,6 @@
   advisor: ana
 
 
-- key: mugdha
-  first_name: Mugdha 
-  last_name: Abhyankar
-  website: https://mugdhaab.github.io/
-  email: mugdha.abhyankar@utah.edu
-  photo: /img/profile/mugdha.jpeg
-  degree: MS
-  advisor: ana
-
 - key: atreya
   first_name: Atreya 
   last_name: Ghosal
@@ -106,3 +97,12 @@
   photo: /img/profile/guru.jpg
   degree: MS
   advisor: svivek
+
+- key: michael
+  first_name: Michael
+  last_name: Clemens
+  website: 
+  email: michael.clemens@utah.edu
+  photo: 
+  degree: MS
+  advisor: ana
