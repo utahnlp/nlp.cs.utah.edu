@@ -41,7 +41,7 @@ class Person
 
 def degree_type
   if degree == "Ph.D." or degree == "PhD"
-    "PhD"
+    "Doctoral"
   elif degree == "MS"
     "Masters"
   elif degree == "BS" or degree == "BA"
