@@ -65,7 +65,7 @@ module Jekyll
                    '<h4>Doctoral Students</h4>'
                   elsif  degree == 'MS'
                     '<h4>Masters Researchers</h4>'
-                  elsif degree == 'BS' || degree == 'BA'
+                  elsif degree == 'BS'
                     '<h4>Undergrauate Researchers</h4>'
                    end)       
 
