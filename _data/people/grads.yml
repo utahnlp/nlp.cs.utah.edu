@@ -101,8 +101,8 @@
 - key: michael
   first_name: Michael
   last_name: Clemens
-  website: 
+  website: http://mclem.in/ 
   email: michael.clemens@utah.edu
-  photo: 
-  degree: MS
+  photo: /img/profile/michael.JPG
+  degree: PhD
   advisor: ana
