@@ -64,7 +64,7 @@
   website: https://sites.google.com/view/maitreymehta/home
   email: maitrey@cs.utah.edu
   photo: /img/profile/maitrey.jpeg
-  research_interests:
+  research_interests: #Low-resource NLP, Multilinguality, Structured Prediction
   degree: PhD
   advisor: svivek
 
