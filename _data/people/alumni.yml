@@ -24,8 +24,8 @@
   advisor:
   thesis:
   thesis_url:
-  first_position:
-  current_position:
+  first_position: 
+  current_position: Computer Science Department Head at University of Arizona
   graduated_year: 
 
 - key: bean
@@ -297,9 +297,7 @@
   website: https://scholar.google.com/citations?user=OfQtsUUAAAAJ&hl=en
   email: youngjun@cs.utah.edu
   photo:
-  research_interests: Clinic NLP, Information Extraction
-  thesis: Improving Information Extraction from Clinical Notes with Multiple Domain Models and Clustering-based Instance Selection
-  thesis_url: /publications/theses/YoungjunKim-dissertation.pdf
+  research_interests: Clinic NLP, Information ExtDoctoralssertation.pdf
   degree: Ph.D.
   advisor: riloff
   first_position: Medical University of South Carolina

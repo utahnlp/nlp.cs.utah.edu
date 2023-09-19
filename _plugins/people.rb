@@ -45,7 +45,7 @@ module Jekyll
     def render_alumni(alumni, site)
       grouped = alumni.group_by {|p| p.degree_type}
 
-      degree_types = ["Doctoral", "Masters", "Undergraduate"]
+      degree_types = ["Faculty", "Doctoral", "Masters", "Undergraduate"]
 
       output = []
       degree_types.each do |degree|
@@ -61,12 +61,14 @@ module Jekyll
           end
         }
 
-        output << (if degree == "Doctoral"
-                   '<h4>Doctoral Students</h4>'
+        output << (if degree == "Faculty"
+                   '<h4>Faculty</h4>'
+                  elsif  degree == 'Doctoral'
+                    '<h4>Doctoral Students</h4>'
                   elsif  degree == 'Masters'
                     '<h4>Masters Researchers</h4>'
                   elsif degree == "Undergraduate"
-                    '<h4>Undergrauate Researchers</h4>'
+                    '<h4>Undergraduate Researchers</h4>'
                    end)       
 
         output << '<ul>'

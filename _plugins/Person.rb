@@ -40,7 +40,9 @@ class Person
   end 
 
 def degree_type
-  if degree == "Ph.D." or degree == "PhD"
+  if degree == "Faculty"
+    "Faculty"
+  elsif degree == "Ph.D." or degree == "PhD"
     "Doctoral"
   elsif degree == "MS"
     "Masters"
