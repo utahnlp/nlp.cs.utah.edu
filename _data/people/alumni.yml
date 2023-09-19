@@ -1,3 +1,33 @@
+- key: dana
+  first_name: Dana EeJae
+  last_name: Ahn
+  website:
+  email: u1359144@utah.edu
+  photo: /img/profile/dana.jpg
+  research_interests:
+  degree: BS
+  advisor: ana
+  thesis:
+  thesis_url:
+  first_position:
+  current_position:
+  graduated_year:
+
+- key: riloff
+  first_name: Ellen
+  last_name: Riloff
+  website: https://www.cs.utah.edu/~riloff/
+  email: riloff@cs.utah.edu
+  photo: /img/profile/riloff.jpg
+  research_interests:
+  degree: Faculty
+  advisor:
+  thesis:
+  thesis_url:
+  first_position:
+  current_position:
+  graduated_year: 
+
 - key: bean
   first_name: David
   last_name: Bean
@@ -326,7 +356,7 @@
 
 - key: tli
   first_name: Tao
-  last_name: Li
+  last_name: Lijacob_
   website: http://www.cs.utah.edu/~tli/
   email: tli@cs.utah.edu
   photo: /img/profile/tli.jpg

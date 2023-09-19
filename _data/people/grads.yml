@@ -1,3 +1,32 @@
+- key: joe
+  first_name: Joe
+  last_name: Davison
+  website: https://joeddav.github.io/
+  email: joeddav@cs.utah.edu
+  photo: /img/profile/joe.jpg
+  research_interests: #
+  degree: PhD
+  advisor: svivek
+
+- key: oliver
+  first_name: Oliver
+  last_name: Bentham
+  website: 
+  email: 
+  photo: 
+  research_interests: #
+  degree: PhD
+  advisor: svivek
+
+- key: zhichao
+  first_name: Zhichao
+  last_name: Xu
+  website: https://zhichaoxu-utah.github.io/
+  email: zhichao.xu@utah.edu
+  photo: 
+  research_interests: #
+  degree: PhD
+  advisor: svivek
 
 - key: yuanzhuang
   first_name: Yuan
@@ -110,9 +139,9 @@
 - key: jacob
   first_name: Jacob
   last_name: Johnson
-  website: https://nnnnnnnn.info/
+  website: https://nnnNNnnn.info/
   email: jacob.k.johnson@utah.edu
   photo: /img/profile/jacob.jpeg
-  research_interests:
+  research_interests: #Application of formal/experimental Linguistics to NLP, Speech
   degree: PhD
   advisor: ana
