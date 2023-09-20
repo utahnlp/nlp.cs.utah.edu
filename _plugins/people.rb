@@ -128,7 +128,7 @@ module Jekyll
       elsif @key == "undergrads"
         output = ["<h2>Current undergraduate researchers</h2>"]
       elsif @key == "alumni"
-        output = ["<h2>Alumni</h2>"]
+        output = ["<h2>Former Members</h2>"]
       else
         raise "Invalid group: #{@key} and degree #{@degree}"
       end
