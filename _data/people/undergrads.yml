@@ -1,20 +1,49 @@
-- key: byron
-  first_name: Byron
-  last_name: Liu
+- key: casey
+  first_name: Casey
+  last_name: Miller
+  website: 
+  email: u1337847@utah.edu 
+  photo: /img/profile/casey.jpg
+  research_interests:
+  degree: BS
+  advisor: ana
+
+- key: kishan
+  first_name: Kishan
+  last_name: Thambu
+  website: 
+  email: u1050585@utah.edu
+  photo: /img/profile/kishan.jpeg
+  research_interests:
+  degree: BS
+  advisor: ana
+
+- key: braden
+  first_name: Braden
+  last_name: Fiedel
+  website: 
+  email: brfiedel@gmail.com
+  photo: /img/profile/braden.png
+  research_interests:
+  degree: BS
+  advisor: ana
+
+- key: catherine
+  first_name: Catherine
+  last_name: Bao
   website: 
   email:
   photo: 
   research_interests:
-  degree:
-  advisor: 
+  degree: BS
+  advisor: svivek
 
-
-- key: jordan
-  first_name: Jordan
-  last_name: Tan
-  website: https://jortan.dev/
-  email:
-  photo: /img/profile/jordan.jpg
+- key: tanya
+  first_name: Tanya
+  last_name: Yu
+  website: 
+  email: u0901398@utah.edu
+  photo: /img/profile/tanya.jpg
   research_interests:
-  degree:
+  degree: BS
   advisor: svivek

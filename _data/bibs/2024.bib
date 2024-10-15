@@ -1,0 +1,62 @@
+@inproceedings{jobanputra-etal-2024-universal,
+    title = "A {U}niversal {D}ependencies Treebank for {G}ujarati",
+    author = {Jobanputra, Mayank  and
+      Mehta, Maitrey  and
+      {\c{C}}{\"o}ltekin, {\c{C}}a{\u{g}}r{\i}},
+    editor = {Bhatia, Archna  and
+      Bouma, Gosse  and
+      Do{\u{g}}ru{\"o}z, A. Seza  and
+      Evang, Kilian  and
+      Garcia, Marcos  and
+      Giouli, Voula  and
+      Han, Lifeng  and
+      Nivre, Joakim  and
+      Rademaker, Alexandre},
+    booktitle = "Proceedings of the Joint Workshop on Multiword Expressions and Universal Dependencies (MWE-UD) @ LREC-COLING 2024",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.mwe-1.9",
+    pages = "56--62",
+    abstract = "The Universal Dependencies (UD) project has presented itself as a valuable platform to develop various resources for the languages of the world. We present and release a sample treebank for the Indo-Aryan language of Gujarati {--} a widely spoken language with little linguistic resources. This treebank is the first labeled dataset for dependency parsing in the language and the script (the Gujarati script). The treebank contains 187 part-of-speech and dependency annotated sentences from diverse genres. We discuss various idiosyncratic examples, annotation choices and present an elaborate corpus along with agreement statistics. We see this work as a valuable resource and a stepping stone for research in Gujarati Computational Linguistics.",
+}
+
+@inproceedings{mehta-etal-2024-promptly,
+    title = "Promptly Predicting Structures: The Return of Inference",
+    author = "Mehta, Maitrey  and
+      Pyatkin, Valentina  and
+      Srikumar, Vivek",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.7",
+    doi = "10.18653/v1/2024.naacl-long.7",
+    pages = "112--130",
+    abstract = "Prompt-based methods have been used extensively across NLP to build zero- and few-shot label predictors. Many NLP tasks are naturally structured: that is, their outputs consist of multiple labels which constrain each other. Annotating data for such tasks can be cumbersome. Can the promise of the prompt-based paradigm be extended to such structured outputs? In this paper, we present a framework for constructing zero- and few-shot linguistic structure predictors. Our key insight is that we can use structural constraints{---}and combinatorial inference derived from them{---}to filter out inconsistent structures predicted by large language models. We instantiated this framework on two structured prediction tasks, and five datasets. Across all cases, our results show that enforcing consistency not only constructs structurally valid outputs, but also improves performance over the unconstrained variants.",
+}
+
+@inproceedings{xu-etal-2024-context,
+    title = "In-Context Example Ordering Guided by Label Distributions",
+    author = "Xu, Zhichao  and
+      Cohen, Daniel  and
+      Wang, Bei  and
+      Srikumar, Vivek",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2024",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-naacl.167",
+    doi = "10.18653/v1/2024.findings-naacl.167",
+    pages = "2623--2640",
+    abstract = "By allowing models to predict without task-specific training, in-context learning (ICL) with pretrained LLMs has enormous potential in NLP. However, a number of problems persist in ICL. In particular, its performance is sensitive to the choice and order of in-context examples. Given the same set of in-context examples with different orderings, model performance may vary from near random to near state-of-the-art. In this work, we formulate in-context example ordering as an optimization problem. We examine three problem settings that differ in the assumptions they make about what is known about the task. Inspired by the idea of learning from label proportions, we propose two principles for in-context example ordering guided by model{'}s probability predictions. We apply our proposed principles to thirteen text classification datasets and nine different autoregressive LLMs with 700M to 13B parameters. We demonstrate that our approach outperforms the baselines by improving the classification accuracy, reducing model miscalibration, and also by selecting better in-context examples.",
+}

@@ -28,7 +28,7 @@ module Jekyll
         end
 
         output << %(
-          <div class="col-lg-2 col-md-3 col-xs-4 thumb">
+          <div class="col-lg-2 col-md-3 col-xs-4">
         #{person.wrap_with_weblink(person.photo_html('img-responsive img-rounded', site), site)}
             <center>#{person.wrap_with_weblink(person.full_name, site)}</center>
             </div>

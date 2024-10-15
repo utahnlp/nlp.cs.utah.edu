@@ -1,13 +1,3 @@
-- key: joe
-  first_name: Joe
-  last_name: Davison
-  website: https://joeddav.github.io/
-  email: joeddav@cs.utah.edu
-  photo: /img/profile/joe.jpg
-  research_interests: #
-  degree: PhD
-  advisor: svivek
-
 - key: oliver
   first_name: Oliver
   last_name: Bentham
@@ -27,16 +17,6 @@
   research_interests: #
   degree: PhD
   advisor: svivek
-
-- key: yuanzhuang
-  first_name: Yuan
-  last_name: Zhuang
-  website: http://www.cs.utah.edu/~yyzhuang/
-  email: yyzhuang@cs.utah.edu
-  photo: /img/profile/yuanzhuang.jpg
-  research_interests: #Pragmatic analysis, discourse analysis and commonsense knowledge inference
-  degree: PhD
-  advisor: riloff
 
 - key: mmg
   first_name: Mattia
@@ -78,16 +58,6 @@
   degree: PhD
   advisor: riloff
 
-- key: zhenduo
-  first_name: Zhenduo
-  last_name: Wang
-  website: https://zhenduow.github.io/
-  email: zhenduow@cs.utah.edu
-  photo: /img/profile/zhenduo.jpg
-  research_interests:
-  degree: PhD
-  advisor: svivek
-
 - key: fateme
   first_name: Fateme
   last_name: Hashemi Chaleshtori
@@ -97,51 +67,67 @@
   degree: PhD
   advisor: ana
 
-
-- key: rishanth
-  first_name: Rishanth 
-  last_name: Rajendhran
-  website: https://rishanthrajendhran.github.io/
-  email: u1419542@utah.edu
-  photo: /img/profile/rishanth.jpeg
-  degree: MS
-  advisor: ana
-
-
 - key: atreya
   first_name: Atreya 
   last_name: Ghosal
   website: #
   email: u1419632@utah.edu
-  photo: /img/profile/unknown.png
+  photo: /img/profile/atreya.png
   degree: PhD
   advisor: svivek
 
+- key: agill
+  first_name: Alex
+  last_name: Gill
+  website: 
+  email: alexgill321@gmail.com
+  photo: /img/profile/alexgill.jpeg
+  research_interests: 
+  degree: MS
+  advisor: ana
 
-- key: guru
-  first_name: Gurunath
-  last_name: Parasaram
-  website: https://gurunathparasaram.github.io/
+- key: purbid
+  first_name: Purbid
+  last_name: Bambroo
+  website: https://www.datascienceportfol.io/purbid
+  email: bambroopurbid@gmail.com
+  photo: /img/profile/purbid.png
+  research_interests: 
+  degree: MS
+  advisor: ana
+
+- key: adwait
+  first_name: Adwait 
+  last_name: Shinganwade
+  website: https://www.linkedin.com/in/adwait-shinganwade
+  email: adwait.shinganwade@utah.edu
+  photo: /img/profile/adwait.jpg
+  degree: MS
+  advisor: ana
+
+- key: yash
+  first_name: Yash
+  last_name: Lele
+  website:
+  email: Yash.Lele@utah.edu
+  photo: /img/profile/yash.jpeg
+  degree: MS
+  advisor: ana
+
+- key: kushagra
+  first_name: Kushagra
+  last_name: Dixit
+  website:
   email: 
-  photo: /img/profile/guru.jpg
+  photo: /img/profile/unknown.png
   degree: MS
   advisor: svivek
 
-- key: michael
-  first_name: Michael
-  last_name: Clemens
-  website: http://mclem.in/ 
-  email: michael.clemens@utah.edu
-  photo: /img/profile/michael.JPG
-  degree: PhD
-  advisor: ana
-
-- key: jacob
-  first_name: Jacob
-  last_name: Johnson
-  website: https://nnnNNnnn.info/
-  email: jacob.k.johnson@utah.edu
-  photo: /img/profile/jacob.jpeg
-  research_interests: #Application of formal/experimental Linguistics to NLP, Speech
-  degree: PhD
-  advisor: ana
+- key: atharv
+  first_name: Atharv
+  last_name: Kulkarni
+  website:
+  email: Yash.Lele@utah.edu
+  photo: /img/profile/unknown.png
+  degree: MS
+  advisor: svivek

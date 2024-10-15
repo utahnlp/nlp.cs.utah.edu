@@ -419,7 +419,7 @@
   advisor: svivek
   thesis: Inference and Reasoning for Semi-structured Tables
   first_position: Postdoc at UPenn
-  current_position: Postdoc at UPenn
+  current_position: Assistant Professor at Arizona State University
   graduated_year: 2023
 
 - key: tianyu
@@ -448,6 +448,8 @@
   advisor: ana
   graduated_year: 2023
   first_position: PhD student, UtahNLP
+  current_position: MS student at Weber State University
+  # current_position: MS student, Weber State University
 
 - key: maitrey_ms
   first_name: Maitrey
@@ -460,3 +462,97 @@
   advisor: svivek
   graduated_year: 2020
   first_position: PhD student, UtahNLP
+
+- key: zhenduo
+  first_name: Zhenduo
+  last_name: Wang
+  website: https://zhenduow.github.io/
+  email: zhenduow@cs.utah.edu
+  photo: /img/profile/zhenduo.jpg
+  research_interests:
+  degree: PhD
+  advisor: svivek
+  graduated_year: 2024
+  first_position: Postdoc at Georgia Tech
+  thesis: Modeling Mixed-initiative Conversational Search
+
+- key: yuanzhuang
+  first_name: Yuan
+  last_name: Zhuang
+  website: http://www.cs.utah.edu/~yyzhuang/
+  email: yyzhuang@cs.utah.edu
+  photo: /img/profile/yuanzhuang.jpg
+  research_interests: #Pragmatic analysis, discourse analysis and commonsense knowledge inference
+  degree: PhD
+  advisor: riloff
+  graduated_year: 2024
+  first_position: Applied Scientist at Amazon
+  thesis: Recognizing Affective Events and Embodied Emotions in Natural Language
+
+# - key: joe
+#   first_name: Joe
+#   last_name: Davison
+#   website: https://joeddav.github.io/
+#   email: joeddav@cs.utah.edu
+#   photo: /img/profile/joe.jpg
+#   research_interests: #
+#   degree: PhD
+#   advisor: svivek
+#   first_position:
+
+- key: michael
+  first_name: Michael
+  last_name: Clemens
+  website: http://mclem.in/ 
+  email: michael.clemens@utah.edu
+  photo: /img/profile/michael.JPG
+  degree: MS
+  advisor: ana
+  graduated_year: 2024
+  first_position: PhD student, New Jersey Institute of Technology
+
+- key: jordan
+  first_name: Jordan
+  last_name: Tan
+  website: https://jortan.dev/
+  email:
+  photo: /img/profile/jordan.jpg
+  research_interests:
+  degree: BS
+  advisor: svivek
+  graduated_year: 2024
+  first_position: MS student at Kalhert School of Computing, University of Utah
+
+- key: byron
+  first_name: Byron
+  last_name: Liu
+  website: 
+  email:
+  photo: 
+  research_interests:
+  degree: BS
+  thesis: Dating Ancient Greek Documents with Vision Transformers
+  advisor: 
+  graduated_year: 2024
+
+- key: rishanth
+  first_name: Rishanth 
+  last_name: Rajendhran
+  website: https://rishanthrajendhran.github.io/
+  email: u1419542@utah.edu
+  photo: /img/profile/rishanth.jpeg
+  degree: MS
+  advisor: ana
+  graduated_year: 2024
+  first_position: PhD student at University of Maryland
+
+- key: guru
+  first_name: Gurunath
+  last_name: Parasaram
+  website: https://gurunathparasaram.github.io/
+  email: 
+  photo: /img/profile/guru.jpg
+  degree: MS
+  advisor: svivek
+  graduated_year: 2024
+  first_position:
