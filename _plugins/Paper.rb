@@ -156,7 +156,27 @@ class PaperHelper
     citation_processor.import [@entry.to_citeproc]
     bibliography = citation_processor.render :bibliography, id: key
 
-    b = bibliography[0].gsub(/[{}]/, "").gsub(/\\'c/, "ć")
+    unicode_map = {
+    # '\\"o' => 'ö',
+    "\\'c" => 'ć',
+    '\\"a' => 'ä',
+    '\\"u' => 'ü',
+    '\\"A' => 'Ä',
+    '\\"O' => 'Ö',
+    '\\"U' => 'Ü',
+    "\\'e" => 'é',
+    "\\c{C}" => 'Ç',
+    '\\"o' => 'ö',
+    "\\u{g}" => 'ğ',
+    "{\\i}" => 'ı',
+    }
+
+    # Loop through the unicode_map and apply each substitution
+    b = bibliography[0]
+    unicode_map.each do |latex, unicode|
+      b.gsub!(latex, unicode)
+    end
+    b = bibliography[0].gsub(/[{}]/, "")  # Remove curly braces first
     b
 
   end

@@ -108,7 +108,7 @@
 - key: yash
   first_name: Yash
   last_name: Lele
-  website:
+  website: https://www.linkedin.com/in/yashmlele
   email: Yash.Lele@utah.edu
   photo: /img/profile/yash.jpeg
   degree: MS
@@ -119,15 +119,6 @@
   last_name: Dixit
   website:
   email: 
-  photo: /img/profile/unknown.png
-  degree: MS
-  advisor: svivek
-
-- key: atharv
-  first_name: Atharv
-  last_name: Kulkarni
-  website:
-  email: Yash.Lele@utah.edu
   photo: /img/profile/unknown.png
   degree: MS
   advisor: svivek

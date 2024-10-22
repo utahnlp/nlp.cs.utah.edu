@@ -60,3 +60,49 @@
     pages = "2623--2640",
     abstract = "By allowing models to predict without task-specific training, in-context learning (ICL) with pretrained LLMs has enormous potential in NLP. However, a number of problems persist in ICL. In particular, its performance is sensitive to the choice and order of in-context examples. Given the same set of in-context examples with different orderings, model performance may vary from near random to near state-of-the-art. In this work, we formulate in-context example ordering as an optimization problem. We examine three problem settings that differ in the assumptions they make about what is known about the task. Inspired by the idea of learning from label proportions, we propose two principles for in-context example ordering guided by model{'}s probability predictions. We apply our proposed principles to thirteen text classification datasets and nine different autoregressive LLMs with 700M to 13B parameters. We demonstrate that our approach outperforms the baselines by improving the classification accuracy, reducing model miscalibration, and also by selecting better in-context examples.",
 }
+
+@article{
+    bentham2024chainofthought,
+    title={Chain-of-Thought Unfaithfulness as Disguised Accuracy},
+    author={Oliver Bentham and Nathan Stringham and Ana Marasovi{\'c}},
+    journal={Transactions on Machine Learning Research},
+    issn={2835-8856},
+    year={2024},
+    url={https://openreview.net/forum?id=ydcrP55u2e},
+    note={Reproducibility Certification}
+}
+
+@article{chaleshtori2024evaluating,
+  title={On Evaluating Explanation Utility for Human-AI Decision Making in NLP},
+  author={Chaleshtori, Fateme Hashemi and Ghosal, Atreya and Gill, Alexander and Bambroo, Purbid and Marasovi{\'c}, Ana},
+  journal={arXiv preprint arXiv:2407.03545},
+  year={2024}
+}
+
+@article{xu2024beyond,
+  title={Beyond Perplexity: Multi-dimensional Safety Evaluation of LLM Compression},
+  author={Xu, Zhichao and Gupta, Ashim and Li, Tao and Bentham, Oliver and Srikumar, Vivek},
+  journal={arXiv preprint arXiv:2407.04965},
+  year={2024}
+}
+
+@inproceedings{gupta-etal-2024-whispers,
+    title = "Whispers of Doubt Amidst Echoes of Triumph in {NLP} Robustness",
+    author = "Gupta, Ashim  and
+      Rajendhran, Rishanth  and
+      Stringham, Nathan  and
+      Srikumar, Vivek  and
+      Marasovic, Ana",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.310",
+    doi = "10.18653/v1/2024.naacl-long.310",
+    pages = "5533--5590",
+    abstract = "*Do larger and more performant models resolve NLP{'}s longstanding robustness issues?* We investigate this question using over 20 models of different sizes spanning different architectural choices and pretraining objectives. We conduct evaluations using (a) out-of-domain and challenge test sets, (b) behavioral testing with CheckLists, (c) contrast sets, and (d) adversarial inputs. Our analysis reveals that not all out-of-domain tests provide insight into robustness. Evaluating with CheckLists and contrast sets shows significant gaps in model performance; merely scaling models does not make them adequately robust. Finally, we point out that current approaches for adversarial evaluations of models are themselves problematic: they can be easily thwarted, and in their current forms, do not represent a sufficiently deep probe of model robustness. We conclude that not only is the question of robustness in NLP as yet unresolved, but even some of the approaches to measure robustness need to be reassessed.",
+}
