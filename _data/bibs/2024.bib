@@ -64,27 +64,58 @@
 @article{
     bentham2024chainofthought,
     title={Chain-of-Thought Unfaithfulness as Disguised Accuracy},
-    author={Oliver Bentham and Nathan Stringham and Ana Marasovi{\'c}},
+    author={Oliver Bentham and Nathan Stringham and Ana Marasovic},
     journal={Transactions on Machine Learning Research},
     issn={2835-8856},
+    month = jul,
     year={2024},
     url={https://openreview.net/forum?id=ydcrP55u2e},
     note={Reproducibility Certification}
 }
 
-@article{chaleshtori2024evaluating,
-  title={On Evaluating Explanation Utility for Human-AI Decision Making in NLP},
-  author={Chaleshtori, Fateme Hashemi and Ghosal, Atreya and Gill, Alexander and Bambroo, Purbid and Marasovi{\'c}, Ana},
-  journal={arXiv preprint arXiv:2407.03545},
-  year={2024}
+@inproceedings{hashemi-chaleshtori-etal-2024-evaluating,
+    title = "On Evaluating Explanation Utility for Human-{AI} Decision Making in {NLP}",
+    author = "Hashemi Chaleshtori, Fateme  and
+      Ghosal, Atreya  and
+      Gill, Alexander  and
+      Bambroo, Purbid  and
+      Marasovic, Ana",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.439/",
+    doi = "10.18653/v1/2024.findings-emnlp.439",
+    pages = "7456--7504",
+    abstract = "Is explainability a false promise? This debate has emerged from the insufficient evidence that explanations help people in situations they are introduced for. More human-centered, application-grounded evaluations of explanations are needed to settle this. Yet, with no established guidelines for such studies in NLP, researchers accustomed to standardized proxy evaluations must discover appropriate measurements, tasks, datasets, and sensible models for human-AI teams in their studies. To aid with this, we first review existing metrics suitable for application-grounded evaluation. We then establish criteria to select appropriate datasets, and using them, we find that only 4 out of over 50 datasets available for explainability research in NLP meet them. We then demonstrate the importance of reassessing the state of the art to form and study human-AI teams: teaming people with models for certain tasks might only now start to make sense, and for others, it remains unsound. Finally, we present the exemplar studies of human-AI decision-making for one of the identified tasks {---} verifying the correctness of a legal claim given a contract. Our results show that providing AI predictions, with or without explanations, does not cause decision makers to speed up their work without compromising performance. We argue for revisiting the setup of human-AI teams and improving automatic deferral of instances to AI, where explanations could play a useful role."
 }
 
-@article{xu2024beyond,
-  title={Beyond Perplexity: Multi-dimensional Safety Evaluation of LLM Compression},
-  author={Xu, Zhichao and Gupta, Ashim and Li, Tao and Bentham, Oliver and Srikumar, Vivek},
-  journal={arXiv preprint arXiv:2407.04965},
-  year={2024}
+
+@inproceedings{xu-etal-2024-beyond-perplexity,
+    title = "Beyond Perplexity: Multi-dimensional Safety Evaluation of {LLM} Compression",
+    author = "Xu, Zhichao  and
+      Gupta, Ashim  and
+      Li, Tao  and
+      Bentham, Oliver  and
+      Srikumar, Vivek",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.901/",
+    doi = "10.18653/v1/2024.findings-emnlp.901",
+    pages = "15359--15396",
+    abstract = "Increasingly, model compression techniques enable large language models (LLMs) to be deployed in real-world applications. As a result of this momentum towards local deployment, compressed LLMs will interact with a large population. Prior work on compression typically prioritize preserving perplexity, which is directly analogous to training loss. The impact of compression method on other critical aspects of model behavior{---}particularly safety{---}requires systematic assessment. To this end, we investigate the impact of model compression along four dimensions: (1) degeneration harm, i.e., bias and toxicity in generation; (2) representational harm, i.e., biases in discriminative tasks; (3) dialect bias; and (4) language modeling and downstream task performance. We examine a wide spectrum of LLM compression techniques, including unstructured pruning, semi-structured pruning, and quantization. Our analysis reveals that compression can lead to unexpected consequences. Although compression may unintentionally alleviate LLMs' degeneration harm, it can still exacerbate representational harm. Furthermore, increasing compression produces a divergent impact on different protected groups. Finally, different compression methods have drastically different safety impacts: for example, quantization mostly preserves bias while pruning degrades quickly. Our findings underscore the importance of integrating safety assessments into the development of compressed LLMs to ensure their reliability across real-world applications."
 }
+
 
 @inproceedings{gupta-etal-2024-whispers,
     title = "Whispers of Doubt Amidst Echoes of Triumph in {NLP} Robustness",
