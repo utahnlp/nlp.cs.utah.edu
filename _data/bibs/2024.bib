@@ -137,3 +137,167 @@
     pages = "5533--5590",
     abstract = "*Do larger and more performant models resolve NLP{'}s longstanding robustness issues?* We investigate this question using over 20 models of different sizes spanning different architectural choices and pretraining objectives. We conduct evaluations using (a) out-of-domain and challenge test sets, (b) behavioral testing with CheckLists, (c) contrast sets, and (d) adversarial inputs. Our analysis reveals that not all out-of-domain tests provide insight into robustness. Evaluating with CheckLists and contrast sets shows significant gaps in model performance; merely scaling models does not make them adequately robust. Finally, we point out that current approaches for adversarial evaluations of models are themselves problematic: they can be easily thwarted, and in their current forms, do not represent a sufficiently deep probe of model robustness. We conclude that not only is the question of robustness in NLP as yet unresolved, but even some of the approaches to measure robustness need to be reassessed.",
 }
+
+
+@article{mohanty2024crystext,
+  title={CrysText: A Generative AI Approach for Text-Conditioned Crystal Structure Generation using LLM},
+  author={Mohanty, Trupti and Mehta, Maitrey and Sayeed, Hasan M and Srikumar, Vivek and Sparks, Taylor D},
+  year={2024},
+  month=dec
+}
+
+@inproceedings{xu-jiang-2024-multi,
+    title = "Multi-dimensional Evaluation of Empathetic Dialogue Responses",
+    author = "Xu, Zhichao  and
+      Jiang, Jiepu",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.113/",
+    doi = "10.18653/v1/2024.findings-emnlp.113",
+    pages = "2066--2087",
+    abstract = "Empathy is critical for effective and satisfactory conversational communication. Prior efforts to measure conversational empathy mostly focus on expressed communicative intents{---}that is, the way empathy is expressed. Yet, these works ignore the fact that conversation is also a collaboration involving both speakers and listeners. In contrast, we propose a multi-dimensional empathy evaluation framework to measure both expressed intents from the speaker`s perspective and perceived empathy from the listener`s perspective. We apply our analytical framework to examine internal customer-service dialogues. We find the two dimensions (expressed intent types and perceived empathy) are interconnected, while perceived empathy has high correlations with dialogue satisfaction levels.To reduce the annotation cost, we explore different options to automatically measure conversational empathy: prompting LLMs and training language model-based classifiers. Our experiments show that prompting methods with even popular models like GPT-4 and Flan family models perform relatively poorly on both public and our internal datasets. In contrast, instruction-finetuned classifiers based on FlanT5 family models outperform prior works and competitive baselines. We conduct a detailed ablation study to give more insights into instruction finetuning method`s strong performance."
+}
+
+
+@article{xu2024rankmamba,
+  title={RankMamba, Benchmarking Mamba's Document Ranking Performance in the Era of Transformers},
+  author={Xu, Zhichao},
+  journal={arXiv preprint arXiv:2403.18276},
+  year={2024},
+  month=mar
+}
+
+@inproceedings{wang2024depth,
+  title={An in-depth investigation of user response simulation for conversational search},
+  author={Wang, Zhenduo and Xu, Zhichao and Srikumar, Vivek and Ai, Qingyao},
+  booktitle={Proceedings of the ACM on Web Conference 2024},
+  pages={1407--1418},
+  year={2024},
+  month=apr
+}
+
+
+@inproceedings{10.1145/3664190.3672508,
+author = {Xu, Zhichao and Lamba, Hemank and Ai, Qingyao and Tetreault, Joel and Jaimes, Alex},
+title = {CFE2: Counterfactual Editing for Search Result Explanation},
+year = {2024},
+isbn = {9798400706813},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3664190.3672508},
+doi = {10.1145/3664190.3672508},
+abstract = {Search Result Explanation (SeRE) aims to improve search sessions' effectiveness and efficiency by helping users interpret documents' relevance. Existing works mostly focus on factual explanation, i.e. to find/generate supporting evidence about documents' relevance to search queries. However, research in cognitive sciences has shown that human explanations are contrastive i.e. people explain an observed event using some counterfactual events; such explanations reduce cognitive load and provide actionable insights. Though already proven effective in machine learning and NLP communities, there lacks a strict formulation on how counterfactual explanations should be defined and structured, in the context of web search. In this paper, we first discuss the possible formulation of counterfactual explanations in the IR context. Next, we formulate a suite of desiderata for counterfactual explanation in SeRE task and corresponding automatic metrics. With this desiderata, we propose a method named CounterFactual Editing for Search Research Explanation (CFE2). CFE2 provides pairwise counterfactual explanations for document pairs within a search engine result page. Our experiments on five public search datasets demonstrate that CFE2can significantly outperform baselines in both automatic metrics and human evaluations.},
+booktitle = {Proceedings of the 2024 ACM SIGIR International Conference on Theory of Information Retrieval},
+pages = {145–155},
+numpages = {11},
+keywords = {counterfactual explanation, information retrieval},
+location = {Washington DC, USA},
+series = {ICTIR '24},
+month=aug
+}
+
+
+@inproceedings{10.1145/3627673.3679804,
+author = {Zhong, Da and Wang, Xiuling and Xu, Zhichao and Xu, Jun and Wang, Wendy Hui},
+title = {Interaction-level Membership Inference Attack against Recommender Systems with Long-tailed Distribution},
+year = {2024},
+isbn = {9798400704369},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3627673.3679804},
+doi = {10.1145/3627673.3679804},
+abstract = {Recommender systems (RSs) are susceptible to Interaction-level Membership Inference Attacks (IMIAs), which aim to determine whether specific user-item interactions are present in the training data of the target RS. However, existing IMIAs struggle with inferring the membership of tail interactions, i.e., the interactions involving tail items, due to the limited information available about these items. This paper introduces MINER, a new IMIA designed to enhance attack performance against RSs with long-tailed item distribution. MINER addresses the information scarcity of tail items at both the feature and sample levels. At the feature level, MINER leverages the Knowledge Graphs (KGs) to obtain the auxiliary knowledge of tail items. At the sample level, MINER designs a Bilateral-Branch Network (BBN) as the attack model. The BBN trains two branches independently, with one branch trained on interaction samples with the original long-tailed item distribution and the other on interaction samples with a more balanced item distribution. The outputs of the two branches are aggregated using a cumulative learning component. Our experimental results demonstrate that MINER significantly enhances the attack accuracy of IMIA, especially for tail interactions. Beyond attack design, we design a defense mechanism named RGL to defend against MINER. Empirical evaluations demonstrate that RGL effectively mitigates the privacy risks posed by MINER while preserving recommendation accuracy. Our code is available at https://github.com/dzhong2/MINER.},
+booktitle = {Proceedings of the 33rd ACM International Conference on Information and Knowledge Management},
+pages = {3433–3442},
+numpages = {10},
+keywords = {long-tailed distribution, membership inference attack, privacy of machine learning, recommender system},
+location = {Boise, ID, USA},
+series = {CIKM '24},
+month=oct
+}
+
+
+@article{xu2024state,
+  title={State Space Models are Strong Text Rerankers},
+  author={Xu, Zhichao and Yan, Jinghua and Gupta, Ashim and Srikumar, Vivek},
+  journal={arXiv preprint arXiv:2412.14354},
+  year={2024},
+  month=dec
+}
+
+@article{chang2024main,
+  title={MAIN-RAG: Multi-Agent Filtering Retrieval-Augmented Generation},
+  author={Chang, Chia-Yuan and Jiang, Zhimeng and Rakesh, Vineeth and Pan, Menghai and Yeh, Chin-Chia Michael and Wang, Guanchu and Hu, Mingzhi and Xu, Zhichao and Zheng, Yan and Das, Mahashweta and others},
+  journal={arXiv preprint arXiv:2501.00332},
+  year={2024},
+  month=dec
+}
+
+@inproceedings{gupta-etal-2024-enhancing,
+    title = "Enhancing Question Answering on Charts Through Effective Pre-training Tasks",
+    author = "Gupta, Ashim  and
+      Gupta, Vivek  and
+      Zhang, Shuo  and
+      He, Yujie  and
+      Zhang, Ning  and
+      Shah, Shalin",
+    editor = "Belinkov, Yonatan  and
+      Kim, Najoung  and
+      Jumelet, Jaap  and
+      Mohebbi, Hosein  and
+      Mueller, Aaron  and
+      Chen, Hanjie",
+    booktitle = "Proceedings of the 7th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, US",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.blackboxnlp-1.11/",
+    doi = "10.18653/v1/2024.blackboxnlp-1.11",
+    pages = "185--192",
+    abstract = "To completely understand a document, the use of textual information is not enough. Understanding visual cues, such as layouts and charts, is also required. While the current state-of-the-art approaches for document understanding (both OCR-based and OCR-free) work well, a thorough analysis of their capabilities and limitations has not yet been performed. Therefore, in this work, we addresses the limitation of current VisualQA models when applied to charts and plots. To investigate shortcomings of the state-of-the-art models, we conduct a comprehensive behavioral analysis, using ChartQA as a case study. Our findings indicate that existing models particularly underperform in answering questions related to the chart`s structural and visual context, as well as numerical information. To address these issues, we propose three simple pre-training tasks that enforce the existing model in terms of both structural-visual knowledge, as well as its understanding of numerical questions. We evaluate our pre-trained model (called MatCha-v2) on three chart datasets - both extractive and abstractive question datasets - and observe that it achieves an average improvement of 1.7 {\%} over the baseline model."
+}
+
+
+@article{gupta2024empirical,
+  title={An Empirical Investigation of Matrix Factorization Methods for Pre-trained Transformers},
+  author={Gupta, Ashim and Saravani, Sina Mahdipour and Sadayappan, P and Srikumar, Vivek},
+  journal={arXiv preprint arXiv:2406.11307},
+  year={2024},
+  month=jun
+}
+
+
+@inproceedings{10.1145/3641525.3663625,
+author = {Zheng, Guineng and Ricci, Robert and Srikumar, Vivek},
+title = {LogFlux: A Software Suite for Replicating Results in Automated Log Parsing},
+year = {2024},
+month = jul,
+isbn = {9798400705304},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3641525.3663625},
+doi = {10.1145/3641525.3663625},
+abstract = {Logging mechanisms are a cornerstone in the development and maintenance of computer systems, gaining even greater prominence in the era of large-scale cloud-based applications. Their critical role in real-time system monitoring and behavior analysis cannot be overstated, making them invaluable tools for system administrators and developers alike. Automated parsing of log messages—turning the text of log messages into parsed, structured data—is a significant research area. Despite the number of log parsers that have emerged over the years, there has been a noticeable gap in the evaluation of these tools, reproduction of results, and direct comparisons between them on a level playing field. Recognizing this, we re-implemented twelve of the most popular log parsers from scratch, enabling them to be used in replication studies. This paper presents our open-source project LogFlux, which is a suite for evaluating automated log parsers so that studies involving them can be replicated. Through LogFlux, we aim to bridge the gap between theoretical log parsing methods and their practical application, offering a robust and easy to use solution that is accessible and effective for a range of users. Our experience in attempting to obtain results from many published log parser algorithms has shed light on important aspects of replication, such as the value of independent implementation for uncovering bugs and the need for careful software engineering to facilitate maintenance.},
+booktitle = {Proceedings of the 2nd ACM Conference on Reproducibility and Replicability},
+pages = {64–74},
+numpages = {11},
+keywords = {Implementations, Log Parsing},
+location = {Rennes, France},
+series = {ACM REP '24}
+}
+
+
+@article{richardson2024understanding,
+  title={Understanding the Logic of Direct Preference Alignment through Logic},
+  author={Richardson, Kyle and Srikumar, Vivek and Sabharwal, Ashish},
+  journal={arXiv preprint arXiv:2412.17696},
+  year={2024},
+  month=dec
+}
