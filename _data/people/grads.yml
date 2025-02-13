@@ -8,16 +8,6 @@
   degree: PhD
   advisor: svivek
 
-- key: zhichao
-  first_name: Zhichao
-  last_name: Xu
-  website: https://zhichaoxu-utah.github.io/
-  email: zhichao.xu@utah.edu
-  photo: /img/profile/zhichao.jpg
-  research_interests: #
-  degree: PhD
-  advisor: svivek
-
 - key: mmg
   first_name: Mattia
   last_name: Medina Grespan

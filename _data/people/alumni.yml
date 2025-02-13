@@ -377,7 +377,7 @@
   degree: Ph.D.
   advisor: svivek
   first_position: Postdoc at University of Colorado, Boulder
-  current_position: Postdoc at University of Colorado, Boulder
+  current_position: Assistant Professor, University of Oklahoma
   graduated_year: 2022
 
 - key: richardt
@@ -556,3 +556,17 @@
   advisor: svivek
   graduated_year: 2024
   first_position: AI Engineer at EXL Health
+
+
+- key: zhichao
+  first_name: Zhichao
+  last_name: Xu
+  website: https://zhichaoxu-utah.github.io/
+  email: zhichao.xu@utah.edu
+  photo: /img/profile/zhichao.jpg
+  research_interests: #
+  degree: PhD
+  advisor: svivek
+  graduated_year: 2024
+  first_position: Applied Scientist at Amazon
+  thesis: Using Language Models with Resource Constraints
