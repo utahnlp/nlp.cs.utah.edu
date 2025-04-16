@@ -590,3 +590,12 @@
   research_interests:
   degree: BS
   advisor: ana
+
+- key: kushagra
+  first_name: Kushagra
+  last_name: Dixit
+  website:
+  email: 
+  photo: /img/profile/unknown.png
+  degree: MS
+  advisor: svivek
