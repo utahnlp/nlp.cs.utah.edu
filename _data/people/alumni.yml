@@ -570,3 +570,23 @@
   graduated_year: 2024
   first_position: Applied Scientist at Amazon
   thesis: Using Language Models with Resource Constraints
+
+- key: kishan
+  first_name: Kishan
+  last_name: Thambu
+  website: 
+  email: u1050585@utah.edu
+  photo: /img/profile/kishan.jpeg
+  research_interests:
+  degree: BS
+  advisor: ana
+
+- key: braden
+  first_name: Braden
+  last_name: Fiedel
+  website: 
+  email: brfiedel@gmail.com
+  photo: /img/profile/braden.png
+  research_interests:
+  degree: BS
+  advisor: ana

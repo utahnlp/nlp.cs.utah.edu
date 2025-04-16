@@ -86,23 +86,6 @@
   degree: MS
   advisor: ana
 
-- key: adwait
-  first_name: Adwait 
-  last_name: Shinganwade
-  website: https://www.linkedin.com/in/adwait-shinganwade
-  email: adwait.shinganwade@utah.edu
-  photo: /img/profile/adwait.jpg
-  degree: MS
-  advisor: ana
-
-- key: yash
-  first_name: Yash
-  last_name: Lele
-  website: https://www.linkedin.com/in/yashmlele
-  email: Yash.Lele@utah.edu
-  photo: /img/profile/yash.jpeg
-  degree: MS
-  advisor: ana
 
 - key: kushagra
   first_name: Kushagra

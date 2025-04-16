@@ -8,25 +8,6 @@
   degree: BS
   advisor: ana
 
-- key: kishan
-  first_name: Kishan
-  last_name: Thambu
-  website: 
-  email: u1050585@utah.edu
-  photo: /img/profile/kishan.jpeg
-  research_interests:
-  degree: BS
-  advisor: ana
-
-- key: braden
-  first_name: Braden
-  last_name: Fiedel
-  website: 
-  email: brfiedel@gmail.com
-  photo: /img/profile/braden.png
-  research_interests:
-  degree: BS
-  advisor: ana
 
 - key: catherine
   first_name: Catherine
@@ -56,3 +37,22 @@
   photo: /img/profile/atharv.jpg
   degree: BS
   advisor: svivek
+
+
+- key: adwait
+  first_name: Adwait 
+  last_name: Shinganwade
+  website: https://www.linkedin.com/in/adwait-shinganwade
+  email: adwait.shinganwade@utah.edu
+  photo: /img/profile/adwait.jpg
+  degree: MS
+  advisor: ana
+
+- key: yash
+  first_name: Yash
+  last_name: Lele
+  website: https://www.linkedin.com/in/yashmlele
+  email: Yash.Lele@utah.edu
+  photo: /img/profile/yash.jpeg
+  degree: MS
+  advisor: ana
