@@ -8,25 +8,6 @@
   degree: PhD
   advisor: svivek
 
-- key: mmg
-  first_name: Mattia
-  last_name: Medina Grespan
-  website: http://www.cs.utah.edu/~mattiamg/
-  email: mattia.grespan@utah.edu
-  photo: /img/profile/mattia_mg.jpg
-  research_interests: #Neural-Symbolic Learning, NLP in Mental Health Therapy
-  degree: PhD
-  advisor: svivek
-
-- key: agupta
-  first_name: Ashim
-  last_name: Gupta
-  website: https://ashim95.github.io/
-  email: ashimgupta95@gmail.com
-  photo: /img/profile/agupta.jpg
-  research_interests: 
-  degree: PhD
-  advisor: svivek
 
 - key: maitrey
   first_name: Maitrey
@@ -73,7 +54,7 @@
   email: alexgill321@gmail.com
   photo: /img/profile/alexgill.jpeg
   research_interests: 
-  degree: MS
+  degree: PhD
   advisor: ana
 
 - key: purbid
@@ -84,6 +65,15 @@
   photo: /img/profile/purbid.png
   research_interests: 
   degree: MS
+  advisor: ana
+
+- key: bradenfiedel
+  first_name: Braden
+  last_name: Fiedel
+  website:
+  email:
+  photo: /img/profile/braden_fiedel.png
+  degree: PhD
   advisor: ana
 
 
