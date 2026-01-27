@@ -1,0 +1,422 @@
+- key: danaeejae
+  first_name: Dana EeJae
+  last_name: Ahn
+  website:
+  email: u1359144@utah.edu
+  degree: BS
+  advisor: anamarasovic
+  graduated_year:
+
+- key: ellenriloff
+  first_name: Ellen
+  last_name: Riloff
+  website: https://www.cs.utah.edu/~riloff/
+  email: riloff@cs.utah.edu
+  degree: Faculty
+  advisor:
+  graduated_year: 
+
+- key: davidbean
+  first_name: David
+  last_name: Bean
+  website: https://www.linkedin.com/in/david-bean-b12b4a8
+  email:
+  degree: PhD
+  advisor: ellenriloff
+  graduated_year: 2004
+
+- key: seanigo
+  first_name: Sean
+  last_name: Igo
+  website:
+  email:
+  degree: MS
+  advisor: ellenriloff
+  graduated_year: 2007
+  
+- key: jeffreylorenzen
+  first_name: Jeffrey
+  last_name: Lorenzen
+  website:
+  email:
+  degree: MS
+  advisor: ellenriloff
+  graduated_year: 1999
+  
+- key: ruihonghuang
+  first_name: Ruihong
+  last_name: Huang
+  website: "http://faculty.cse.tamu.edu/huangrh/"
+  email:
+  degree: PhD
+  advisor: ellenriloff
+  graduated_year: 2014
+  
+- key: siddharthpatwardhan
+  first_name: Siddharth
+  last_name: Patwardhan
+  website: https://www.linkedin.com/in/siddharthpatwardhan
+  email:
+  degree: PhD
+  advisor: ellenriloff
+  graduated_year: 2010
+  
+- key: davidprice
+  first_name: David
+  last_name: Price
+  website:
+  email:
+  degree: MS
+  advisor: ellenriloff
+  graduated_year: 2007
+  
+- key: ashequlqadir
+  first_name: Ashequl
+  last_name: Qadir
+  website: https://scholar.google.com/citations?user=iDLyAukAAAAJ&hl=en
+  email:
+  degree: PhD
+  advisor: ellenriloff
+  graduated_year: 2016
+  
+- key: williamphillips
+  first_name: William
+  last_name: Phillips
+  website:
+  email:
+  degree: MS
+  advisor: ellenriloff
+  graduated_year: 2007
+  
+- key: michaelthelen
+  first_name: Michael
+  last_name: Thelen
+  website:
+  email:
+  degree: MS
+  advisor: ellenriloff
+  graduated_year: 2001
+  
+- key: brandonharvey
+  first_name: Brandon
+  last_name: Harvey
+  website:
+  email:
+  degree: BS
+  advisor: ellenriloff
+  graduated_year:
+  
+- key: jessicapurcell
+  first_name: Jessica
+  last_name: Purcell
+  website: http://users.monash.edu/~jpurcell/
+  email:
+  degree: BS
+  advisor: ellenriloff
+  graduated_year: 1998
+  
+- key: kiriwagstaff
+  first_name: Kiri
+  last_name: Wagstaff
+  website: http://www.wkiri.com/
+  email:
+  degree: BS
+  advisor: ellenriloff
+  graduated_year: 1997
+  
+- key: richwarren
+  first_name: Rich
+  last_name: Warren
+  website:
+  email:
+  degree: BS
+  advisor: ellenriloff
+  graduated_year:
+  
+- key: tobinyehle
+  first_name: Tobin
+  last_name: Yehle
+  website: https://tobin.yehle.us/
+  email:
+  degree: BS
+  advisor: viveksrikumar
+  graduated_year: 2016
+
+- key: oliverrichardson
+  first_name: Oliver
+  last_name: Richardson
+  website: "https://www.linkedin.com/in/oliver-richardson-276b5a101"
+  email: orichardson95@gmail.com
+  degree: BS
+  advisor: viveksrikumar
+  graduated_year: 2017
+
+- key: nicbertagnolli
+  first_name: Nic
+  last_name: Bertagnolli
+  website: https://www.nbertagnolli.com/
+  email:
+  degree: MS	
+  advisor: viveksrikumar
+  graduated_year: 2016
+
+- key: anniecherkaev
+  first_name: Annie
+  last_name: Cherkaev
+  website: http://anniecherkaev.com
+  email: acherk@cs.utah.edu
+  degree: MS
+  advisor: viveksrikumar
+  graduated_year: 2019
+
+- key: haiboding
+  first_name: Haibo
+  last_name: Ding
+  website: https://haibonlp.github.io/
+  email: hbding@cs.utah.edu
+  degree: PhD
+  advisor: ellenriloff
+  graduated_year: 2018
+
+- key: kimyoungjun
+  first_name: Youngjun
+  last_name: Kim
+  website: https://scholar.google.com/citations?user=OfQtsUUAAAAJ&hl=en
+  email: youngjun@cs.utah.edu
+  degree: PhD
+  advisor: ellenriloff
+  graduated_year: 2017
+
+- key: xingyuanpan
+  first_name: Xingyuan
+  last_name: Pan
+  website: https://scholar.google.com/citations?user=yUSy4LEAAAAJ&hl=en
+  email: xpan@cs.utah.edu
+  degree: PhD
+  advisor: viveksrikumar
+  graduated_year: 2019
+
+- key: makscegielskijohnson
+  first_name: Maks
+  last_name: Cegielski-Johnson
+  website: https://www.linkedin.com/in/makscj
+  email: maks.cegielski@gmail.com
+  degree: BS
+  advisor:
+  graduated_year: 2018
+
+- key: giorgikvernadze
+  first_name: Giorgi
+  last_name: Kvernadze
+  website: https://giorgi.tech/
+  email: https://giorgi.tech/
+  degree: MS
+  advisor:
+  graduated_year: 2020
+
+- key: tarunsunkaraneni
+  first_name: Tarun
+  last_name: Sunkaraneni
+  website: https://www.linkedin.com/in/t-sun
+  email:
+  degree: BS
+  advisor:
+  graduated_year: 2020
+
+- key: taoli
+  first_name: Tao
+  last_name: Li
+  website: http://www.cs.utah.edu/~tli/
+  email: tli@cs.utah.edu
+  degree: PhD
+  advisor: viveksrikumar
+  graduated_year: 2022
+
+- key: jiecao
+  first_name: Jie
+  last_name: Cao
+  website: "https://www.cs.utah.edu/~jcao"
+  email: jcao@cs.utah.edu
+  degree: PhD
+  advisor: viveksrikumar
+  graduated_year: 2022
+
+- key: richardtimpson
+  first_name: Richard
+  last_name: Timpson
+  website: "https://www.linkedin.com/in/richard-w-timpson"
+  email: 
+  degree: BS
+  advisor:
+  graduated_year: 2021
+
+- key: yichuzhou
+  first_name: Yichu
+  last_name: Zhou
+  website: http://research.zhouyichu.com/
+  email: flyaway@cs.utah.edu
+  degree: PhD
+  advisor: viveksrikumar
+  graduated_year: 2023
+
+- key: vivekgupta
+  first_name: Vivek
+  last_name: Gupta
+  website: https://vgupta123.github.io 
+  email: vgupta@cs.utah.edu
+  degree: PhD
+  advisor: viveksrikumar
+  graduated_year: 2023
+
+- key: tianyujiang
+  first_name: Tianyu
+  last_name: Jiang
+  website: https://jiangtianyu.com/
+  email: tianyu@cs.utah.edu
+  degree: PhD
+  advisor: ellenriloff
+  graduated_year: 2023
+
+- key: jacobjohnson
+  first_name: Jacob
+  last_name: Johnson
+  website: https://nnnnnnnn.info/
+  email: jacob.k.johnson@utah.edu
+  degree: BA
+  advisor: anamarasovic
+  graduated_year:
+
+- key: maitreymehta_ms
+  first_name: Maitrey
+  last_name: Mehta
+  website: https://sites.google.com/view/maitreymehta/home
+  email: maitrey@cs.utah.edu
+  degree: MS
+  advisor: viveksrikumar
+  graduated_year: 2020
+
+- key: zhenduowang
+  first_name: Zhenduo
+  last_name: Wang
+  website: https://zhenduow.github.io/
+  email: zhenduow@cs.utah.edu
+  degree: PhD
+  advisor: viveksrikumar
+  graduated_year: 2024
+
+- key: yuanzhuang
+  first_name: Yuan
+  last_name: Zhuang
+  website: http://www.cs.utah.edu/~yyzhuang/
+  email: yyzhuang@cs.utah.edu
+  degree: PhD
+  advisor: ellenriloff
+  graduated_year: 2024
+
+- key: michaelclemens
+  first_name: Michael
+  last_name: Clemens
+  website: http://mclem.in/ 
+  email: michael.clemens@utah.edu
+  degree: MS
+  advisor: anamarasovic
+  graduated_year: 2024
+
+- key: jordantan
+  first_name: Jordan
+  last_name: Tan
+  website: https://jortan.dev/
+  email:
+  degree: BS
+  advisor: viveksrikumar
+  graduated_year: 2024
+
+- key: byronliu
+  first_name: Byron
+  last_name: Liu
+  website: 
+  email:
+  degree: BS
+  advisor: 
+  graduated_year: 2024
+
+- key: rishanthrajendhran
+  first_name: Rishanth 
+  last_name: Rajendhran
+  website: https://rishanthrajendhran.github.io/
+  email: u1419542@utah.edu
+  degree: MS
+  advisor: anamarasovic
+  graduated_year: 2024
+
+- key: gurunathparasaram
+  first_name: Gurunath
+  last_name: Parasaram
+  website: https://gurunathparasaram.github.io/
+  email: 
+  degree: MS
+  advisor: viveksrikumar
+  graduated_year: 2024
+
+- key: zhichaoxu
+  first_name: Zhichao
+  last_name: Xu
+  website: https://zhichaoxu-utah.github.io/
+  email: zhichao.xu@utah.edu
+  degree: PhD
+  advisor: viveksrikumar
+  graduated_year: 2024
+
+- key: kishanthambu
+  first_name: Kishan
+  last_name: Thambu
+  website: 
+  email: u1050585@utah.edu
+  degree: BS
+  advisor: anamarasovic
+  graduated_year: 
+
+- key: kushagradixit
+  first_name: Kushagra
+  last_name: Dixit
+  website:
+  email: 
+  degree: MS
+  advisor: viveksrikumar
+  graduated_year:
+
+- key: adwaitshinganwade
+  first_name: Adwait 
+  last_name: Shinganwade
+  website: https://www.linkedin.com/in/adwait-shinganwade
+  email: adwait.shinganwade@utah.edu
+  degree: MS
+  advisor: anamarasovic
+  graduated_year:
+
+- key: yashlele
+  first_name: Yash
+  last_name: Lele
+  website: https://www.linkedin.com/in/yashmlele
+  email: Yash.Lele@utah.edu
+  degree: MS
+  advisor: anamarasovic
+  graduated_year:
+
+- key: ashimgupta
+  first_name: Ashim
+  last_name: Gupta
+  website: https://ashim95.github.io/
+  email: ashimgupta95@gmail.com
+  degree: PhD
+  advisor: viveksrikumar
+  graduated_year:
+
+- key: mattiamedinagrespan
+  first_name: Mattia
+  last_name: Medina Grespan
+  website: http://www.cs.utah.edu/~mattiamg/
+  email: mattia.grespan@utah.edu
+  degree: PhD
+  advisor: viveksrikumar
+  graduated_year:

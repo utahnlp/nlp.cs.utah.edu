@@ -1,0 +1,27 @@
+title: Utah Natural Language Processing Group
+description: Natural Language Processing at the University of Utah
+url: "https://nlp.cs.utah.edu" 
+baseurl: "" 
+
+# Build Settings
+markdown: kramdown
+theme: null
+permalink: pretty
+
+# Exclude system files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+
+# Plugin Configuration
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SASS/SCSS Configuration
+sass:
+  style: compressed
+  sass_dir: _sass

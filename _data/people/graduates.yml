@@ -1,0 +1,65 @@
+- key: oliverbentham
+  first_name: Oliver
+  last_name: Bentham
+  website: https://oliverbentham.com
+  email: obentham@cs.utah.edu
+  photo: /assets/images/profile/oliverbentham.jpeg
+  degree: PhD
+  advisor: viveksrikumar
+
+- key: maitreymehta
+  first_name: Maitrey
+  last_name: Mehta
+  website: https://sites.google.com/view/maitreymehta/home
+  email: maitrey@cs.utah.edu
+  photo: /assets/images/profile/maitreymehta.jpeg
+  degree: PhD
+  advisor: viveksrikumar
+
+- key: natestringham
+  first_name: Nate
+  last_name: Stringham
+  website: https://n8stringham.github.io
+  email: nates@cs.utah.edu
+  photo: /assets/images/profile/natestringham.jpg
+  research_interests:
+  degree: PhD
+  advisor: anamarasovic
+
+- key: fatemehashemichaleshtori
+  first_name: Fateme
+  last_name: Hashemi Chaleshtori
+  website: https://fateme-hshm96.github.io/
+  email: u1420010@utah.edu
+  photo: /assets/images/profile/fatemehashemichaleshtori.jpg
+  degree: PhD
+  advisor: anamarasovic
+
+- key: atreyaghosal
+  first_name: Atreya 
+  last_name: Ghosal
+  website:
+  email: u1419632@utah.edu
+  photo: /assets/images/profile/atreyaghosal.png
+  degree: PhD
+  advisor: viveksrikumar
+
+- key: alexgill
+  first_name: Alex
+  last_name: Gill
+  website: 
+  email: alexgill321@gmail.com
+  photo: /assets/images/profile/alexgill.jpeg
+  research_interests: 
+  degree: PhD
+  advisor: anamarasovic
+
+- key: bradenfiedel
+  first_name: Braden
+  last_name: Fiedel
+  website:
+  email: brfiedel@gmail.com
+  photo: /assets/images/profile/bradenfiedel.png
+  degree: PhD
+  advisor: anamarasovic
+  
