@@ -3,9 +3,9 @@ layout: default
 title: Home
 ---
 
-# Welcome to Utah NLP
+{% include home_carousel.html %}
 
-We are rebuilding our website to better showcase our research, people, and publications.
-
-## Recent News
-*Construction in progress...*
+<div class="text-center py-4">
+    <h1>Welcome to the Utah NLP Group</h1>
+    <p class="lead text-muted">Natural Language Processing at the University of Utah</p>
+</div>

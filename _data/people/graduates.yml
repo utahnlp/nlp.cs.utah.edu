@@ -62,4 +62,12 @@
   photo: /assets/images/profile/bradenfiedel.png
   degree: PhD
   advisor: anamarasovic
-  
+
+- key: jenskristianrefsgaardschou
+  first_name: Jens Kristian Refsgaard
+  last_name: Schou
+  website: https://www.linkedin.com/in/jens-kristian-r-schou-a55758183/
+  email: jkrschou@gmail.com
+  photo: /assets/images/profile/jenskristianrefsgaardschou.png
+  degree: Postdoctoral
+  advisor:

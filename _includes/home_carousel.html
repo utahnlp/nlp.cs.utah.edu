@@ -1,0 +1,47 @@
+{% comment %} 
+  1. Filter static files to find those in the carousel folder 
+{% endcomment %}
+{% assign raw_files = site.static_files | where_exp: "item", "item.path contains '/assets/images/carousel'" %}
+
+{% comment %} 
+  2. Filter again to ensure we only get images (exclude .DS_Store, etc.)
+{% endcomment %}
+{% assign carousel_images = "" | split: "" %}
+{% for file in raw_files %}
+  {% assign ext = file.extname | downcase %}
+  {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.gif' or ext == '.webp' %}
+    {% assign carousel_images = carousel_images | push: file %}
+  {% endif %}
+{% endfor %}
+
+{% if carousel_images.size > 0 %}
+<div id="utahNlpCarousel" class="carousel slide mb-5 mt-4 shadow-sm rounded overflow-hidden" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    {% for image in carousel_images %}
+      <button type="button" data-bs-target="#utahNlpCarousel" data-bs-slide-to="{{ forloop.index0 }}" 
+              class="{% if forloop.first %}active{% endif %}" 
+              aria-current="{% if forloop.first %}true{% endif %}" 
+              aria-label="Slide {{ forloop.index }}"></button>
+    {% endfor %}
+  </div>
+  <div class="carousel-inner">
+    {% for image in carousel_images %}
+      <div class="carousel-item {% if forloop.first %}active{% endif %}">
+        <img src="{{ image.path | relative_url }}" class="d-block w-100 carousel-img" alt="Slide {{ forloop.index }}">
+      </div>
+    {% endfor %}
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#utahNlpCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#utahNlpCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+{% else %}
+  <div class="alert alert-warning">
+    No images found in <code>assets/images/carousel</code>. Please add images to enable the slideshow.
+  </div>
+{% endif %}
