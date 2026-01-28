@@ -5,7 +5,7 @@
   email: u1359144@utah.edu
   degree: BS
   advisor: anamarasovic
-  graduated_year:
+  graduated_year: 2023
 
 - key: ellenriloff
   first_name: Ellen
@@ -284,7 +284,7 @@
   email: jacob.k.johnson@utah.edu
   degree: BA
   advisor: anamarasovic
-  graduated_year:
+  graduated_year: 2024
 
 - key: maitreymehta_ms
   first_name: Maitrey
@@ -374,7 +374,7 @@
   email: u1050585@utah.edu
   degree: BS
   advisor: anamarasovic
-  graduated_year: 
+  graduated_year: 2025
 
 - key: kushagradixit
   first_name: Kushagra
@@ -383,7 +383,7 @@
   email: 
   degree: MS
   advisor: viveksrikumar
-  graduated_year:
+  graduated_year: 2025
 
 - key: adwaitshinganwade
   first_name: Adwait 
@@ -392,7 +392,7 @@
   email: adwait.shinganwade@utah.edu
   degree: MS
   advisor: anamarasovic
-  graduated_year:
+  graduated_year: 2024
 
 - key: yashlele
   first_name: Yash
@@ -401,7 +401,7 @@
   email: Yash.Lele@utah.edu
   degree: MS
   advisor: anamarasovic
-  graduated_year:
+  graduated_year: 2024
 
 - key: ashimgupta
   first_name: Ashim
@@ -410,7 +410,7 @@
   email: ashimgupta95@gmail.com
   degree: PhD
   advisor: viveksrikumar
-  graduated_year:
+  graduated_year: 2025
 
 - key: mattiamedinagrespan
   first_name: Mattia
@@ -419,4 +419,31 @@
   email: mattia.grespan@utah.edu
   degree: PhD
   advisor: viveksrikumar
-  graduated_year:
+  graduated_year: 2025
+
+- key: purbidbambroo
+  first_name: Purbid
+  last_name: Bambroo
+  website: https://www.datascienceportfol.io/purbid
+  email: bambroopurbid@gmail.com
+  degree: MS
+  advisor: anamarasovic
+  graduated_year: 2025
+
+- key: atharvkulkarni
+  first_name: Atharv
+  last_name: Kulkarni
+  website: https://www.linkedin.com/in/atharv-kulkarni-23a9a11ba/
+  email: atharvsk22@gmail.com
+  degree: BS
+  advisor: viveksrikumar
+  graduated_year: 2025
+
+- key: caseyMiller
+  first_name: Casey
+  last_name: Miller
+  website: 
+  email: u1337847@utah.edu 
+  degree: BS
+  advisor: anamarasovic
+  graduated_year: 2025
