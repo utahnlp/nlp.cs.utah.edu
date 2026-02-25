@@ -14,7 +14,15 @@ module Jekyll
             output = []
             output << '<div class="row g-4">'
             people_information.each do |person_information|
-                degree_label = person_information.degree && person_information.degree != "Faculty" ? "<div class='text-muted small fst-italic'>#{person_information.degree} Student</div>" : ""
+                degree_label = if person_information.degree &&
+                    person_information.degree != "Faculty" &&
+                    person_information.degree != "Postdoctoral"
+                    "<div class='text-muted small fst-italic'>#{person_information.degree} Student</div>"
+                elsif person_information.degree == "Postdoctoral"
+                    "<div class='text-muted small fst-italic'>Postdoctoral Researcher</div>"
+                else
+                    ""
+                end
                 photo_directory = person_information.photo ? person_information.photo : "/assets/images/profile/blank.png"
                 if person_information.website_url != "#"
                     photo_html = %(<a href="#{person_information.website_url}"><img class="img-fluid rounded shadow-sm" src="#{photo_directory}" alt="#{person_information.full_name}" style="width: 100%; aspect-ratio: 1/1.2; object-fit: cover; object-position: top;"></a>)

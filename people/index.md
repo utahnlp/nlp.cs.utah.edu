@@ -12,7 +12,7 @@ title: People
     </section>
 
     <section class="mb-5">
-        <h2 class="border-bottom pb-2 mb-4">Postdoctoral Students</h2>
+        <h2 class="border-bottom pb-2 mb-4">Postdoctoral Researchers</h2>
         {% make_people who:graduates degree:Postdoctoral %}
     </section>    
 

@@ -64,10 +64,19 @@
   advisor: anamarasovic
 
 - key: jenskristianrefsgaardschou
-  first_name: Jens Kristian Refsgaard
+  first_name: Jens Kristian (JK) Refsgaard
   last_name: Schou
   website: https://www.linkedin.com/in/jens-kristian-r-schou-a55758183/
   email: jkrschou@gmail.com
   photo: /assets/images/profile/jenskristianrefsgaardschou.png
+  degree: Postdoctoral
+  advisor:
+
+- key: mingjiahu
+  first_name: Mingjia
+  last_name: Hu
+  website: https://scholar.google.com/citations?user=IiDaWQ4AAAAJ&hl=en
+  email:
+  photo:
   degree: Postdoctoral
   advisor:
