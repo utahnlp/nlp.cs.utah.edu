@@ -80,3 +80,21 @@
   photo:
   degree: Postdoctoral
   advisor:
+
+- key: irisnguyen
+  first_name: Iris
+  last_name: Nguyen
+  website:
+  email:
+  photo: /assets/images/profile/irisnguyen.jpg
+  degree: PhD
+  advisor: viveksrikumar
+
+- key: jayantasadhu
+  first_name: Jayanta
+  last_name: Sadhu
+  website: https://jayanta47.github.io/
+  email: jayanta.sadhu@utah.edu
+  photo: /assets/images/profile/jayantasadhu.jpg
+  degree: PhD
+  advisor: anamarasovic
