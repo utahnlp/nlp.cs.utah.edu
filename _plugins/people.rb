@@ -30,7 +30,7 @@ module Jekyll
                     photo_html = %(<img class="img-fluid rounded shadow-sm" src="#{photo_directory}" alt="#{person_information.full_name}" style="width: 100%; aspect-ratio: 1/1.2; object-fit: cover; object-position: top;">)
                 end
                 output << %(
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2 text-center">
+          <div class="col-4 col-md-3 col-lg-2 col-xl-7p text-center">
           <div class="mb-2">
           #{photo_html}
           </div>
@@ -90,7 +90,7 @@ module Jekyll
             filtered_people = []
             people.each do |key, person|
                 if person.group == @key
-                    if @key == "graduates"
+                    if @key == "doctoral"
                         if @degree == person.degree
                             filtered_people << person
                         end

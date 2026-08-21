@@ -447,3 +447,13 @@
   degree: BS
   advisor: anamarasovic
   graduated_year: 2025
+
+- key: maitreymehta
+  first_name: Maitrey
+  last_name: Mehta
+  website: https://sites.google.com/view/maitreymehta/home
+  email: maitrey@cs.utah.edu
+  photo: /assets/images/profile/maitreymehta.jpeg
+  degree: PhD
+  advisor: viveksrikumar
+  graduated_year: 2026
