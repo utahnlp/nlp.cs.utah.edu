@@ -19,11 +19,11 @@
 - key: nehabhat
   first_name: Neha
   last_name: Bhat
-  website: 
-  email: 
-  photo: 
+  website: https://www.linkedin.com/in/neha--bhat
+  email: nehabhat1402@gmail.com
+  photo: /assets/images/profile/nehabhat.jpg
   degree: MS
-  advisor:
+  advisor: anamarasovic
 
 - key: xuyennguyen
   first_name: Xuyen
