@@ -15,3 +15,12 @@
   photo:
   degree: Postdoctoral
   advisor:
+
+- key: xinyuanyan
+  first_name: Xinyuan
+  last_name: Yan
+  website: https://xinyuanryanyan.github.io/
+  email: xyan@cs.utah.edu
+  photo: /assets/images/profile/xinyuanyan.png
+  degree: Postdoctoral
+  advisor:
