@@ -35,15 +35,6 @@
   degree: PhD
   advisor: anamarasovic
 
-- key: bradenfiedel
-  first_name: Braden
-  last_name: Fiedel
-  website:
-  email: brfiedel@gmail.com
-  photo: /assets/images/profile/bradenfiedel.png
-  degree: PhD
-  advisor: anamarasovic
-
 - key: irisnguyen
   first_name: Iris
   last_name: Nguyen

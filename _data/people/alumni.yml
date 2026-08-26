@@ -453,7 +453,6 @@
   last_name: Mehta
   website: https://sites.google.com/view/maitreymehta/home
   email: maitrey@cs.utah.edu
-  photo: /assets/images/profile/maitreymehta.jpeg
   degree: PhD
   advisor: viveksrikumar
   graduated_year: 2026
@@ -463,7 +462,24 @@
   last_name: Bao
   website: https://catherinebao.com/
   email: u1459030@utah.edu
-  photo: /assets/images/profile/catherinebao.jpg
   degree: BS
   advisor: viveksrikumar
+  graduated_year: 2026
+
+- key: natestringham
+  first_name: Nate
+  last_name: Stringham
+  website: https://n8stringham.github.io
+  email: nates@cs.utah.edu
+  degree: MS
+  advisor: anamarasovic
+  graduated_year: 2026
+
+- key: bradenfiedel
+  first_name: Braden
+  last_name: Fiedel
+  website:
+  email: brfiedel@gmail.com
+  degree: MS
+  advisor: anamarasovic
   graduated_year: 2026
