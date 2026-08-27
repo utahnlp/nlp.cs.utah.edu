@@ -1,0 +1,35 @@
+- key: lucaspearce
+  first_name: Lucas
+  last_name: Pearce
+  website: 
+  email: u1110118@utah.edu
+  photo: /assets/images/profile/lucaspearce.png
+  degree: MS
+  advisor: anamarasovic
+
+- key: thomaskauffman
+  first_name: Thomas
+  last_name: Kauffman
+  website: thom-kauf.github.io
+  email: u1374928@utah.edu
+  photo: /assets/images/profile/thomaskauffman.png
+  degree: MS
+  advisor: anamarasovic
+
+- key: nehabhat
+  first_name: Neha
+  last_name: Bhat
+  website: https://www.linkedin.com/in/neha--bhat
+  email: nehabhat1402@gmail.com
+  photo: /assets/images/profile/nehabhat.jpg
+  degree: MS
+  advisor: anamarasovic
+
+- key: xuyennguyen
+  first_name: Xuyen
+  last_name: Nguyen
+  website: 
+  email: u1252970@utah.edu
+  photo: /assets/images/profile/xuyennguyen.jpg
+  degree: MS
+  advisor: kennethmarino

@@ -87,11 +87,18 @@ module UtahNLP
         end
       end
       publications.sort_by! { |publication| publication.date }.reverse!
-      publications_by_year = publications.group_by { |publication| publication.year }
+      publications_by_year = publications.group_by do |publication|
+        publication.year.to_i < 2015 ? 'pre-2015' : publication.year
+      end
+      years = publications_by_year.keys
+        .reject { |year| year == 'pre-2015' }
+        .sort_by(&:to_i)
+        .reverse
+      years << 'pre-2015' if publications_by_year.key?('pre-2015')
       site.data['publications'] = {
         'all' => publications,
         'by_year' => publications_by_year,
-        'years' => publications_by_year.keys.sort.reverse
+        'years' => years
       }
       puts "Loaded #{publications.length} publications."
     end

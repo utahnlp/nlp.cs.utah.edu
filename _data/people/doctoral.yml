@@ -1,0 +1,108 @@
+- key: oliverbentham
+  first_name: Oliver
+  last_name: Bentham
+  website: https://oliverbentham.com
+  email: obentham@cs.utah.edu
+  photo: /assets/images/profile/oliverbentham.jpeg
+  degree: PhD
+  advisor: viveksrikumar
+
+- key: fatemehashemichaleshtori
+  first_name: Fateme
+  last_name: Hashemi Chaleshtori
+  website: https://fateme-hshm96.github.io/
+  email: u1420010@utah.edu
+  photo: /assets/images/profile/fatemehashemichaleshtori.jpg
+  degree: PhD
+  advisor: anamarasovic
+
+- key: atreyaghosal
+  first_name: Atreya 
+  last_name: Ghosal
+  website:
+  email: u1419632@utah.edu
+  photo: /assets/images/profile/atreyaghosal.png
+  degree: PhD
+  advisor: viveksrikumar
+
+- key: alexgill
+  first_name: Alex
+  last_name: Gill
+  website: 
+  email: alexgill321@gmail.com
+  photo: /assets/images/profile/alexgill.jpeg
+  research_interests: 
+  degree: PhD
+  advisor: anamarasovic
+
+- key: irisnguyen
+  first_name: Iris
+  last_name: Nguyen
+  website:
+  email:
+  photo: /assets/images/profile/irisnguyen.jpg
+  degree: PhD
+  advisor: viveksrikumar
+
+- key: jayantasadhu
+  first_name: Jayanta
+  last_name: Sadhu
+  website: https://jayanta47.github.io/
+  email: jayanta.sadhu@utah.edu
+  photo: /assets/images/profile/jayantasadhu.jpg
+  degree: PhD
+  advisor: anamarasovic
+
+- key: farhanishmam
+  first_name: Md Farhan
+  last_name: Ishmam
+  website: https://farhanishmam.github.io/
+  email: u1592009@umail.utah.edu
+  photo: 
+  degree: PhD
+  advisor: kennethmarino
+
+- key: alansaji
+  first_name: Alan
+  last_name: Saji
+  website: https://www.linkedin.com/in/alan-saji-915976224
+  email: alansaji2001@gmail.com
+  photo: /assets/images/profile/alansaji.jpg
+  degree: PhD
+  advisor: viveksrikumar
+
+- key: andreikopanev
+  first_name: Andrei
+  last_name: Kopanev
+  website: https://personal.andrei-homelab.com/
+  email: andreikopanevstudent@gmail.com
+  photo: /assets/images/profile/andreikopanev.png
+  degree: PhD
+  advisor: anamarasovic
+
+- key: khinsawyone
+  first_name: Khin Saw
+  last_name: Yone
+  website: https://www.linkedin.com/in/khin-yone-53b4b6196/
+  email: 
+  photo: /assets/images/profile/khinsawyone.jpg
+  degree: PhD
+  advisor: viveksrikumar
+
+- key: shrustighela
+  first_name: Shrusti
+  last_name: Ghela
+  website: shrustighela.com
+  email: shrustighela1@gmail.com
+  photo: /assets/images/profile/shrustighela.jpeg
+  degree: PhD
+  advisor: anamarasovic
+
+- key: zihanli
+  first_name: Zihan
+  last_name: Li
+  website: https://www.linkedin.com/in/zihan-li-3b9498328/
+  email: zihan.li@utah.edu
+  photo: /assets/images/profile/zihanli.jpg
+  degree: PhD
+  advisor: viveksrikumar

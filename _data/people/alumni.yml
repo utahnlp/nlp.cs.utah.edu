@@ -447,3 +447,39 @@
   degree: BS
   advisor: anamarasovic
   graduated_year: 2025
+
+- key: maitreymehta
+  first_name: Maitrey
+  last_name: Mehta
+  website: https://sites.google.com/view/maitreymehta/home
+  email: maitrey@cs.utah.edu
+  degree: PhD
+  advisor: viveksrikumar
+  graduated_year: 2026
+
+- key: catherinebao
+  first_name: Catherine
+  last_name: Bao
+  website: https://catherinebao.com/
+  email: u1459030@utah.edu
+  degree: BS
+  advisor: viveksrikumar
+  graduated_year: 2026
+
+- key: natestringham
+  first_name: Nate
+  last_name: Stringham
+  website: https://n8stringham.github.io
+  email: nates@cs.utah.edu
+  degree: MS
+  advisor: anamarasovic
+  graduated_year: 2026
+
+- key: bradenfiedel
+  first_name: Braden
+  last_name: Fiedel
+  website:
+  email: brfiedel@gmail.com
+  degree: MS
+  advisor: anamarasovic
+  graduated_year: 2026
