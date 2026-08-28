@@ -9,7 +9,14 @@
 
 body {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     padding-top: 80px;
+}
+
+main {
+    flex: 1;
 }
 
 a {
@@ -133,8 +140,8 @@ a:hover {
     }
 
     .people-split > section {
-        flex: 0 0 calc(50% - 2rem);
-        width: calc(50% - 2rem);
+        flex: 0 0 calc(50% - 1rem);
+        width: calc(50% - 1rem);
     }
 }
 
