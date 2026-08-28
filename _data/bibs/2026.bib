@@ -17,3 +17,43 @@
   year={2026},
   url={https://openreview.net/forum?id=OPxLsDs8TK}
 }
+
+@inproceedings{stringham-etal-2026-teaching,
+    title = "Teaching People {LLM}{'}s Errors and Getting it Right",
+    author = "Stringham, Nathan  and
+      Hashemi Chaleshtori, Fateme  and
+      Yan, Xinyuan  and
+      Xu, Zhichao  and
+      Wang, Bei  and
+      Marasovic, Ana",
+    editor = "Chang, Kai-Wei  and
+      Mehrabi, Ninareh  and
+      Krishna, Satyapriya  and
+      Das, Anubrata  and
+      Dhamala, Jwala  and
+      Cao, Yang Trista  and
+      Kumarage, Tharindu  and
+      Ramakrishna, Anil  and
+      Christodoulopoulos, Christos  and
+      Wan, Yixin  and
+      Galystan, Aram  and
+      Kumar, Anoop  and
+      Gupta, Rahul",
+    booktitle = "Proceedings of the 6th Workshop on Trustworthy {NLP} ({T}rust{NLP} 2026)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.trustnlp-main.11/",
+    doi = "10.18653/v1/2026.trustnlp-main.11",
+    pages = "204--226",
+    ISBN = "979-8-89176-418-7",
+    abstract = "People often rely on large language models (LLMs) in situations where they are ill-suited. This miscalibration is understandable: seeing LLMs compose poetry and answer complex questions can lead users to assume, incorrectly, that they will also handle simple tasks, such as basic arithmetic, without error. Prior work has attempted to address this issue by clustering instance embeddings to identify regions where an LLM is likely to fail, then automatically describing the patterns within those regions. These inferred ``failure patterns'' are taught to users to reduce overreliance. Yet, this approach has not been fully successful. In this paper, we investigate why.We first examine whether the negative results stem from an absence of meaningful failure patterns. Using two datasets, we group instances by their meta-labels and evaluate LLM performance within each group. We then define criteria to identify groups that are both sufficiently large and exhibit high error rates. This process reveals multiple meta-label groups that meet these criteria, indicating that actionable failure patterns do, in fact, exist. Next, we test whether prompting- and embedding-based methods can reliably surface these known failure patterns. This step is critical: if such patterns cannot be surfaced automatically, they cannot be communicated to users. We observe mixed performance across methods, which may explain the limited success of prior approaches. Finally, we revisit how teaching effectiveness is measured. We propose evaluating whether users can apply learned failure patterns to anticipate when an LLM is likely to err. A user study shows that instruction based on this metric yields measurable improvements, unlike standard human{--}AI team accuracy metrics. Overall, our findings suggest that teaching failure patterns can be an effective way to mitigate overreliance, but its success depends on improved automated methods for discovering these patterns and on evaluation metrics like ours."
+}
+
+@article{mehta2026defragmenting,
+  title={Defragmenting Language Models: An Interpretability-based Approach for Vocabulary Expansion},
+  author={Mehta, Maitrey and Subramani, Nishant and Xu, Zhichao and Gupta, Ashim and Srikumar, Vivek},
+  booktitle={Third Conference on Language Modeling},
+  year={2026},
+}
