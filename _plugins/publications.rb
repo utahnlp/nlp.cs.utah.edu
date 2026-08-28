@@ -69,7 +69,10 @@ module UtahNLP
 
     def generate_citation
       cp = CiteProc::Processor.new(style: 'association-for-computational-linguistics', format: 'html')
-      cp.import([@entry.to_citeproc])
+      citeproc_entry = @entry.to_citeproc.dup
+      citeproc_entry.delete(:editor)
+      citeproc_entry.delete('editor')
+      cp.import([citeproc_entry])
       citation = cp.render(:bibliography, id: @entry.key).first
       citation.gsub(/[{}]/, '')
     end
