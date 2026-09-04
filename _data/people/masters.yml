@@ -33,3 +33,12 @@
   photo: /assets/images/profile/xuyennguyen.jpg
   degree: MS
   advisor: kennethmarino
+
+- key: neerajavasa
+  first_name: Neeraja
+  last_name: Vasa
+  website: 
+  email: neeraja.vasa@utah.edu
+  photo: /assets/images/profile/neerajavasa.jpg
+  degree: MS
+  advisor: anamarasovic
